@@ -22,7 +22,7 @@ def get_html_index(title: str, articles: str):
 
                     <!-- Logo -->
                     <a href="../cooking.html" class="logo">
-                        <span class="icon solid fa-carrot" style="margin-right:16px"></span><span class="title"> Cooking</span>
+                        <span class="icon solid fa-utensils" style="margin-right:16px"></span><span class="title"> Back to menu</span>
                     </a>
 
 

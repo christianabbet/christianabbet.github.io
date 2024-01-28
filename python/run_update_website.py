@@ -88,7 +88,7 @@ def main():
             
         
         # Get index page
-        r = get_html_index(title=n.capitalize, articles=a_str)
+        r = get_html_index(title=n.upper(), articles=a_str)
 
         f = open("{}_index.html".format(n), "w")
         f.write(r)
