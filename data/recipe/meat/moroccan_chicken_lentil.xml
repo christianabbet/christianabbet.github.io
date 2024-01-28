@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+       <info name="Moroccan Apricot Chicken"  name_fr="Poulet Marocain à l'abricot" category="meat"
+        href="http://www.bbcgoodfood.com/recipes/1860/moroccanstyle-chicken-with-lentils"
+        path="recipe/meat/moroccan_chicken_lentil.xml" people="2" pic="../data/images/meat/moroccan_chicken_lentil.jpg"
+        time_bake="1.75" time_bake_unit="h" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="400" unit="g" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="100" unit="g" name="Dried apricot" name_fr="Abricot séché"/>
+        <ingredient amount="50" unit="g" name="Red lentil" name_fr="Lentille rouge"/>
+        <ingredient amount="700" unit="ml" name="Chicken stock" name_fr="Bouillon de vollaile"/>
+        <ingredient amount="2" unit="" name="Chicken breast" name_fr="Blanc de poulet"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Cinnamon stick" name_fr="Baton de cannelle"/>
+        <ingredient amount="2" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tbsp" name="Cumuin" name_fr="Cumin"/>
+        <ingredient amount="1" unit="tbsp" name="Coriander seed powder" name_fr="Poudre de graine de coriandre"/>
+        <ingredient amount="1" unit="tbsp" name="Sweet paprika" name_fr="Paprika doux"/>
+        <ingredient amount="1" unit="tbsp" name="Ketchup" name_fr="Ketchup"/>
+        <ingredient amount="1" unit="tsp" name="Tabasco" name_fr="Tabasco"/>
+    </ingredient_group>
+
+
+    <step description = "Cut each chicken breast into 4 slices. Rub olive oil into the chicken. Mix the garlic, cumin, coriander and paprika together, then rub all over the chicken thighs on both sides."
+        description_fr = "Couper chaque tranche de poulet en 4 lamelles. Enduire le poulet d'huile. Mélanger ensemble ail, cumin, coriandre et paprika. Mélanger avec le poulet."/>
+    <step description = "Heat a large casserole, add the chicken thighs and cook over a medium heat for 5 mins until golden on both sides. Set the chicken aside. Turn down the heat, add the remaining oil and fry the onion for 5 mins until softened."
+        description_fr = "Dans une grande casserole, ajouter les tranches de poulet et faire revenir à feu moyen. Réserver. Baisser le feu et faire revenir les oignons pendant environ 5 minutes. "/>
+    <step description = "Stir in the rest of the ingredients and bring to the boil. Place the chicken thighs on top and pour in any juices. Cover and cook until the meat is tender and the sauce thickened. Stir once in a while."
+        description_fr = "Ajouter les ingrédients restant et porter à ébullition. Placer le poulet au dessus et légèrement enduire de jus. Couvrir et faire cuire jusqu'à ce que la viande soit tendre et la sauce s'épaississe. Remuer de temps en temps."/>
+    .
+
+</recipe>

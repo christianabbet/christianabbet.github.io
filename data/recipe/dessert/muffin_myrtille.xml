@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Blueberry Muffins" name_fr="Muffins aux Myrtilles" category="dessert"
+        href="http://allrecipes.com/recipe/6865/to-die-for-blueberry-muffins/"
+        path="recipe/dessert/muffin_myrtille.xml" people="8" pic="../data/images/dessert/muffin_myrtille.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="25" time_prep_unit="min" />
+        
+    <ingredient_group name = "Muffin" name_fr = "Muffin">
+        <ingredient amount="190" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="165" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="150" unit="g" name="Blueberries" name_fr="Myrtilles"/>
+        <ingredient amount="80" unit="ml" name="Vegetable oil" name_fr="Huile végétale"/>
+        <ingredient amount="80" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="2" unit="tsp" name="Baking powder" name_fr="Poudre à lever"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Topping" name_fr = "Garniture">
+        <ingredient amount="110" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="45" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="55" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="1.5" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+    </ingredient_group>
+
+    <step name = "Muffin" name_fr = "Muffin"
+        description = "Preheat oven to 200°C. Grease muffin cups or line with muffin liners."
+        description_fr = "Préchaufer le four à 200°C. Graisser les moules à muffin."/>
+    <step description = "In a large bowl, combine flour, sugar, salt and baking powder. In a bowl mix vegetable oil, egg and milk. Mix this with flour mixture. Fold in blueberries. Fill muffin cups."
+        description_fr = "Dans un saladier, mélanger farine, sucre, sel et poudre à lever. Ajouter huile, oeuf et lait. Mélanger. Ajouter les myrtilles. Remplire les moules"/>
+    <step name = "Topping" name_fr = "Garniture"
+        description = "In a large bowl mix together sugar, flour, butter, and cinnamon. Mix with fork, and sprinkle over muffins before baking."
+        description_fr = "Dans un bol mélanger sucre, farine, beurre et cannelle. Mélanger jusqu'à l'obtention d'une pâte. Saupoudrer sur les muffin avant la cuisson"/>
+    <step name = "Finally" name_fr = "Finalement"
+        description = "Bake for 20 to 25 minutes in the preheated oven, or until done."
+        description_fr = "Faire cuire pendant 20 à 25 minutes. Surveiller la cuisson."/>
+
+</recipe>

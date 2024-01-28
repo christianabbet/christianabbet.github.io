@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Coco Milk Chicken" name_fr="Poulet aux Coco Réunionnais" category="meat"
+        href="http://www.marmiton.org/recettes/recette_poulet-coco-reunionnais_16242.aspx"
+        path="recipe/meat/poulet_coco.xml" people="4" pic="../data/images/meat/poulet_coco_reunion.jpg"
+        time_bake="1" time_bake_unit="h" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="700" unit="g" name="Chicken" name_fr="Poulet"/>
+	    <ingredient amount="500" unit="ml"  name="Coconut milk" name_fr="Lait de coco"/>
+	    <ingredient amount="400" unit="ml" name="Tomate paste" name_fr="Coulis de tomate"/>
+	    <ingredient amount="2" unit="" name="Onion" name_fr="Oignons"/>
+	    <ingredient amount="1" unit="" name="Bell pepper" name_fr="Poivrons"/>
+	    <ingredient amount="" unit="" name="Cayenne pepper" name_fr="Piment de Cayenne"/>
+    </ingredient_group>
+
+    <step description = "In a casserole, brown diced chicken with olive oil. Add salt, pepper, cayenne pepper."
+        description_fr = "Dans une cocotte, faire dorer les morceaux de poulet dans l'huile d'olive. Saler, poivrer. Ajouter le poivre de Cayenne pour plus de goût."/>
+    <step description = "Add water and simmer for 30 minutes."
+        description_fr = "Ajouter de l'eau et laisser cuire 30 minutes."/>
+    <step description = "Mince the onion and slice bell pepper. Pour in the casserole and add coconut milk, then tomato paste."
+        description_fr = "Couper l'oignon et le poivron en morceaux, les mettre dans la cocotte, ainsi que le lait de coco et le coulis de tomate."/>
+    <step description = "Reduce for about 30 minutes"
+        description_fr = "Laisser réduire une demi-heure environ. C'est prêt."/>
+
+</recipe>

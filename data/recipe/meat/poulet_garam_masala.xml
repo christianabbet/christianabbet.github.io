@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Garam Masala Chicken"  name_fr="Poulet Garam Masala" category="meat"
+        href="http://www.food.com/recipe/garam-masala-chicken-163665"
+        path="recipe/meat/poulet_garam_masala.xml" people="4" pic="../data/images/meat/poulet_garam_masala.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="4" unit="" name="Chicken breast" name_fr="Blanc de poulet"/>
+        <ingredient amount="2" unit="" name="Tomato" name_fr="Tomates"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="60" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="1" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="2" unit="tsp" name="Garam masala" name_fr="Garam masala"/>
+    </ingredient_group>
+
+    <step description = "Heat oil in skillet on medium-high heat. Cook chicken 3 minutes or until lightly browned. Turn chicken. Add chopped onion. Cook and stir for 2 more minutes."
+        description_fr = "Chauffer l'huile dans une poele à feu moyen. Cuire le poulet un côté pendant 3 minutes ou jusqu'à ce qu'il soit légèrement brun. Retourner le blanc de poulet. Ajouter l'oignon.  Cuire pendant 2 minutes"/>
+    <step description = "Stir in diced tomatoes, garlic salt and water. Sprinkle 1 1/2 teaspoons of the Garam Masala over chicken and vegetables. Bring to boil."
+        description_fr = "Ajouter les tomates coupées en dés, l'ail et l'eau. Saupoudrer de 1 1/2 càc de Garam Masala. Porter à ébulition"/>
+    <step description = "Reduce heat,cover and simmer 10 minutes, stirring occasionally or until chicken and vegetables are tender."
+        description_fr = "Baisser le feu, couvrir et laisser cuire pendant 10 minutes en mélangeant occasionnellement."/>
+    <step description = "Stir remaining 1/2 teaspoon Garam Masala into skillet. Bring to a boil. Reduce heat. Cook 5 minutes longer, stirring occasionally."
+        description_fr = "Ajouter le Garam Masala restant. Porter à ébullition. Baisser le feu. Cuire pendant 5 minutes en mélangeant"/>
+
+</recipe>

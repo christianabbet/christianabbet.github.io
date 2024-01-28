@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Ras el Hanout Chicken" name_fr="Poulet Ras el Hanout" category="meat"
+        href="http://allrecipes.fr/recette/6176/poulet-marocain-au-ras-el-hanout.aspx"
+        path="recipe/meat/poulet_maroc.xml" people="4" pic="../data/images/meat/poulet_maroc.jpg"
+        time_bake="45" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+		<ingredient amount="80" unit="g" name="Peas" name_fr="Petits pois"/>
+		<ingredient amount="1" unit="dl" name="Chicken stock" name_fr="Bouillon de poulet"/>
+		<ingredient amount="4" unit="" name="Chicken wings" name_fr="Cuisses de poulet"/>
+		<ingredient amount="4" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+		<ingredient amount="2" unit="" name="Zucchini" name_fr="Courgette"/>
+		<ingredient amount="2" unit="" name="Carrot" name_fr="Carotte"/>
+		<ingredient amount="2" unit="" name="Onion" name_fr="Oignon"/>
+		<ingredient amount="4" unit="tbsp" name="Ras-el-hanout" name_fr="Ras-el-hanout "/>
+    </ingredient_group>
+
+    <step description = "Coat chicken with ras-el-hanout. Heat oil in a casserole. Add chicken and stir until it browns. Add minced onions, garlic and chicken stock. Lower heat. Cover and simmer for 15 minutes."
+		description_fr = "Enrober le poulet avec le ras el hanout. Faire chauffer l’huile dans une cocotte. Ajouter le poulet et faire revenir en remuant jusqu’à ce que les morceaux soient bien dorés. Ajouter les oignons, l’ail, le bouillon ou l’eau. Réduire le feu, couvrir et laisser mijoter 15 minutes."/>
+    <step description = "Add slat and sliced carrots. Simmer over low heat until carrots are almost cooked."
+		description_fr = "Ajouter le sel et les carottes. Continuer la cuisson à feu très doux jusqu’à ce que les carottes soient presque cuites." />
+    <step description = "Add peas, some water. Rise the temperature and bring to a boil. Lower heat and simmer over low heat for 10 minutes."
+		description_fr = "Ajouter les légumes. Ajouter suffisamment de bouillon ou d’eau pour recouvrir les morceaux de poulet. Augmenter la température pour porter à ébullition. Réduire le feu et laisser mijoter à feu très doux 10 minutes environ jusqu’à ce que les légumes soient cuits."/>
+
+</recipe>

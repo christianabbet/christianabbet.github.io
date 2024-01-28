@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Spicy Grilled Shrimp" name_fr="Crevettes Paprika" category="fish"
+        href="http://allrecipes.com/recipe/12775/spicy-grilled-shrimp"
+        path="recipe/fish/crevette_spicy.xml" people="4" pic="../data/images/fish/crevette_spicy.jpg"
+        time_bake="5" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="800" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="2" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="0.5" unit="tbsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="2" unit="tsp" name="Lemon juice" name_fr="Jus de citron"/>
+        <ingredient amount="1" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="0.5" unit="tsp" name="Cayenne pepper" name_fr="Poivre de cayenne"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+    </ingredient_group>
+
+    <step description = "In a small bowl, crush the garlic with the salt. Mix in cayenne pepper and paprika, and then stir in olive oil and lemon juice to form a paste."
+        description_fr = "Dans un bol mélanger l'ail haché et le sel. Ajouter le poivre de cayenne et le paprika, puis l'huile d'olive et le jus de citron."/>
+    <step description = " In a large bowl, toss shrimp with garlic paste until evenly coated."
+        description_fr = "Dans un grand bol, mélanger la sauce et les crevettes."/>
+    <step description = "Lightly oil grill grate. Cook shrimp for 2 to 3 minutes per side, or until opaque."
+        description_fr = "Chauffer de l'huile dans une poele. Faire revenir les crevettes pendant 2-3 minutes."/>
+
+</recipe>

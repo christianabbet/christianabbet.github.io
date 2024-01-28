@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Mango Tart Tatin" name_fr="Tatin de mangues caramélisées" category="dessert"
+        href="https://www.atelierdeschefs.fr/fr/recette/2747-tatin-de-mangues-caramelisees-au-citron-vert.php"
+        path="recipe/dessert/tatin_mangue.xml" people="6" pic="../data/images/dessert/tatin_mangue.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="125" unit="g" name="Icing sugar" name_fr="Sucre glace"/>
+        <ingredient amount="2" unit="" name="Lime" name_fr="Citron vert"/>
+        <ingredient amount="2" unit="" name="Mango" name_fr="Mangue"/>
+        <ingredient amount="1" unit="" name="Shortcrust pastry" name_fr="Pâte brisée"/>
+    </ingredient_group>
+
+    <step description = "Peel the mangoes and thinly slice them. Set aside. Put the baking paper in a mold."
+        description_fr = "Éplucher les mangues et les couper en fines lamelles Dans un moule mettre n papier sulfurisé."/>
+    <step description = "Preheat the oven at 200°C."
+        description_fr = "Préchauffer le four à 200°C."/>
+    <step description = "In a sauce pan, melt the sugar to get caramel. Pour it in the mold, then spread lime zest and mangoes on it. Finally put the shortcrust pastry on the top. Make little holes in the pastry and bake for 25 minutes."
+        description_fr = "Dans une poêle, faire fondre le sucre pour obtenir un caramel. Verez dans le moule. Ajouter les zestes puis les manguess, puis les recouvrir de la pâte brisée. Piquer la pâte et cuire 25 min."/>
+    <step description = "Backward the mold (be careful the caramel flows). Let rest for 10 minutes"
+        description_fr = "Après cuisson, retourner le moule (attention le caramel coule) et laisser reposer 10 min."/>
+
+</recipe>

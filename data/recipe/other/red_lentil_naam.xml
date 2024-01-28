@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Red lentils and Naan Bread" name_fr="Lentilles Rouges et Naan" category="other"
+        href="http://www.realsimple.com/food-recipes/browse-all-recipes/red-lentil-curry"
+        path="recipe/other/red_lentil_naam.xml" people="10" pic="../data/images/other/red_lentil_naam.jpg"
+        time_bake="3" time_bake_unit="h" time_prep="30" time_prep_unit="min" />
+
+    <ingredient_group name="Naan Bread" name_fr = "Naan">
+        <ingredient amount="630" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="240" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="50" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="55" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="7" unit="g" name="Dry Yeast" name_fr="Levure sèche"/>
+        <ingredient amount="3" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="3" unit="tbsp" name="Milk" name_fr="Lait"/>
+        <ingredient amount="2" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <ingredient_group name="Main Dish" name_fr = "Plat principale">
+        <ingredient amount="300" unit="g" name="Potato" name_fr="Patate"/>
+        <ingredient amount="200" unit="g" name="Red lentil" name_fr="Lentille rouge"/>
+        <ingredient amount="20" unit="g" name="Ginger" name_fr="Gingembre"/>
+        <ingredient amount="1" unit="l" name="Vegetable stock" name_fr="Bouillon de légume"/>
+        <ingredient amount="6" unit="" name="Scallion" name_fr="Oignon vert"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="4" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="3" unit="tbsp" name="Vegtable oil" name_fr="Huile végetale"/>
+        <ingredient amount="1" unit="tbsp" name="Curry" name_fr="Curry"/>
+        <ingredient amount="0.75" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="0.25" unit="tsp" name="Pepper" name_fr="Poivre"/>
+    </ingredient_group>
+
+    <step name="Naan Bread" name_fr="Naan"
+        description="In a large bowl, mix flour and dry yeast. Stir in sugar, milk, beaten egg and salt Knead for 6 to 8 minutes on a lightly floured surface, or until smooth. Place dough in a well oiled bowl, cover with a damp cloth, and set aside to rise. Let it rise 1 hour."
+        description_fr="Dans un saladier, mixer farine et levure sèche. Ajouter sucre, lait, oeuf battu et sel. Pétrir pendant 6 à 8 minutes, sur une surface farineuse. Placer la pâte dans un saladier beurré et couvrir d'un linge. Laisser reposer 1h."/>
+    <step description="Punch down dough, and knead in garlic. Pinch off small handfuls of dough about the size of a golf ball. Roll into balls, and place on a tray. Cover with a towel, and allow to rise until doubled in size, about 30 minutes."
+        description_fr="Incorporer l'ail, un peu à la fois. Former des petites boules de pâte de la taille d'une balle de golf. Placer sur une plaque et courvir d'un linge. Laisser reposer et gonfler 30 minutes."/>
+    <step description="During the second rising, preheat oven at 220°C and set to grill mode."
+        description_fr="Pendant que la pâte gonfle, préchauffer le four à 220°C en mode grill"/>
+    <step description="Roll one ball of dough out into a thin circle. Lightly oil dough bottom. Place dough in oven, and cook for 4 to 5 minutes, or until puffy and lightly browned. Brush cooked side with butter, and turn over. Brush uncooked side with butter, and cook until browned, another 4 to 5 minutes. Remove from oven, and continue the process until all the naan has been prepared."
+        description_fr="Soigeusement, étaler les balles de pâte. mettre les pâtes au four et faire cuire pendant 4 à 5 minutes. Beurré la partie cuite et retourner. Beurré la partie non cuite. Laisser cuire encore 4 à 5 minutes. Répéter la tâche pour tous les naans."/>
+    <step name="Main Dish" name_fr="Plat principale"
+        description="Heat the oil in a large saucepan over medium-high heat. Add the ginger, garlic, and scallion whites and cook, stirring frequently, until softened, 2 to 3 minutes."
+        description_fr="Dans une casserole, faire chauffer l'huile à feu moyen. Ajouter gingembre, ail, oignon vert. Faire revenir en mélangeant fréquement pendant 2 à 3 minutes."/>
+    <step description="Stir in the curry powder. Add the sliced carrots, diced potato, lentils, broth, salt, and pepper. Bring to a boil, reduce heat, and simmer, stirring occasionally, until the lentils and vegetables are tender, 15 to 20 minutes."
+        description_fr="Ajouter le curry. Mélanger. Ajouter les carottes coupées en lamelles, les patates grossièrement coupées en dés, les lentilles, le bouillon, le sel et le poivre. Porter à ébullition, reduire le feu et laisser mijoter, pendant 15 à 20 minutes, en mélangeant occasionellement."/>
+
+
+    <hint description = "Be careful while rolling the dough. If pressed too hard, it would not rise properly."
+        description_fr = "Etre attentif en étalant la pâte. Si pressée trop fortement, elle ne gonflera pas correctement."/>
+
+</recipe>

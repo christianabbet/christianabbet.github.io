@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Honey Cinnamon Biscuits" name_fr="Biscuits au Miel et à la Cannelle" category="dessert"
+        href="http://www.marmiton.org/recettes/recette_biscuits-au-miel-de-gabrielle_51978.aspx"
+        path="recipe/dessert/biscuit_miel.xml" people="6" pic="../data/images/dessert/biscuit_miel.jpg"
+        time_bake="12" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="180" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="120" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="100" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="1" unit="tbsp" name="Honey" name_fr="Miel"/>
+        <ingredient amount="1" unit="tsp" name="Cinnamon" name_fr="Canelle"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="1" unit="" name="Egg yolk" name_fr="Jaune d'oeuf"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven to 180°C"
+        description_fr="Préchauffez le four à 180°C"/>
+    <step description = "Mix the butter and the sugar until it becomes creamy. Add the honey and egg yolk"
+        description_fr="Mixez le beurre et le sucre dans un bol jusqu'à ce que le mélange soit crémeux. Ajoutez le miel, puis le jaune d'oeuf."/>
+    <step description = "Add cinnamon, flour and dry yeast and mix them. If the dough is too sticky, add some flour."
+        description_fr="Ajoutez la cannelle, la farine et la levure et mélangez le tout. Si la pâte obtenue est trop collante, ajoutez un peu de farine."/>
+    <step description = "Take a table spoon of dough and form a ball. Roll it in sugar and cinnamon. Put it on greaseproof paper."
+        description_fr="Prenez une cuillère à café de pâte et formez une petite boule. Roulez-la dans un peu de sucre et de cannelle, puis posez-la sur une plaque à four graissée."/>
+    <step description = "Put the biscuits in the oven during 10 - 12 minutes."
+        description_fr="Mettez les biscuits à cuire pendant 10 - 12 minutes."/>
+
+</recipe>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+   <info name="Salmon Tartar" name_fr="Tartare de Saumon" category="fish" href="Abbet Christian"
+        path="recipe/fish/tartare_saumon.xml" people="2" pic="../data/images/fish/tartare_saumon.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Tartar" name_fr="Tartare">
+        <ingredient amount="250" unit="g" name="Salmon" name_fr="Saumon"  />
+        <ingredient amount="2" unit="" name="Avocado" name_fr="Avocat"/>
+    </ingredient_group>
+
+    <ingredient_group name="Sauce" name_fr="Sauce">
+        <ingredient amount="50" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="5" unit="g" name="Ginger" name_fr="Gingembre"/>
+        <ingredient amount="50" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="3" unit="tbsp" name="Lime juice" name_fr="Jus de citron vert"/>
+        <ingredient amount="2" unit="tbsp" name="Fish sauce" name_fr="Sauce de poisson"/>
+        <ingredient amount="1" unit="tbsp" name="Sesame seed" name_fr="Graine de sésame"/>
+        <ingredient amount="1" unit="tsp" name="Soy sauce" name_fr="Sauce soja"/>
+        <ingredient amount="1" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+    </ingredient_group>
+
+    <step name="Sauce" name_fr="Sauce"
+        description="In a saucepan, make caramelize the sugar with water, fish sauce, soy sauce, paprika, ginger and garlic. When the mixture starts to thicken add the lime juice and reduce. "
+        description_fr="Dans une petite poêle, faire caraméliser le sucre avec l'eau, la sauce de poisson, la sauce soja, le paprika, le gingembre et l'ail. Quand le mélange commence à épaissir, ajouter le jus de citron et laisser réduire." />
+    <step description="Allow to cool"
+        description_fr="Laisser refroidir"/>
+    <step name="Tartar" name_fr="Tartare"
+        description="Dice the avocados and salmon"
+        description_fr="Couper les avocat et le saumon en dés" />
+    <step description="Put the diced avocado at the bottom of a round pastry cutter. Then put the diced salmon"
+        description_fr="Disposer au fond d'un emporte-pièce une couche d'avocats. Au dessus disposer le saumon" />
+    <step description="Add some sauce over it"
+        description_fr="Recouvrir le tartare du mélange caramélisé" />
+
+</recipe>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Calamari Rings" name_fr="Calamar Frit" category="fish"
+        href="http://www.cuisineaz.com/recettes/calamars-frits-faciles-4256.aspx"
+        path="recipe/fish/calamar_frit.xml" people="4" pic="../data/images/fish/calamar_frit.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Calamari ring" name_fr="Rondelle de calamar"/>
+        <ingredient amount="300" unit="ml" name="Oil" name_fr="Huile"/>
+        <ingredient amount="30" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousses d'ail"/>
+        <ingredient amount="2" unit="tsp" name="Cayenne pepper" name_fr="Piment de Cayenne"/>
+        <ingredient amount="0.5" unit="tsp" name="Pepper" name_fr="Poivre"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="" unit="" name="Lemon juice" name_fr="Jus de citron"/>
+    </ingredient_group>
+
+    <step description = "Defrost the calamari rings"
+        description_fr="Décongeler les rondelles de calamar"/>
+    <step description = "Macerate the calamari rings in lemon juice, oil, salt and pepper during 30 minutes."
+        description_fr = "Laissez les rondelles macérer dans un peu de jus de citron et d'huile avec du sel et du poivre pendant 30 minutes."/>
+    <step description = "Drain them with a linen for kitchen. In a bowl add flour and cayenne pepper. Mix. Cover rings with flour, then beaten egg, then flour again."
+        description_fr = "Séchez-les dans un linge propre, puis passez-les dans la farine mélanger avec le poivre de cayenne, l'oeuf battu et à nouveau dans la farine."/>
+    <step description = "Heat oil and fry rings until it browns."
+        description_fr = "Faites frire dans l'huile bien chaude jusqu'à ce qu'ils soient dorés."/>
+
+</recipe>

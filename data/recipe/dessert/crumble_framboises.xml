@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Raspberry Crumble" name_fr="Crumble aux Framboises" category="dessert" href="Abbet Christian"
+        path="recipe/dessert/crumble_framboises.xml" people="5" pic="../data/images/dessert/crumble_framboises.jpg"
+        time_bake="35" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="400" unit="g" name="Raspberries" name_fr="Framboises"/>
+        <ingredient amount="125" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="100" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="50" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="50" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="50" unit="g" name="White chocolate" name_fr="Chocolat blanc"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven at 180°C."
+        description_fr = "Préchauffer le four à 180°C."/>
+    <step description = "Cut the butter into small pieces. In a bowl mix the flour and sugar. Add the butter and mix."
+        description_fr = "Couper le beurre en petits morceaux. Dans une terrine, mélanger la farine et les sucres. Ajouter le beurre et émietter le mélange du bout des doigts jusqu'à ce que la pâte ait la consistance de la chapelure."/>
+    <step description = "Mince the white chocolate"
+        description_fr = "Couper le chocolat finemment"/>
+    <step description = "Put the raspberries in the bottom on the plate. Sprinkle the chocolate. Finally sprinkle the dough on the top."
+        description_fr = "Disposer les framboises dans un plat allant au four. Parsemer de chocolat blanc. Recouvrir le toute de la pâte éfritée."/>
+    <step description = "Put in the oven during 35 minutes. Let cool."
+        description_fr = "Enfourner environ 35 min. Laisser refroidir un peu avant de déguster tiède ou froid."/>
+
+</recipe>

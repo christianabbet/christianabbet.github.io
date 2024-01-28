@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Almond Tart" name_fr="Gâteau moelleux aux amandes" category="dessert"
+        href="http://cuisine.journaldesfemmes.com/recette/334254-gateau-moelleux-aux-amandes"
+        path="recipe/dessert/gateau_amandes.xml" people="6" pic="../data/images/dessert/gateau_amandes.jpg"
+        time_bake="50" time_bake_unit="min" time_prep="15" time_prep_unit="min"/>
+        
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="125" unit="g" name="Almond powder" name_fr="Amandes en poudre"/>
+        <ingredient amount="100" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="100" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="80" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="1" unit="tbsp" name="Rhum" name_fr="Rhum"/>
+        <ingredient amount="4" unit="" name="Egg white" name_fr="Blanc d'oeuf"/>
+        <ingredient amount="3.5" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+    </ingredient_group>
+
+    <step description = "Mix the almonds, flour and yeast in a bowl. Pour the whites of eggs in a salad bowl, take them up in snow, add 1 tbsp of sugar and continue to whip until it becomes a bit shinny"
+        description_fr = "Mélanger amandes en poudre, farine et levure dans un bol. Fouetter les blancs d'œufs en neige molle dans un saladier, ajouter 1 càs de sucre et continuer de fouetter jusqu'à ce que les blancs soient brillants." />
+    <step description = "Whip the melted butter with the sugar in another bowl, until mixture whitens. Add, a little at a time, the whites in snow and the previous mixture to the melted butter. Add the Rhum"
+        description_fr="Fouetter le beurre fondu avec le reste de sucre dans un autre saladier, jusqu'à ce que le mélange blanchisse. Ajouter, en alternance, des blancs en neige et du contenu du bol. Incorporer en même temps le rhum"/>
+    <step description = "Pour the dough into a round mold. Sprinkle with 2 tbsp of sugar."
+        description_fr="Verser la pâte dans un moule rond. Poudrer de 2 càs de sucre."/>
+    <step description = "Preheat the oven at 200°C. Put the cake in the oven and decrease the temperature to 150°C. Bake during 50 minutes."
+        description_fr = "Faire préchauffer le four à 200°C, glisser le gâteau au four et baisser la température à 150°C, laisser cuire 50 minutes."/>
+
+
+</recipe>

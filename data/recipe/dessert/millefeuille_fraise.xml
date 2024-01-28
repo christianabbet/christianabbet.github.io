@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Strawberry Mille-Feuille" name_fr="Mille-Feuille aux fraises" category="dessert"
+        href="http://www.cuisineaz.com/recettes/millefeuilles-de-fraises-6890.aspx"
+        path="recipe/dessert/millefeuille_fraise.xml" people="6" pic="../data/images/dessert/millefeuille_fraise.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="500" unit="g" name="Strawberries" name_fr="Fraises"/>
+        <ingredient amount="75" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="20" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="3" unit="" name="Egg yolk" name_fr="Jaune d'oeuf"/>
+        <ingredient amount="1" unit="" name="Puff pastry" name_fr="Pâte feuilletée"/>
+        <ingredient amount="4" unit="tbsp" name="Icing sugar" name_fr="Sucre glace"/>
+        <ingredient amount="1" unit="tbsp" name="Flour" name_fr="Farine"/>
+    </ingredient_group>
+
+    <step name="Pastry cream" name_fr = "Crème patissière"
+        description = "Pour the milk in a saucepan and bring to a boil."
+        description_fr = "Versez le lait dans une casserole et portez-le doucement à ébullition."/>
+    <step description = "Meanwhile, whip the egg yolks with the sugar until it whitens. Add the flour and whip again. Add a ladle of scalding milk whipping it."
+        description_fr="Pendant ce temps, fouettez les jaunes d’oeufs avec le sucre jusqu’à ce que le mélange blanchisse. Ajoutez la farine et fouettez bien. Versez une petite louche de lait bouillant dans le mélange en fouettant."/>
+    <step description = "Pour all the contents in the saucepan with the milk. Heat gently while whipping until the sauce thickens. Pour in a bowl and allow to cool."
+        description_fr = "Mettez le tout dans la casserole de lait et faites cuire doucement jusqu’à épaississement, en fouettant sans arrêt. Versez cette crème dans un saladier et laissez refroidir complètement."/>
+    <step name="Assemble" name_fr = "Assemblage"
+        description = "Preheat the oven at 180°C."
+        description_fr = "Préchauffez le four à 180°C."/>
+    <step description = "Cut the puff pastry into 3 strips, put it on wax paper and butter it. Using a fork, make holes in the dough so it will not expand. Sprinkle icing sugar"
+        description_fr = "Découpez la pâte feuilletée en 3 bande égales, posez-les sur la plaque du four et beurrez-les au pinceau. A l'aide d'une fourchette faite des trous pour éviter que la pâte ne gonfle. Saupoudrer de sucre glace"/>
+    <step description = "Bake for 15 minutes"
+        description_fr = "Enfourner pour 15 minutes"/>
+    <step description = "Wash, top and tail the strawberries and slice them. Then stack puff pastry, then pastry cream, then strawberries. Do it again and add the final puff pastry on top. Add some icing sugar"
+        description_fr = "Lavez, équeutez les fraises et coupez-les en rondelles. Sur une trache de pâte feuilletée alternez crème, fraises, pête feuilltée. Finir par la pâte feuilletée au somment. Ajouter du sucre glace"/>
+
+</recipe>

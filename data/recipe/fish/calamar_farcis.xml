@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Stuffed Calamari" name_fr="Calamar Farcis" category="fish"
+        href="http://cuisine.journaldesfemmes.com/recette/319688-calamars-farcis"
+        path="recipe/fish/calamar_farcis.xml" people="6" pic="../data/images/fish/calamar_farcis.jpg"
+        time_bake="1" time_bake_unit="h" time_prep="1.5" time_prep_unit="h" />
+
+    <ingredient_group name="Overall" name_fr="Globale">
+        <ingredient amount="6" unit="" name="Calamari" name_fr="Calamar"/>
+        <ingredient amount="60" unit="g" name="Rice" name_fr="Riz"/>
+        <ingredient amount="30" unit="g" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="3" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="2" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="2" unit="" name="Egg yolk" name_fr="Jaune d'oeuf"/>
+        <ingredient amount="" unit="" name="Cayenne pepper" name_fr="Piment de Cayenne"/>
+    </ingredient_group>
+
+    <step description = "Detach head from camalri body (with one quick pull). Remove cartilage and ink bag. Remove fins. Separate tentacle from head (be careful to remove the cartilage ball). Wash, drain. Put mantle, tentacles and fins aside. "
+        description_fr = "Détachez la tête des calamars (tirer la tête un coup sec), retirez la cartilage et ôtez la poche à encre de chaque poisson. Séparez la calotte des tentacules (attention à la boule de cartilage). Lavez et égouttez le tout. Mettez les calottes de côté et gardez les tentacules et les ailerons."/>
+    <step description = "Wash the rice, put it in a saucepan and add water and salt. Cook for 10 minutes then drain. Set aside."
+        description_fr = "Lavez le riz, mettez-le dans une casserole et faites-le cuire dans l'eau légèrement salée à feu moyen, pendant 10 minutes puis égouttez-le et réservez-le."/>
+    <step description = "Chop the tentacles and fins. Brown them in olive oil with one finely chopped onion and one diced tomato."
+        description_fr = "Coupez les tentacules et les ailerons en petits morceaux et faites-les revenir dans l'huile d'olive, avec un oignon finement haché et la pulpe d'une tomate coupée en petits morceaux."/>
+    <step description = "Add salt, pepper, cayenne pepper, cooked rice and finely chopped parsley. Stir. Add a bit of water and cook over medium heat during 15 minutes. Add eggs yolk. Stir. Set aside."
+        description_fr = "Assaisonnez de sel, poivre et poivre de Cayenne et ajoutez le riz, ainsi que le persil finement haché. Mélangez bien le tout sur le feu. Mouillez avec un peu d'eau et laissez cuire à feu moyen pendant 15 minutes environ puis liez avec deux jaunes d'oeufs et retirez du feu."/>
+    <step description = "Fill up mantle to three quarters with filling. Put all calamari standing in a large casserole. Close the mantle using a wire or toothpicks."
+        description_fr = "Remplissez les calottes aux 3/4 avec cette farce. Posez chaque calamar farci debout dans un couscoussier. Fermez l'ouverture de chaque calamar farci à l'aide d'un fil solide ou d'un cure dent."/>
+    <step description = "Add some oil and cook the calamari over medium heat. Add salt, black pepper, cayenne pepper, one chopped onion, two diced tomatoes. Cook for 15 minutes. Be careful and add some water if needed."
+        description_fr = "Faites revenir les calamars farcis à feu doux dans un peu d'huile d'olive. Ajoutez le sel, le poivre noir, le poivre de Cayenne, l'oignon restant, ainsi que les 2 tomates restantes coupées en morceaux, et laissez cuire à feu doux pendant 15 minutes. Surveillez bien la cuisson et ajoutez un peu d'eau chaude si nécessaire."/>
+
+</recipe>

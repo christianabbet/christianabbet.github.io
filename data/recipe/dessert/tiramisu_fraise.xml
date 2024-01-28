@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Strawberry Tiramisù" name_fr="Tiramisù aux Fraise Limoncello" category="dessert"
+        href="http://www.cuisineaz.com/recettes/tiramisu-aux-fraises-facile-14737.aspx"
+        path="recipe/dessert/tiramisu_fraise.xml" people="6"
+        pic="../data/images/dessert/tiramisu_fraise.jpg" 
+        time_bake="-" time_bake_unit="" time_prep="30" time_prep_unit="min"
+        />
+
+    <ingredient_group name="Tiramisù">
+        <ingredient amount="500" unit="g" name="Strawberries" name_fr="Fraises"/>
+        <ingredient amount="500" unit="g" name="Mascarpone" name_fr="Mascarpone"/>
+        <ingredient amount="90" unit="g" name="Icing sugar" name_fr="Sucre glace"/>
+        <ingredient amount="10" unit="g" name="Vanilla sugar" name_fr="Sucre vanillé"/>
+        <ingredient amount="50" unit="ml" name="Limoncello" name_fr="Limoncello"/>
+        <ingredient amount="12" unit="" name="Ladyfingers" name_fr="Savoiardi"/>
+        <ingredient amount="3" unit="" name="Egg" name_fr="Oeuf"/>
+    </ingredient_group>
+
+    <step description="Wash, top and tail the strawberries."
+        description_fr="Lavez, égouttez, séchez, équeuttez les fraises." />
+    <step description="In a bowl, crush 3-4 strawberries with the limoncello and 2 tsp of sugar. Set aside."
+        description_fr="Dans un bol, écrasez-en 3 -4 fraises avec le limoncello et 2 càc de sucre. Réservez." />
+    <step name="Tiramisù" name_fr="Tiramisù"
+        description="Cut the other strawberries in half"
+        description_fr="Coupez les autre fraises en deux dans le sens de la hauteur." />
+    <step description="Separate the yolks from the whites. Whip the yolks withe the sugar. Add the mascarpone, vanilla sugar and mix until the mixture becomes smooth and soft."
+        description_fr="Cassez les oeufs et séparez les blancs des jaunes. Battez les jaunes avec le reste de sucre. Ajoutez la mascarpone, le sucre vanille et mélangez énergetiquement jusqu'à ce que la préparation soit lisse et souple." />
+    <step description="In a bowl, take up whites in snow."
+        description_fr="Dans un saladier, montez les blancs en neige bien ferme." />
+    <step description="Add the whites to the mascarpone. Arrange the ladyfingers on the bottom of a mold. Glaze them with the limoncello grout."
+        description_fr="Incorporez les blancs en neige à la préparation au mascarpone. Disposez les biscuits dans le fond d'un plat. Nappez-les du coulis de fraises au limoncello."/>
+    <step description="Pour half of the mascarpone over the biscuits. Add strawberries, then add mascarpone again. Put in the fridge for 3 hours."
+        description_fr="Répartissez la moitié de la crème au mascarpone sur les biscuits puis disposez une couche de fraises et recouvez à nouveau de crème à la mascarpone. Réservez 3 heures au réfrigérateur avant de servir."/>
+
+</recipe>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Garlic Ginger Shrimp" name_fr="Crevettes Ail et Gingembre" category="fish"
+        href="http://steamykitchen.com/32974-garlic-ginger-shrimp-stirfry-recipe-video.html"
+        path="recipe/fish/crevette_ginger.xml" people="4" pic="../data/images/fish/crevette_ginger.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="5" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="2" unit="tbsp" name="Fish sauce" name_fr="Sauce poisson"/>
+        <ingredient amount="1" unit="tbsp" name="Soy sauce" name_fr="Sauce soja"/>
+        <ingredient amount="2" unit="tsp" name="Cornstarch" name_fr="Maïzena"/>
+        <ingredient amount="2" unit="tsp" name="Ginger" name_fr="Gingembre"/>
+        <ingredient amount="1" unit="tsp" name="Cilantro" name_fr="Coriandre"/>
+        <ingredient amount="1" unit="" name="Green onion" name_fr="Oignon vert"/>
+        <ingredient amount="1" unit="" name="Garlic cloves" name_fr="Gousse d'ail"/>
+    </ingredient_group>
+
+
+    <step description = "In a small bowl, combine fish sauce, soy sauce and cilantro and set aside."
+        description_fr = "Dans un bol, combiner la sauce de poisson, la sauce soja et la coriandre. Réserver."/>
+    <step description = "Pat the shrimp very dry with paper towels. In a medium bowl, add shrimp and cornstarch and toss to coat."
+        description_fr = "A l'aide de papier ménage, sécher les crevettes. Dans un bol, mélanger crevettes et maïzena."/>
+    <step description = "In a wok pan over high heat, add half the cooking oil. When the wok is very hot, add the shrimp in a single layer and cook partially until one side is seared brown, about 1 minute."
+        description_fr = "Dans un wok faire chauffer l'huile. Quand l'huile est chaude, ajouter les crevettes et faire bunir sur une face. Environ une minute."/>
+    <step description = "Flip and sear the other side of each shrimp, about one more minute. They don't need to be cooked all the way through yet. Remove them to a plate or bowl and set aside."
+        description_fr = "Retourner pour faire cuire l'autre face. Elles n'ont pas besoin d'être entièrement cuites. Retirer du feu et réserver."/>
+    <step description = "Turn the heat down to medium and let wok cool off a bit to prevent the aromatics from burning. Add the remaining cooking oil and add green onion, garlic and ginger and stir fry for a minute until fragrant."
+        description_fr = "Baisser le feu et laisser refroidr pour ne pas bruler les épices. Ajouter un peu d'huile, l'oignon, l'ail et le gingembre et faire frire."/>
+    <step description = "Pour in the sauce mixture and add the shrimp back into the pan. Stir fry for another minute until shrimp is cooked through."
+        description_fr = "Ajouter la sauce et les crevettes. Faire frire une minute jusqu'à ce que les crevettes soient cuites."/>
+
+
+</recipe>

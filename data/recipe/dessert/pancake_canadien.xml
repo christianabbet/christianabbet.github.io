@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Canadian Pancakes" name_fr="Pancakes Canadien" category="dessert"
+        href="http://www.750g.com/pancakes-r12530.htm" path="recipe/dessert/pancake_canadien.xml"
+        people="4" pic="../data/images/dessert/pancake.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name = "Pancakes">
+        <ingredient amount="300" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="90" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="30" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="3" unit="dl" name="Milk" name_fr="Lait"/>
+        <ingredient amount="3" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="2" unit="tsp" name="Kirsch"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="0.25" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <ingredient_group name="Topping" name_fr="Accompagnement">
+        <ingredient amount="" unit="" name="Maple syrup" name_fr="Sirop d'érable"/>
+        <ingredient amount="" unit="" name="Strawberry" name_fr="Fraise"/>
+        <ingredient amount="" unit="" name="Red berries" name_fr="Baies rouges"/>
+    </ingredient_group>
+
+    <step description = "In a bowl put the flour, sugar, salt and yeast. Mix."
+        description_fr = "Dans un saladier mettre la farine, le sucre, le sel et la levure et faire un puits"/>
+    <step description = "Separate the yolks from the whites. Take them up in snow (keep the egg yolk aside) and melt the butter."
+        description_fr = "Séparez les blancs des jaunes, monter les blancs en neige (garder les jaunes surtout!) et faire fondre le beurre."/>
+    <step description = "Slowly add half of the milk and egg yolk. Hardly whip to avoid lumps."
+        description_fr = "Ajouter la moitié du lait très progressivement ainsi que les jaunes d'oeufs pour que tout soit bien mélangé et battre fortement pour éviter les grumeaux."/>
+    <step description = "Slowly add the remaining milk and the melted butter. Then slowly add the egg whites, and the alcohol."
+        description_fr = "Une fois la pâte homogène, rajouter doucement en remuant le lait restants et le beurre fondu et froid puis incorporer délicatement les blancs montés en neige, puis ajouter l'alcool si vous souhaitez en mettre."/>
+    <step description = "Put in the fridge during 30 to 40 minutes"
+        description_fr = "Mettre au frais 30 à 40min."/>
+    <step description = "Heat the pan and butter it"
+        description_fr = "Chauffez et graissez une poêle avec un peu de beurre ou d'huile"/>
+
+    <hint description = "Be careful of not heating the pan to much!"
+        description_fr = "Attention à ne pas mettre la plaque trop chaude!"/>
+
+
+</recipe>

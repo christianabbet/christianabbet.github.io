@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="French Crepes" name_fr="Crêpes" category="other"
+        href="http://cuisine.journaldesfemmes.com/recette/333415-crepes"
+        path="recipe/other/crepe.xml" people="4" pic="../data/images/other/crepe.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="250" unit="g" name="Flour" name_fr="Farine"/>
+	    <ingredient amount="50" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="5" unit="dl" name="Milk" name_fr="Lait"/>
+        <ingredient amount="4" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="2" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="" unit="" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step description = "Pour flour in a large bowl with sugar and a pinch of salt. Add beaten eggs. Stir. Slowly add milk while stirring to avoid lumps. "
+        description_fr = "Mettre la farine dans un saladier avec une pincée de sel et le sucre. Ajouter les oeufs légèrement battus à la fourchette. Ajouter le lait froid petit à petit, on peut utiliser un fouet mais toujours doucement pour éviter les grumeaux. "/>
+    <step description = "Take care that the dough remains liquid. If it is too thick add milk, otherwise if it is too liquid add flour. Add melted butter. Stir. "
+        description_fr = "Quand tout le lait est mélangé, la pâte doit être assez fluide, si elle vous paraît trop épaisse, rajouter en peu de lait. Ajouter ensuite le beurre fondu, mélanger bien. "/>
+    <step description = "Put in the fridge for 15 minutes before serving."
+        description_fr="Mettre au frigo pendant 15 minutes avant de serving"/>
+
+</recipe>

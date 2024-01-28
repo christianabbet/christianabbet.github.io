@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Apple Almond Pie" name_fr="Tarte aux Pommes et Amandes" category="dessert"
+        href="http://cuisine.journaldesfemmes.com/recette/317964-tarte-aux-pommes-croustillante-a-la-creme-de-cannelle"
+        path="recipe/dessert/tarte_pomme_amande.xml" people="8" pic="../data/images/dessert/tarte_pomme_amande.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Filling" name_fr = "Fourrage">
+        <ingredient amount="250" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="120" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="35" unit="g" name="Cornstarch" name_fr="Maïzena"/>
+        <ingredient amount="4" unit="" name="Apple" name_fr="Pomme"/>
+        <ingredient amount="3" unit="" name="Egg yolk" name_fr="Jaune d'oeuf"/>
+        <ingredient amount="1" unit="" name="Shortcrust pastry" name_fr="Pâte brisée"/>
+        <ingredient amount="2" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+    </ingredient_group>
+
+    <ingredient_group name="Topping" name_fr = "Nappage">
+        <ingredient amount="60" unit="g" name="Slivered almonds" name_fr="Amandes effilées"/>
+        <ingredient amount="20" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="3" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+    </ingredient_group>
+
+    <step name="Filling" name_fr = "Fourrage"
+        description = "Preheat oven to 180°C. "
+        description_fr = "Préchauffez le four à 180°C."/>
+    <step description = "Peel and seed the apples. Thinly slice them and put them on the dough. "
+        description_fr = "Pelez et épépinez les pommes, coupez-les en fines lamelles et disposez-les sur la pâte."/>
+    <step description = "In a bowl, mix the egg yolks with the sugar, milk, cornstarch and cinnamon. Whip. Pour over the apples."
+        description_fr = "Dans un saladier, mélangez les jaunes d'oeufs avec le sucre, le lait, la Maïzena et la cannelle. Fouettez énergiquement. Versez sur les pommes."/>
+    <step description = "Bake for 30 to 35 minutes."
+        description_fr = "Faites cuire 30 à 35 minutes selon les fours."/>
+    <step name="Topping" name_fr = "Nappage"
+        description = "Melt the butter in a small pan. Add the sugar, then the almonds and let heat while stirring. It should becomes slightly brown."
+        description_fr = "Faites fondre le beurre dans une petite poêle, ajoutez le sucre puis les amandes et laissez-les cuire sur feu vif sans cesser de mélanger, jusqu'à ce qu'elles prennent une belle teinte acajou."/>
+    <step description = "Immediately spread over the cake."
+        description_fr = "Répartissez-les immédiatement à la surface de la tarte."/>
+
+    <hint description = "Do not use a rotary beater. It will frothing"
+        description_fr = "Ne pas battre avec un mixeur car cela peut créer des bulles. Bien laisser cuire au four"/>
+
+
+</recipe>

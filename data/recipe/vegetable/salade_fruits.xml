@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Maple Syrup Fruit Salad" name_fr="Salade de fruits au sirop d'érable" category="vegetable"
+        href="https://www.atelierdeschefs.fr/fr/recette/11553-salade-de-fruits-au-sirop-d-erable-et-aux-zestes-de-citron.php"
+        path="recipe/vegetable/salade_fruits.xml" people="5" pic="../data/images/vegetable/salade_fruits.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="20" time_prep_unit="min"/>
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="2.5" unit="dl" name="Orange juice" name_fr="Jus d'oranges"/>
+        <ingredient amount="1" unit="dl" name="Maple syrup" name_fr="Sirop d'érable"/>
+        <ingredient amount="100" unit="g" name="Strawberries" name_fr="Fraises"/>
+        <ingredient amount="3" unit="" name="Kiwifruit" name_fr="Kiwi"/>
+        <ingredient amount="2" unit="" name="Banana" name_fr="Banane"/>
+        <ingredient amount="2" unit="" name="White peach" name_fr="Pêche blanche"/>
+        <ingredient amount="1" unit="" name="Mango" name_fr="Mangue"/>
+        <ingredient amount="0.5" unit="" name="Lemon" name_fr="Citron"/>
+        <ingredient amount="" unit="" name="Vanilla" name_fr="Vanille"/>
+    </ingredient_group>
+
+    <step description = "In a sauce pan, bring to a boil maple syrup, orange juice, lemon juice and vanilla. Allow to cool while stirring."
+        description_fr = "Dans une casserole, porter à ébullition le sirop d'érable, le jus d'orange, le jus citron et la vanille. Une fois le mélange infusé, laisser refroidir."/>
+    <step description = "Wash, peel, coarsely chop fruits."
+        description_fr = "Laver et éplucher tous les fruits, puis les couper en petits morceaux."/>
+    <step description = "In a large bowl, mix fruits and maple syrup."
+        description_fr = "Dans un saladier, mélanger tous les fruits avec le sirop froid."/>
+
+</recipe>

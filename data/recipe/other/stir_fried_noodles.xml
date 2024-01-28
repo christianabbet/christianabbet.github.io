@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Stir-Fried Noodles" name_fr="Nouilles Sautées aux Légumes" category="other"
+        href="http://www.bbcgoodfood.com/recipes/2975/stirfried-noodles"
+        path="recipe/other/stir_fried_noodles.xml" people="3" pic="../data/images/other/stir_fried_noodles.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="150" unit="g" name="Egg noodle" name_fr="Nouille"/>
+        <ingredient amount="100" unit="g" name="Mangetout peas" name_fr="Pois mange-tout"/>
+        <ingredient amount="15" unit="g" name="Ginger" name_fr="Gingembre"/>
+        <ingredient amount="2" unit="tbsp" name="Soy sauce" name_fr="Sauce soja"/>
+        <ingredient amount="1" unit="tbsp" name="Vegetable oil" name_fr="Huile végétale"/>
+        <ingredient amount="1" unit="tsp" name="Wine vinegar" name_fr="Vinaigre de vin"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Scallion" name_fr="Oignon vert"/>
+        <ingredient amount="1" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="1" unit="" name="Yellow bell pepper" name_fr="Poivron jaune"/>
+    </ingredient_group>
+
+    <step description = "Cook the noodles according to pack instructions."
+        description_fr = "Cuire les nouilles selon les instructions du paquet."/>
+    <step description = "Meanwhile, heat the oil in a wok or large frying pan, then stir-fry the ginger, garlic, sliced carrot, sliced pepper and mangetout over a high heat for 2-3 mins."
+        description_fr = "Pendant ce temps, dans un wok, faire revenir dans l'huile le gingembre, l'ail, les carottes coupées en lamelles, le poivron et les mange-tout pendant 2-3 minutes."/>
+    <step description = "Drain the noodles thoroughly, add to the pan with the onions then stir-fry for 2 mins."
+        description_fr = "Egoutter les nouilles et les ajouter au mélange avec les oignon verts émincés. Faire revenir pendant 2 minutes."/>
+    <step description = "Mix together the soy sauce and vinegar, stir into the pan, then cook for 1-2 mins."
+        description_fr = "Mélanger la sauce de soja et le vinaigre. Ajouter aux nouilles et faire cuire 1-2 minutes."/>
+
+</recipe>

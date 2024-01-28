@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Maply Syrup Pecan Brioche" name_fr="Escargots au Sirop d'érable et Noix de Pecans"
+        category="dessert" href="http://www.epicurious.com/recipes/food/views/maple-pecan-sticky-buns-1533"
+        path="recipe/dessert/escargot_erable.xml" people="6" pic="../data/images/dessert/escargot_erable.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="3" time_prep_unit="h" />
+        
+    <ingredient_group name = "Dough" name_fr = "Pâte">
+        <ingredient amount="580" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="310" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="75" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="40" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="30" unit="g" name="Oatmeal" name_fr="Flocon d'avoine"/>
+        <ingredient amount="14" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="3" unit="" name="Vanilla beans" name_fr="Goussse de vanille"/>
+        <ingredient amount="2" unit="tsp" name="Zests of lemon" name_fr="Zestes de citron"/>
+        <ingredient amount="1.5" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="" unit="" name="Oil" name_fr="Huile"/>
+    </ingredient_group>
+
+    <ingredient_group name="Syrup" name_fr = "Sirop">
+        <ingredient amount="250" unit="ml" name="Maple syrup" name_fr="Sirop d'érable"/>
+        <ingredient amount="220" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="130" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="65" unit="g" name="Pecans" name_fr="Noix de pécans"/>
+    </ingredient_group>
+
+    <ingredient_group name="Filling" name_fr="Fourrage">
+        <ingredient amount="110" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="100" unit="g" name="Pecans" name_fr="Noix de pécans"/>
+        <ingredient amount="75" unit="g" name="Raisins" name_fr="Raisins secs"/>
+        <ingredient amount="2" unit="tsp" name="Cinnamon" name_fr="Canelle"/>
+    </ingredient_group>
+
+    <step name="Dough" name_fr="Pâte"
+        description = "Mix the oatmeal with the butter, sugar, zests of lemon and salt. In a saucepan heat the milk and pour it in the bowl to dissolve the butter and the sugar. Let cool ( Less than 40°C)."
+        description_fr = "Mélanger les flocons d'avoine avec le buerre, le sucre, les zestes de citron et le sel. Dans une casserole chauffer le lait et verser lait à mesure pour dissoudre le beurre et le sucre. Laisser refroidir ( moins de 40°C)."/>
+    <step description = "Add the egg and the vanilla. Add 2/3 of the flour and the dry yeast. Knead. Let rest for 10 minutes."
+        description_fr = "Ajouter l'oeuf et la vanille. Ajouter 2/3 de la farine et la levure. Pétrir. Laisser reposez 10 minutes. "/>
+    <step description = "Gradually adding the remaining flour while mixing. When the dough is not sticky anymore form a ball. Let it rest in a bowl during 1h30-1h45. Put a linen on it. Make the syrup meanwhile."
+        description_fr = "Ajouter progressivement le reste de la farine en continuant à mélanger avec une spatule. Une fois que la pâte n'est plus collante faire une boule de pâte. Laisser reposer le toute dans un grand bol pendant 1h30-1h45. Placer un linge au dessus. Préparer le sirop pendant ce temps."/>
+    <step name="Syrup" name_fr="Sirop"
+        description = "In a sauce pan, mix the maple syrup, butter and sugar. Mix over low heat until the sugar has dissolved."
+        description_fr = "Dans une caserole mélanger le sirop d'érable, le beurre et le sucre. A feu doux mélanger jusqu'à ce que le sucre se disolve complètement."/>
+    <step description = "Pour the syrup in an bowl and sprinkle the coarsely chopped pecans. Put it in the fridge"
+        description_fr = "Versez dans un plat en verre creux et éparpiller les noix de pécant grossièrement coupées. Mettre au frigo."/>
+    <step name="Filling" name_fr="Fourrage"
+        description = "In a blender put the remaining pecan, raisins, sugar and cinnamon. Set aside."
+        description_fr = "Dans un mixeur mélanger les noix de pécans, les raisin, le sucre et la cannelle. Reserver le mélange dans un bol."/>
+    <step name="Assembling" name_fr="Assemblage"
+        description="Roll the pastry. Make a rectangle of 40cm x 20cm. Drizzle with melted butter and then with the filling. Leave part of the dough on the long edge free of filling (about 2.54cm thick). Roll the dough form one side to the other and pinch to seal"
+        description_fr = "Applatir soigneusement la pâte sur une surface farineuse. Utiliser un rouleau à pâte pour étaler. Former un rectangle de 40cm x 20cm environ. Napper la surface avec un peu de beurre fondu. Répandre le fourrage sur tout la surface à l'exeption d'un bande fine (2.54cm) sur le coté long. Rouler depuis l'autre extremitée pour formé une bûche. Pincer sur toute la longueur pour refermer."/>
+    <step description = "Cut slices 2.54cm thick. On a plat pour the syrup and put the slices on it and press. Let rest for 1h15 in the fridge"
+        description_fr="A l'aide d'un couteau couper la bûche tranches de 2.54cm d'épaisseur. Sur un grand plateau verser le sirop, puis placer les tranche dessus et presser un peu pour enfoncer. Liasser reposer 1h15 (ou la nuit au frigo)."/>
+    <step description = "Preheat the oven at 190°C. Let gild (about 12 minutes). Remove from the oven and turn all slices. Also coat the slices with some syrup using a spoon. Return to the oven for 12-15 minutes."
+        description_fr = "Prechauffer le four à 190°C. Laisser légerement dorer (env. 12 mintues). Sortir du four et retourner. En profiter pour verser le sirop sur les cotés et dessus à l'aide d'une cuillère. Remette au four pour 12-15 minutes."/>
+
+</recipe>

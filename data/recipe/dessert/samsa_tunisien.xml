@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Tunisian Samsa" name_fr="Samsa Tunisien" category="dessert"
+        href="https://www.youtube.com/watch?v=KjAgZdNdbp0" path="recipe/dessert/samsa_tunisien.xml"
+        people="12" pic="../data/images/dessert/samsa_tunisien.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="45" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="8" unit="" name="Sheets brick pastry" name_fr="Feuilles de brick"/>
+        <ingredient amount="400" unit="g" name="Almonds" name_fr="Amandes"/>
+        <ingredient amount="250" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="2" unit="tbsp" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="2" unit="tbsp" name="Water of orange flowers" name_fr="Eau de fleur d'oranger"/>
+        <ingredient amount="1" unit="tbsp" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="" unit="" name="Honey" name_fr="Miel"/>
+        <ingredient amount="" unit="" name="Sesame seed" name_fr="Graine de sésame"/>
+    </ingredient_group>
+
+    <step description = "Roasted the almonds and grind them with the sugar. Set aside "
+        description_fr = "Torrifier les amandes puis les moudre avec le sucre. Disposer dans un grand saladier"/>
+    <step description = "Add the cinnamon, water of orange flowers and melted butter. Stir by hand"
+        description_fr = "Ajouter la cannelle, l'eau de fleur d'oranger et le beurre fondu. Mélanger à la main jusqu'à ce que le mélange sois homogème et compacte"/>
+    <step description = "Form 16 balls of dough. Set aside"
+        description_fr = "Former 16 boules de pâtes. Laisser de coté"/>
+    <step description = "Cut the sheets in half. Butter each half sheets. Fold the sheets with a ball inside, in a triangle way "
+        description_fr = "Couper les feuilles de brick en deux. Pour chaque moitiée, beurrer à l'aide d'un pinceau, replier en triangle avec une boule de pâte à l'interieur."/>
+    <step description = "Put the samsa in the oven in 180° during 20 minutes."
+        description_fr = "Enfourner les samsas environ 20 min à 180°. Attention à bien surveiller la cuisson."/>
+    <step description = "Melt honey in a sauce pan. Soak samsas one after the other in the honey and drain them."
+        description_fr = "Faire fondre du miel dans une casserole. Plonger les samsas un après l'autre dans le miel puis égouter."/>
+    <step description = "Sprinkle sesame seeds"
+        description_fr = "Recouvrir de graines de sésame"/>
+
+    <hint description = "To form triangle, fold the small width on the long one. Repeat the gesture"
+        description_fr = "Replier la petite largeur sur la grande et répeter le geste pour former les triangles"/>
+
+
+</recipe>

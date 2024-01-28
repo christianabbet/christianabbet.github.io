@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Dal Lentils" name_fr="Dal aux Lentilles" category="other"
+        href="http://www.odelices.com/recette/dal-ou-dahl-aux-lentilles-et-aux-epices-r225/"
+        path="recipe/other/dal_lentills.xml" people="3" pic="../data/images/other/dal_lentills.jpg"
+        time_bake="1.25" time_bake_unit="h" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="400" unit="ml" name="Coconut milk" name_fr="Lait de coco"/>
+        <ingredient amount="400" unit="g" name="Peeled tomatoes" name_fr="Tomates pelées"/>
+        <ingredient amount="200" unit="g" name="Lentil" name_fr="Lentille"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="tbsp" name="Curry" name_fr="Curry"/>
+        <ingredient amount="1" unit="tbsp" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="" unit="" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step description = "Sauté in a large pan onion with some oil. When it is almost cooked add cinnamon, curry and coconut milk. Season."
+        description_fr = "Faites revenir l'oignon avec un peu d'huile. Lorsqu'il est bien doré, ajoutez les épices et le lait de coco. Salez."/>
+    <step description = "Simmer for a few minutes."
+        description_fr = "Laissez réduire quelques minutes."/>
+    <step description = "Add peeled tomatoes, lentils. Cover the pan and simmer for 1 hour over low heat until lentils are soft."
+        description_fr = "Ajoutez les tomates, les lentilles, couvrez et laissez mijoter environ 1 h, en remuant de temps en temps, jusqu'à ce que les lentilles soient tendres."/>
+
+
+</recipe>

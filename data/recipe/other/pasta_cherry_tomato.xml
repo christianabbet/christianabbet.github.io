@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Cherry Tomato Pasta" name_fr="Pâte aux Tomate Cerise" category="other"
+        href="http://www.epicurious.com/recipes/food/views/pasta-with-15-minute-burst-cherry-tomato-sauce-56390060"
+        path="recipe/other/pasta_cherry_tomato.xml" people="4" pic="../data/images/other/pasta_cherry_tomato.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="5" time_prep_unit="min"/>
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Cherry tomato" name_fr="Tomate cerise"/>
+        <ingredient amount="400" unit="g" name="Linguine pasta" name_fr="Pâte linguine"/>
+        <ingredient amount="20" unit="g" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="125" unit="ml" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="0.75" unit="tsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="0.5" unit="tsp" name="Pepper" name_fr="Poivre"/>
+        <ingredient amount="2" unit="" name="Garlic cloves" name_fr="Gousses d'ail"/>
+        <ingredient amount="" unit="" name="Parmesan" name_fr="Parmesan"/>
+    </ingredient_group>
+
+    <step description="Cook pasta in a large pot of boiling salted water, stirring occasionally, until al dente; drain and transfer to a large bowl."
+        description_fr="Dans une casserole faire boillir de l'eau avec une pincée de sel. Ajouter les pates et cuire al dente."/>
+    <step description="Meanwhile, heat oil in a skillet over medium-high. Add garlic, then tomatoes, pepper, sugar, and salt."
+        description_fr="Pendant ce temps, dans une poele, chauffer l'huille à feu moyen. Ajouter 'ail, les tomates, le poivre et le sel."/>
+    <step description="Cook, stirring occasionally, until tomatoes burst and release their juices to form a sauce, 6–8 minutes."
+        description_fr="Mélanger jusqu'à ce que les tomates répendent leur jus pour former la sauce, 6-8 minutes."/>
+    <step description="Toss pasta with tomato sauce and basil. Top with Parmesan."
+        description_fr="Ajouter la sauce et le basilic aux pâtes. Saupoudrer de parmesan frai."/>
+
+</recipe>

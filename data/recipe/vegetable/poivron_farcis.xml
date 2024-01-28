@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Stuffed Red Pepper" name_fr="Poivrons Farcis" category="vegetable"
+        href="Abbet Christian" path="recipe/vegetable/poivron_farcis.xml" people="4"
+        pic="../data/images/vegetable/poivrons_farcis.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="30" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Vegetable" name_fr="Légume"/>
+        <ingredient amount="400" unit="ml" name="Coconut milk" name_fr="Lait de coco"/>
+        <ingredient amount="5" unit="" name="Bell pepper" name_fr="Poivron"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="2" unit="tsp" name="Red curry paste" name_fr="Pâte de curry rouge"/>
+        <ingredient amount="" unit="" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="" unit="" name="Rice" name_fr="Riz"/>
+    </ingredient_group>
+
+
+    <step description = "Using a knife remove the top a the bell pepper. Seed and wash. Place bell pepper, upside down, in the oven for 20 minutes in 180°C. "
+        description_fr = "A l'aide d'un couteau réaliser une ouverture circulaire sur le sommet des poivrons puis vider ceux-ci. Placer les poivrons au four pendant 20 minutes, l'ouverture vers le bas."/>
+    <step description = "Chop and sauté vegetable, garlic and onion."
+        description_fr = "Couper les légumes, l'ail et l'oignon. Dans un poêle faire revenir le toute avec de l'huile de tournesol."/>
+    <step description = "When vegetable are almost cooked, add coconut milk. Add curry paste. Season. Let reduce."
+        description_fr = "Lorsque les légumes commencent à cuire, ajouter le lait de coco et la pâte de curry. Saler et poivrer à souhait. Laisser réduire."/>
+    <step description = "Wash and cook rice. Set aside."
+        description_fr = "Laver le riz puis faire cuire dans un plat annexe."/>
+    <step description = "Mix rice and vegetables. Fill bell pepper with the mixture"
+        description_fr = "Mélanger le riz et les légumes. Remplir les poivrons du mélange"/>
+
+    <hint description = "Be careful, bell peppers take time to cook."
+        description_fr = "Les poivrons mettent plus de temps pour cuire, il est conseillé de les mettre au début de la cuisson."/>
+
+
+
+</recipe>

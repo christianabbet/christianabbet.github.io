@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Risotto Alla Parmigiana" name_fr="Risotto Alla Parmigiana" category="other"
+        href="http://www.750g.com/risotto-alla-parmigiana-r72316.htm"
+        path="recipe/other/risotto_alla_parmigiana.xml" people="4" pic="../data/images/other/risotto_alla_parmigiana.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="5" time_prep_unit="min"/>
+
+    <ingredient_group name="Overall" name_fr="Global">
+        <ingredient amount="750" unit="ml" name="Vegetable stock" name_fr="Bouillon de légume"/>
+        <ingredient amount="300" unit="g" name="Risotto rice" name_fr="Riz à risotto"/>
+        <ingredient amount="100" unit="ml" name="White wine" name_fr="Vin blanc"/>
+        <ingredient amount="50" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="20" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="0.5" unit="" name="White onion" name_fr="Oignon blanc"/>
+        <ingredient amount="1" unit="tbsp" name="Cream" name_fr="Crème fraîche"/>
+    </ingredient_group>
+
+    <step description="Heat oil in a skillet pan. Stir in chopped onion and sauté them."
+        description_fr="Faire chauffer une poêle avec un filet d'huile d'olive. Ajouter l'oignon émincé et faire légèrement colorer." />
+    <step description="Add rice and stir until rice becomes slightly transparent."
+        description_fr="Ajouter ensuite le riz et le rissoler pendant quelques secondes, le temps que le riz devienne légèrement transparent et s'imprègne d'huile." />
+    <step description="Stir in white wine and let evaporate."
+        description_fr="Ajouter le vin blanc sec que vous laisser évaporer." />
+    <step description="Bring vegetable stock to a boil. Progressively stir in stock. When done, remove from heat."
+        description_fr="Faire bouillir le bouillon de légumes. Ajouter progressivement la totalité du bouillon petit à petit dans la poêle. Retirer une fois cuit." />
+    <step description="Add grated parmesan and butter. Season. Add cream and stir for a while."
+        description_fr="Ajouter le parmesan râpé et la noix de beurre. Saler et poivrer légèrement. Ajouter la cuillère de crème liquide et mélanger le tout hors du feu." />
+
+
+</recipe>

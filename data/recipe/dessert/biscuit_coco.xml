@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+   <info name="Coco Biscuits" name_fr="Biscuits au Coco" category="dessert"
+        href="Cuisine du monde (p.57)" path="recipe/dessert/biscuit_coco.xml" people="8" pic="../data/images/dessert/biscuit_coco.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="30" time_prep_unit="min" />
+
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="200" unit="g" name="Grated coconut" name_fr="Noix de coco rapée"/>
+        <ingredient amount="185" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="150" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="10" unit="g" name="Vanilla sugar" name_fr="Sucre vanillé"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="" unit="" name="Sesame seed" name_fr="Graine de sésame"/>
+    </ingredient_group>
+
+    <step description = "Pour grated coconut in a bowl. Mix it with the sugar and eggs. Add the flour and beat the dough. If it's too dry you can add some water."
+        description_fr = "Versez la noix de coco râpée edans un plat creux. Mélangez-la au sucre en poudre, à la vanille et aux oeufs. Incorporez ensuite la farine et travaillez le mélange jusqu'à obtention d'une pâte. Possibilité de rajouter un peu d'eau."/>
+    <step description = "Make a ball and put it in the fridge. Wait 1 hour."
+        description_fr = "Ramassez-la en une boule et glissez-la au réfrégirateur. Laissez la ainsi reposer pendant 1h."/>
+    <step description = "Roll the pastry on a work surface. Dough should be 0.635cm thick. Unsing a pastry cutter, cut different shapes. Roll them in sesame seeds."
+        description_fr = "A l'issue de ce temps de repos, étalez la pâte sur un plan de travail propre, sur une épaisseur de 0.635cm. A l'aide d'un emporte-pièce, découpez-y des formes. Passez celles-ci, une à une, dans des graines de sésame, de manière à les enrober sur toute les faces, mais sans excès."/>
+    <step description = "Put in the oven in 200°C during 10 minutes"
+        description_fr = "Enfounez pour environ 10 min à 200°C"/>
+
+</recipe>

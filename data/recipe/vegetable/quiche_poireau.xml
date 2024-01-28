@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Leek Mushroom Quiche" name_fr="Quiche au Poireau et aux Champignons" category="vegetable"
+        href="http://allrecipes.fr/recette/5816/quiche-au-poireau-et-aux-champignons.aspx?o_is=LV"
+        path="recipe/vegetable/quiche_poireau.xml" people="6" pic="../data/images/vegetable/quiche_poireau.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="30" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr="Globale">
+        <ingredient amount="150" unit="g" name="Mushroom" name_fr="Champignon"/>
+        <ingredient amount="100" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="10" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="2" unit="dl" name="Cream" name_fr="Crème"/>
+        <ingredient amount="3" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1" unit="" name="Shortcrust pastry" name_fr="Pâte brisée"/>
+        <ingredient amount="1" unit="" name="Leek" name_fr="Poireau"/>
+        <ingredient amount="1" unit="tsp" name="Nutmeg" name_fr="Noix de muscade" />
+    </ingredient_group>
+
+    <step description="Preheat oven at 180°C."
+        description_fr="Préchauffez votre four à 180°C."/>
+    <step description="Wash and chop leek. Sauté leek in a pan with butter during 5 minutes."
+        description_fr="Lavez et coupez le poireau en petit morceaux. Faites-le revenir à feu moyen dans une poêle avec un peu de beurre pendant 5 minutes environ."/>
+    <step description="Wash mushrooms and chop them. Sauté mushroom in a pan with olive oil during 5 minutes"
+        description_fr="Lavez et essuyez les champignons délicatement puis coupez-les en petits morceaux. Faites chauffer l'huile d'olive dans une poêle. Faites revenir les champignons 5 minutes environ."/>
+    <step description="Whip eggs, cream and spices. Add parmesan and whip again."
+        description_fr="Cassez les oeufs dans un saladier. Ajoutez la crème et les épices. Foutter pendant quelques minutes. Ajoutez le parmesan et mélangez à nouveau."/>
+    <step description="Put pastry in a mold and spread mushrooms and leek over it. Pour the egg/parmesan mixture over it. Put in oven for 30 minutes."
+        description_fr="Etalez la pâte dans un moule à tarte. Répartissez-y les morceaux de poireau et les champignon. Versez le mélange oeufs/crème. Enfournez 30 minutes environ."/>
+
+</recipe>

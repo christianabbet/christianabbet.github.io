@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Spiced Lentil Soup" name_fr="Soupe aux Lentilles" category="other"
+        href="http://www.bbcgoodfood.com/recipes/2089/spiced-carrot-and-lentil-soup"
+        path="recipe/other/lentil_soup.xml" people="4" pic="../data/images/other/lentil_soup.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="10" time_prep_unit="min"/>
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="1" unit="l" name="Vegetable stock" name_fr="Bouillon de légume"/>
+        <ingredient amount="600" unit="g" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="140" unit="g" name="Red lentil" name_fr="Lentille rouge"/>
+        <ingredient amount="125" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="2" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="2" unit="tsp" name="Cumin seeds" name_fr="Graine de cumin"/>
+        <ingredient amount="0.5" unit="tsp" name="Cayenne pepper" name_fr="Piment de cayenne"/>
+        <ingredient amount="" unit="" name="Plain yogurt" name_fr="Yogourt nature"/>
+    </ingredient_group>
+
+    <step description = "Heat a large saucepan and dry-fry the cumin seeds until they start to jump around the pan and release their aromas. Scoop out about half of the seeds with a spoon and set aside."
+        description_fr = "Dans une poele faire revenir le cumin. Lorsque les graines commencent à sauter retirer du feu. Ecraser la moitier des graine à l'aide d'une cuillère. Réserver"/>
+    <step description = "Add the oil, coarsely grated carrot, lentils, stock and milk to the pan and bring to the boil. Simmer for 15 mins until the lentils have swollen and softened."
+        description_fr="Ajouter l'huile, les carottes coupées grossièrement, les lentilles, le bouillon et le lait. Porter à ébullition. Laisser mijoter pendant 15 minutes jusqu'à ce que les lentilles soit cuites" />
+    <step description = "Whizz the soup with a stick blender or in a food processor until smooth. Season to taste and finish with a dollop of yogurt and a sprinkling of the reserved toasted spices."
+        description_fr="Passer le mélange au mixeur pour obtenir une consistance homogène. Assaisonner puis ajouter un peu de yogourt nature et le cumin restant."/>
+
+</recipe>

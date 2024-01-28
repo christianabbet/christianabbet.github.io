@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Stuffed Eggplants" name_fr="Aubergines Farcies" category="meat"
+        href="http://www.cuisineaz.com/recettes/aubergines-farcies-a-la-viande-hachee-faciles-60685.aspx"
+        path="recipe/meat/aubergine_farcie.xml" people="4" pic="../data/images/meat/aubergine_farcie.jpg"
+        time_bake="45" time_bake_unit="min" time_prep="25" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="300" unit="g" name="Minced meat" name_fr="Viande hachée"/>
+        <ingredient amount="5" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="4" unit="" name="Eggplant" name_fr="Aubergine"/>
+        <ingredient amount="3" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="" unit="" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="" unit="" name="Mozzarella" name_fr="Mozzarella"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven at 180°C."
+        description_fr = "Préchauffer le four à 180°C."/>
+    <step description = "Cut in half the eggplants  longitudinally. Cut squares without damaging the eggplant skin. Put in the oven and pour 1 tbsp of olive oil on top."
+        description_fr = "Coupez les aubergines en 2 dans le sens de la longueur et quadriller la chair sans abîmer la peau. Mettez-les au four et arrosez-les d'1 càs d'huile d'olive." />
+    <step description = "Peel, seed and dice the tomatoes. Peel and chop the garlic and onion. "
+        description_fr = "Pelez et épépinez les tomates, coupez-les en petits dés. Pelez et émincez l'ail et l'oignon."/>
+    <step description = "Cook the meat for 4 to 5 minutes. Add onion and garlic. Add salt, pepper and cook for 5 minutes. Add diced tomatoes, stir for 10 minutes. Stop the cooking and insert basil."
+        description_fr = "Faites cuire le haché 4 à 5 min et ajoutez l'oignon et l'ail. Salez, poivrez et laissez cuire 5 min. Ajoutez les dés de tomates et laissez 10 min. Arrêtez la cuisson et insérez le basilic."/>
+    <step description = "Take eggplants out of the oven, empty them out taking care to not damage the skin. Set skins aside. Mix meat with eggplants."
+        description_fr = "Sortez les aubergines du four et videz-les en prenant soin de ne pas abîmer la peau. Mélangez la chair des aubergines avec la farce."/>
+    <step description = "Stuff each skin with the mixture. Add mozzarella on top and put in the oven during 20 minutes."
+        description_fr = "Commencez à farcir les aubergines. Parsemez de mozzarella et gratinez 20 min au four."/>
+
+</recipe>

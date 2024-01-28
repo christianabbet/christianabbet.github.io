@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Quinoa Galette" name_fr="Galette de Quinoa" category="vegetable" href="Abbet Christian"
+        path="recipe/vegetable/galette_quinoa.xml" people="5" pic="../data/images/vegetable/galette_quinoa.jpg"
+        time_bake="40" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="1" unit="l" name="Vegtable stock" name_fr="Bouillon de légumes"/>
+        <ingredient amount="250" unit="g" name="Quinoa" name_fr="Quinoa"/>
+        <ingredient amount="30" unit="g" name="Squash seeds" name_fr="Graines de courge"/>
+        <ingredient amount="15" unit="g" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="2" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="1" unit="" name="Leek" name_fr="Poireau"/>
+        <ingredient amount="2" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="0.5" unit="tsp" name="Cumin" name_fr="Cumin"/>
+    </ingredient_group>
+
+    <step description="Fry quinoa with a little oil in a large pan. When quinoa is slightly brown, slowly add vegetable stock. Make reduce and then allow to cool"
+        description_fr = "Torréfier le quinoa avec un filet d'huile dans une grande poele. Une fois le quinoa un peu bruni, ajouter progressivement le bouillon. Réduire, puis laisser refroidire"/>
+    <step description = "Chop and sauté leek and carrots. Season."
+        description_fr = "Emincer le poireau et les carottes puis faire revenir à la poile les légumes. Saler, poivrer."/>
+    <step description = "Mix quinoa with vegetable. Add paprika, cumin, squash seeds, parsley and eggs"
+        description_fr = "Mélanger le quinoa et les légumes. Ajouter le paprika, le cumin, les graines, le persil et les oeufs"/>
+    <step description = "In a pan form galettes and cook them on both side."
+        description_fr = "Dans une poele, avec un peu d'huile, faire cuire les galettes."/>
+
+    <hint description = "Quinoa is cooked when it starts to form little snails"
+        description_fr = "Quand le quinoa est cuit il forme un petit escargot"/>
+
+</recipe>

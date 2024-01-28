@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Kefta Tajine"  name_fr="Tajine de Kefta" category="meat"
+        href="http://www.750g.com/tajine-de-kefta-aux-oeufs-r76578.htm"
+        path="recipe/meat/kefta_tajin.xml" people="5" pic="../data/images/meat/kefta_tajin.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name="Sauce" name_fr = "Sauce">
+        <ingredient amount="300" unit="g" name="Crushed tomatoes" name_fr="Tomates concassées"/>
+        <ingredient amount="7" unit="g" name="Coriander" name_fr="Coriandre"/>
+        <ingredient amount="5" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="tsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="1" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="1" unit="tsp" name="Ginger" name_fr="Gingembre"/>
+    </ingredient_group>
+
+    <ingredient_group name="Kefta" name_fr = "Kefta">
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="7" unit="g" name="Coriander" name_fr="Coriandre"/>
+        <ingredient amount="500" unit="g" name="Minced meat" name_fr="Viande hachée"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="1" unit="tsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="1" unit="tsp" name="Curcuma" name_fr="Curcuma"/>
+        <ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+
+    <step name="Sauce" name_fr="Sauce"
+        description = "Chop onion and garlic. In a tajine or a large pan, pour olive oil, onion, garlic, coriander, tomatoes and spices. Simmer over low heat for 5 minutes."
+        description_fr = "Hachez l'oignon et l'ail au préalable. Mettre un peu d'huile d'olive dans un plat a tajine ou une cocotte, y mettre l'oignon haché, l'ail, la coriandre, les tomates et les épices. Faire mijoter à feu doux 15 min."/>
+    <step name="Kefta" name_fr = "Kefta"
+        description = "In a large bowl, mix together, oignon, garlic, coriander and spices. Form meatballs. Spread meatballs over the sauce. Simmer for 5 minutes. "
+        description_fr = "Mélangez la viande hachée avec l'oignon, l'ail, la coriandre et les épices. Faire des boulettes de la grosseur désirée. Les déposer uniformément dans le plat sur la sauce. Laissez reposer 5 min."/>
+    <step description = "Carefully break eggs over the meatballs. Cover and simmer until the egg white is cooked but the egg yolk remains free-flowing."
+        description_fr = "Cassez les oeufs délicatement sur les boulettes. Couvrez et laissez mijoter le temps que le blanc cuise et veiller à ce que le jaune reste encore coulant."/>
+
+</recipe>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Shrimps Stew" name_fr="Blanquette de Crevettes" category="fish"
+        href="http://www.marmiton.org/recettes/recette_blanquette-de-crevettes_10753.aspx"
+        path="recipe/fish/crevette_blanquette.xml" people="4" pic="../data/images/fish/crevette_blanquette.jpg"
+        time_bake="40" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="800" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="20" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="40" unit="cl" name="Water" name_fr="Eau"/>
+        <ingredient amount="20" unit="cl" name="Crème fraîche" name_fr="Crème fraîche"/>
+        <ingredient amount="10" unit="cl" name="White wine" name_fr="Vin blanc"/>
+        <ingredient amount="3" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="2" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Lime" name_fr="Citron vert"/>
+        <ingredient amount="1" unit="tbsp" name="Cornstarch" name_fr="Maïzena"/>
+        <ingredient amount="" unit="" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="" unit="" name="Chive" name_fr="Ciboulette"/>
+    </ingredient_group>
+
+    <step description = "Shell srimps. Sauté shrimps and shells in butter. Add white wine. Bring to a boil and add water, parsley, chive and chopped onion."
+        description_fr = "Décortiquez les crevettes et faites revenir les têtes et les carapaces dans le beurre, puis arrosez de vin blanc. Dès l'ébullition, ajoutez l'eau, le persil, la ciboulette et l'oignon émincé."/>
+    <step description = "Simmer for 20 minutes."
+        description_fr = "Laissez frémir à découvert pendant 20 minutes."/>
+    <step description = "Meanwhile, peal and cut into sticks carrots. Dice tomatoes. "
+        description_fr = "Entre temps, épluchez les carottes et coupez-les en bâtonnets. Découpez les tomates en dés."/>
+    <step description = "Filter the aroma and bring it to a boil. Add carrots and tomatoes. Cook for 15 minutes. Season."
+        description_fr = "Filtrez le fumet des crevettes et reportez à ébullition. Mettez-y les carottes et les tomates à cuire 15 minutes. Salez et poivrez."/>
+    <step description = "Mix crème fraîche and cornstarch together and pour in the aroma. Stir until it thickens,"
+        description_fr = "Mélangez la crème fraîche et la maïzena et incorporez-les dans le fumet de crevettes et légumes. Mélangez et laissez épaissir quelques minutes."/>
+    <step description = "Add shrimps and lime juice. Let heat up."
+        description_fr = "Ajoutez alors les crevettes décortiquées et le jus de citron. Laissez chauffer quelques instants."/>
+
+
+</recipe>

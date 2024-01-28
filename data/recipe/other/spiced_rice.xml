@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Spiced Curry Rice" name_fr="Riz Epicé au Curry" category="other"
+        href="http://www.bbcgoodfood.com/recipes/1582633/spiced-rice"
+        path="recipe/other/spiced_rice.xml" people="4" pic="../data/images/other/spiced_rice.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="300" unit="g" name="Basmati rice" name_fr="Riz basmati"/>
+        <ingredient amount="25" unit="g" name="Raisins" name_fr="Raisins secs"/>
+        <ingredient amount="25" unit="g" name="Slivered almonds" name_fr="Amandes effilées"/>
+        <ingredient amount="25" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="15" unit="g" name="Coriander" name_fr="Coriandre"/>
+        <ingredient amount="1" unit="l" name="Chicken stock" name_fr="Bouillon de poulet"/>
+        <ingredient amount="100" unit="ml" name="Red curry paste" name_fr="Pâte de curry rouge"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="tsp" name="Turmeric" name_fr="Curcumin"/>
+        <ingredient amount="0.5" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="0.5" unit="tsp" name="Cardamom" name_fr="Cardamome"/>
+    </ingredient_group>
+
+    <step description = "Fry the onions and whole spices in the butter for 10 mins. Add the curry paste and cook until aromatic."
+        description_fr = "Faire revenir l'oignon et les épices dans le beurre pendant 10 minutes. Ajouter la pâte de curry et mélanger un moment."/>
+    <step description = "Add the rice and the raisins, stir and cook for a good few mins, then add the stock and bring to the boil."
+        description_fr = "Ajouter le riz et les raisins secs, mélanger et cuire pendant quelques minutes. Ajouter le bouillon et porter à ébullition."/>
+    <step description = "Cover with a tight-fitting lid and when really boiling lower the heat and cook for 10 mins."
+        description_fr = "Couvrir la casserolle et diminuer la température. Cuire pendant 10 minutes."/>
+    <step description = "Turn the heat off but don’t lift the lid and leave to sit for 20 mins."
+        description_fr = "Eteindre la plaque et laisser couvert pendant 20 minutes."/>
+    <step description = "Stir in half the toasted almonds and chopped coriander, with the rest of the coriander and the almonds thrown over the top."
+        description_fr = "Saupoudrer d'amandes effilées toréfiées et de coriandre."/>
+
+
+
+
+</recipe>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Turkish Chickpeas Salad" name_fr="Salade de Pois Chiche" category="other"
+        href="http://www.750g.com/salade-de-pois-chiches-a-la-turque-r96634.htm"
+        path="recipe/other/chickpea_salad.xml" people="4" pic="../data/images/other/chickpea_salad.jpg"
+        time_bake="-" time_bake_unit="" time_prep="30" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="300" unit="g" name="Chickpea" name_fr="Pois chiche"/>
+        <ingredient amount="15" unit="g" name="Dill" name_fr="Aneth"/>
+        <ingredient amount="15" unit="g" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="1" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="4" unit="" name="White onion" name_fr="Oignon blanc"/>
+        <ingredient amount="2" unit="" name="Red bell pepper" name_fr="Poivron rouge"/>
+        <ingredient amount="2" unit="" name="Dry pepper" name_fr="Piment séché"/>
+        <ingredient amount="1" unit="" name="Green onion" name_fr="Oignon vert"/>
+        <ingredient amount="1" unit="" name="Red onion" name_fr="Oignon rouge"/>
+        <ingredient amount="1" unit="" name="Yellow bell pepper" name_fr="Poivron jaune"/>
+        <ingredient amount="1" unit="" name="Lemon" name_fr="Citron"/>
+    </ingredient_group>
+
+    <step description = "Cook bell peppers in oven, in 150°C, during 15 minutes."
+        description_fr = "Faire cuire les poivrons au four, pendant 15 minutes, à 150°C."/>
+    <step description = "Chop onions, parsley and dill. Dice bell peppers. In a bowl mix oilve oil, lemon juice, salt and chopped dry pepper."
+        description_fr = "Couper les oignons, le persil et l'aneth en petits morceaux. Couper les poivrons en petits dés. Mélanger dans un bol l'huile d'olive, le jus de citron, le sel et le piment séché émincé."/>
+    <step description = "In anoter large bowl, poor chickpeas, onions, parsley, dill and diced bell pepper. Mix. Before serving, add sauce and mix well."
+        description_fr = "Dans un autre bol, mettre les pois chiches froids, les oignons, le persil, l'aneth et les poivrons et mélanger. Avant de servir, mélanger la sauce avec la salade."/>
+
+</recipe>

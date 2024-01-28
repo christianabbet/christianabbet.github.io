@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Curryed Quinoa" name_fr="Quinoa au Curry" category="other"
+        href="http://allrecipes.com/recipe/228128/pantry-curried-quinoa-with-garbanzo-beans-and-roasted-peppers/"
+        path="recipe/other/curry_quinoa.xml" people="4" pic="../data/images/other/curry_quinoa.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="155" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="430" unit="g" name="Red beans" name_fr="Haricot rouge"/>
+        <ingredient amount="185" unit="g" name="Quinoa" name_fr="Quinoa"/>
+        <ingredient amount="60" unit="g" name="Raisins" name_fr="Raisins sec"/>
+        <ingredient amount="25" unit="g" name="Almonds" name_fr="Amandes"/>
+        <ingredient amount="500" unit="ml" name="Vegetable stock" name_fr="Bouillon de légume"/>
+        <ingredient amount="250" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="1" unit="" name="Red bell pepper" name_fr="Poivron rouge"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1.5" unit="tsp" name="Curry" name_fr="Curry"/>
+        <ingredient amount="0.5" unit="tsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="0.5" unit="tsp" name="Cilantro" name_fr="Coriandre"/>
+        <ingredient amount="0.25" unit="tsp" name="Ginger" name_fr="Gingembre"/>
+    </ingredient_group>
+
+    <step description = "Soak raisins in warm water in a bowl while you complete remaining steps."
+        description_fr = "Tremper les raisons sec dans l'eau tiède pendant le reste de la recette."/>
+    <step description = "In a pan dry fry almonds. Set aside. Cook sliced red bell pepper over high heat. Set aside "
+        description_fr = "Dans une poele torréfier les amandes. Réserver. Faire cuire le poivron coupé en lamelles à feu vif. Réserver."/>
+    <step description = "Heat olive oil in large saucepan over medium heat. Cook and stir onion and garlic until onion has softened and turned translucent, about 5 minutes. "
+        description_fr = "Dans une grande casserole faire chauffer l'huile à feu moyen. Faire revenir l'oignon et l'ail émincé. Environ 5 minutes."/>
+    <step description = "Stir in curry powder, cumin, cilantro, and ginger and cook until fragrant, about 30 seconds."
+        description_fr = "Ajouter curry, cumin, coriandre, gingembre et faire cuire environ 30 secondes."/>
+    <step description = "Stir in vegetable broth, beans, and quinoa. Bring to a boil, then reduce heat to medium-low heat, cover, and simmer until quinoa is tender, about 20 minutes."
+        description_fr = "Ajouter le bouillon, les haricots et le quinoa. Porter à ébullition. Couvrir et laisser reduire à feu moyen pendant environ 20 minutes."/>
+    <step description = "Drain raisins. Lightly toss quinoa mixture with raisins, roasted red peppers, and toasted almonds. Season with salt."
+        description_fr = "Egoutter le raisin. Mélanger soigneusement le raisin, le poivron et les amandes au quinoa. Assaisonner avec du sel"/>
+
+</recipe>

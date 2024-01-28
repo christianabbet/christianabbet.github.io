@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Grilled Chickpeas" name_fr="Pois Chiches Grillés" category="vegetable" href="Abbet Christian"
+        path="recipe/vegetable/pois_chiche_grille.xml" people="5" pic="../data/images/vegetable/pois_chiche_grille.jpg"
+        time_bake="40" time_bake_unit="min" time_prep="40" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr="Globale">
+        <ingredient amount="250" unit="g" name="Chickpeas" name_fr="Pois chiches"/>
+        <ingredient amount="1" unit="dl" name="Oil" name_fr="Huile"/>
+        <ingredient amount="2" unit="tsp" name="Mexican spices" name_fr="Epices mexicaine"/>
+        <ingredient amount="1" unit="tsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="0.33" unit="tsp" name="Turmeric" name_fr="Curcuma"/>
+    </ingredient_group>
+
+    <step description="Boil chickpeas for 40 minutes"
+        description_fr="Faire bouillir les pois chiches pendant 40 minutes"/>
+    <step description="In a large bowl mix chickpeas, oil and spices"
+        description_fr="Dans un saladier mélanger les poids chiches, l'huile et les épices" />
+    <step description="Spread chickpeas on a plate and put in oven in 180°C for 40 minutes"
+        description_fr="Sur un plaque étaler le mélange et mettre au four à 180°C pendant 40 minutes"/>
+
+    <hint description="Do not forget to soak the chickpeas in advance."
+        description_fr="Mettre les pois chiches tremper la veille."/>
+
+
+</recipe>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Curry Shrimps" name_fr="Crevettes Curry" category="fish"
+        href="http://cuisine.journaldesfemmes.com/recette/327475-curry-de-gambas-et-lait-de-coco-a-la-thai"
+        path="recipe/fish/crevette_curry.xml" people="4" pic="../data/images/fish/crevette_curry.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="300" unit="g" name="Rice" name_fr="Riz"/>
+        <ingredient amount="250" unit="ml" name="Coconut milk" name_fr="Lait de coco"/>
+        <ingredient amount="250" unit="g" name="Snow peas" name_fr="Pois mange-tout"/>
+        <ingredient amount="30" unit="g" name="Coriander" name_fr="Coriandre"/>
+        <ingredient amount="5" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="2" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="2" unit="" name="Bell pepper" name_fr="Poirvon"/>
+        <ingredient amount="0.5" unit="" name="Mango" name_fr="Mangue"/>
+        <ingredient amount="" unit="" name="Curry" name_fr="Curry"/>
+        <ingredient amount="" unit="" name="Cayenne pepper" name_fr="Piment de Cayenne"/>
+    </ingredient_group>
+
+    <step description = "Defrost, shell the shrimps. Slice the carrots and bell pepper. Dice the mango."
+        description_fr = "Faire décongeler les crevettes, décortiquer. Faire des lamelles de carotte et de poivron. Coupez la mangue en morceaux."/>
+    <step description = "In a large pan, brown the shrimps in preheated oil. Add coriander, sliced onions. Cook for approximately 2 minutes (not any longer !)."
+        description_fr = "Dans une grande poêle ou wok, faire revenir les crevettes dans l'huile (préchauffée) avec la coriandre et les oignons coupés en petits morceaux pendant 2 minutes environ (pas plus !)."/>
+    <step description = "Add the carrots, chopped snow peas, salt, pepper, curry to taste. Take shrimps over high heat. Lower heat. Cook for 8 minutes"
+        description_fr = "Ajouter les lamelles de carottes, les poids mange-tout découpé, sel, poivre, curry. Bien saisir le tout à feu très vif, voire même à faire roussir. Baisser un peu le feu. Puis laisser cuire environ 8 minutes."/>
+    <step description = "Add the diced mango, garlic and then coconut milk. Simmer over low heat for 10 minutes."
+        description_fr = "Ajouter la mangue, l'ail puis tout de suite après le lait de coco. Laisser mijoter à feu doux pendant 10 minutes."/>
+
+    <hint description = "Half mango is already a lot. Don't be shy, add curry !"
+        description_fr = "Une demi mangue est déja bien assez. Ne pas hésiter à mettre beaucoup de curry !"/>
+
+</recipe>

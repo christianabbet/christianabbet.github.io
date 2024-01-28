@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Beef Carpaccio"  name_fr="Carpaccio de Boeuf" category="meat"
+        href="https://www.ricardocuisine.com/recettes/159-carpaccio-de-boeuf"
+        path="recipe/meat/carpaccio_beef.xml" people="2" pic="../data/images/meat/carpaccio_beef.jpg"
+        time_bake="-" time_bake_unit="" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="8" unit="" name="Toasts" name_fr="Toasts"/>
+        <ingredient amount="200" unit="g" name="Beef tenderloin" name_fr="Filet de boeuf"/>
+        <ingredient amount="250" unit="ml" name="Arugula salad" name_fr="Salade de roquette"/>
+        <ingredient amount="100" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="1" unit="" name="Egg yolk" name_fr="Jaune d'oeuf"/>
+        <ingredient amount="3" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tbsp" name="Balsamic vinegar" name_fr="Vinaigre balsamique"/>
+        <ingredient amount="1" unit="tsp" name="Mustard" name_fr="Moutarde"/>
+        <ingredient amount="0.5" unit="tsp" name="Garlic" name_fr="Ail"/>
+        <ingredient amount="0.25" unit="tsp" name="Sugar" name_fr="Sucre"/>
+    </ingredient_group>
+
+
+    <step description = "Place beef tenderloin in the freezer until it partially freeze."
+        description_fr = "Placer le filet de boeuf au congélateur, bien emballé, jusqu'à ce qu'il soit partiellement congelé."/>
+    <step description = "In a bowl mix chopped garlic, mustard, egg yolk, sugar and vinegar."
+        description_fr = "Dans un bol, fouetter l'ail, la moutarde, le jaune d'oeuf, le sucre et le vinaigre."/>
+    <step description = "Add olive oil. Season with salt and pepper."
+        description_fr = "Ajouter l'huile en filet, en fouettant. Saler et poivrer."/>
+    <step description = "Using a sharp knife, cut thin beef slices. Spread slices over a plate. Spread arugula salad over it. Pour oil mixture over the meat and sprinkle chopped parmesan."
+        description_fr = "À l'aide d'un couteau du chef bien aiguisé, couper la viande en tranches très fines. Disposer les tranches en cercle. Mettre la roquette au centre. Arroser la viande et la roquette de vinaigrette et parsemer de parmesan coupé."/>
+    <step description = "Serve with grilled toasts and butter."
+        description_fr = "Servir avec les toasts grillés et du beurre."/>
+
+
+</recipe>

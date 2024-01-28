@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Homemade French Fries" name_fr="Frites Maison" category="other"
+        href="Abbet Christian"
+        path="recipe/other/frite_maison.xml" people="4" pic="../data/images/other/frite_maison.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="25" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="1" unit="kg" name="Potato" name_fr="Pomme de terre"/>
+	    <ingredient amount="100" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="0.5" unit="" name="Shallot" name_fr="Echalote"/>
+        <ingredient amount="1" unit="tsp" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="" unit="" name="Tabasco" name_fr="Gousse d'ail"/>
+	    <ingredient amount="" unit="" name="Lemon juice" name_fr="Jus de citron"/>
+	    <ingredient amount="" unit="" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven at 220°C."
+        description_fr = "Préchauffer le four à 220°C."/>
+    <step description = "Peal and thinly slice potatoes. Pour potatoes in cold water for 10 minutes."
+        description_fr = "Eplucher et découpée en fines lamelles les pommes de terre. Puis les tremper dans l'eau froide pendant 10 minutes."/>
+    <step name="Garlic butter" name_fr="Beurre à l'ail"
+        description = "In a bowl, mix butter, garlic, shallot, parsley, a drop of tabasco and a drop of lemon juice."
+        description_fr = "Dans un bol, mélanger à la main beurre, ail, échalote, persil, une goutte de tabasco et une goutte de jus de citron."/>
+    <step name="Finally" name_fr="Finallement"
+        description = "In a large bowl, mix sliced potatoes and butter. Put in oven for 30 minutes. Add salt before serving."
+        description_fr = "Dans un grand bol mélanger à la main les pommes de terre coupées en tranche et le beurre. Mettre au four pendant 30 minutes Ajouter du sel avant de servir."/>
+
+
+</recipe>

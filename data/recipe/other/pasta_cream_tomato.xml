@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Tomato-Cream Sauce" name_fr="Sauce Crème-Tomate" category="other"
+        href="http://allrecipes.com/recipe/23404/tomato-cream-sauce-for-pasta/"
+        path="recipe/other/pasta_cream_tomato.xml" people="5" pic="../data/images/other/pasta_cream_tomato.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="5" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="400" unit="g" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="120" unit="ml" name="Heavy cream" name_fr="Crème entière"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tbsp" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="1" unit="tbsp" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="0.75" unit="tsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="0.25" unit="tsp" name="Oregano" name_fr="Oregan"/>
+        <ingredient amount="0.25" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="0.125" unit="tsp" name="Pepper" name_fr="Poivre"/>
+    </ingredient_group>
+
+    <step description=" In a saucepan, saute chopped onion and garlic in olive oil over medium heat. Make sure it doesn't burn. Add diced tomatoes, basil, sugar, oregano, salt and pepper. "
+        description_fr="Dans une casserole, faire revenir oignon et ail émincé avec l'huile d'olive, à feu moyen. Ajouter les tomates coupées en dés, le basilic, le sucre, l'oregan, le sel et le poivre."/>
+    <step description="Bring to boil and continue to boil 5 minutes or until most of the liquid evaporates. Remove from heat; stir in whipping cream and butter. Reduce heat and simmer 5 more minutes."
+        description_fr="Porter à ébullition et faire cuire 5 minutes. Retirer du feu, ajouter beurre et crème. Réduire le feu et faire mijoter 5 minutes."/>
+
+</recipe>

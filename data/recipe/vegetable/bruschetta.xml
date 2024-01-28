@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Italian Bruschetta" name_fr="Bruschetta Italienne" category="vegetable"
+        href="http://www.food.com/recipe/best-ever-bruschetta-443987"
+        path="recipe/vegetable/bruschetta.xml" people="5" pic="../data/images/vegetable/bruschetta.jpg"
+        time_bake="-" time_bake_unit="" time_prep="30" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="1" unit="" name="Bread" name_fr="Pain" />
+        <ingredient amount="500" unit="g" name = "Tomato" name_fr="Tomate"/>
+        <ingredient amount="100" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="5" unit="g" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="3" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="2" unit="tbsp" name="Balsamic vinegar" name_fr="Vinaigre balsamic"/>
+        <ingredient amount="1" unit="tsp" name="Pepper" name_fr="Poivre"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+    </ingredient_group>
+
+    <step description="In a large bowl put diced tomatoes, garlic, basil, balsamic vinegar, olive oil, parmesan, salt and pepper."
+        description_fr="Dans un bol mélanger les tomates coupées en dés, l'ail, le basilic, le vinaigre, l'huile d'olive, le parmesan, le sel et le poivre." />
+    <step description = "Carefully mix and let rest for 15 minutes."
+        description_fr = "Mélanger soigneusement puis laisser mariner pendant 15 minutes."/>
+    <step description = "Serve on grilled bread slices."
+        description_fr = "Servir sur des tranches fines de pains grillés."/>
+
+</recipe>

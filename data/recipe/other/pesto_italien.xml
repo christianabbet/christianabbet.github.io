@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Italian Pesto" name_fr="Pesto à l'Italienne" category="other" href="Abbet Christian"
+        path="recipe/other/pesto_italien.xml" people="4" pic="../data/images/other/pesto.jpg"
+        time_bake="-" time_bake_unit="" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="150" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="60" unit="g" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="30" unit="g" name="Pine nut" name_fr="Pignon de pin"/>
+        <ingredient amount="3" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="" unit="" name="Olive oil" name_fr="Huile d'olive"/>
+    </ingredient_group>
+
+    <step description = "In a grinder pour one third of the parmesan, basil, pine nuts and garlic. Grind."
+        description_fr = "Dans un mixeur verser un tier du parmesan en poudre, du basilic, des pignons de pin et de l'ail. Mixer jusqu'à obtenir un pâte uniforme."/>
+    <step description = "Add olive oil then stir. Add oil until the mixture become almost liquid. Set aside"
+        description_fr = "Ajouter de l'huile puis remixer jusqu'à obtenir une pate beacoup plus molle."/>
+    <step description = "Do it again with the rest of the ingredient (2 more times)."
+        description_fr = "Repeter les deux premières étapes 2 fois pour finir tous les ingrédients."/>
+    <step description = "A the bottom of a jar put some olive oil. Then add the pesto sauce. Before closing the jar add olive oil on top."
+        description_fr= "Dans un bocale, disposer un filet d'huile puis verser le pesto. Avant de refermer le bocale verser également un filet d'huile."/>
+
+
+</recipe>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Szechwan Shrimp" name_fr="Crevettes Szechwan" category="fish"
+        href="http://allrecipes.com/recipe/86230/szechwan-shrimp/"
+        path="recipe/fish/szechwan_shrimp.xml" people="3" pic="../data/images/fish/szechwan_shrimp.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="400" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="4" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Green onion" name_fr="Oignon vert"/>
+        <ingredient amount="2" unit="tsp" name="Cornstarch" name_fr="Maïzena"/>
+        <ingredient amount="4" unit="tbsp" name="Water" name_fr="Eau"/>
+        <ingredient amount="2" unit="tbsp" name="Ketchup" name_fr="Ketchup"/>
+        <ingredient amount="1" unit="tbsp" name="Soy sauce" name_fr="Sauce soja"/>
+        <ingredient amount="1" unit="tbsp" name="Vegetable oil" name_fr="Huile végétale"/>
+        <ingredient amount="1" unit="tsp" name="Honey" name_fr="Miel"/>
+        <ingredient amount="0.5" unit="tsp" name="Red pepper" name_fr="Piment rouge"/>
+        <ingredient amount="0.25" unit="tsp" name="Ginger" name_fr="Gingembre"/>
+    </ingredient_group>
+
+    <step description = "In a bowl, stir together water, ketchup, soy sauce, cornstarch, honey, crushed red pepper, and ground ginger. Set aside."
+        description_fr = "Dans un bol, mélanger eau, ketchup, sauce soja, maïzena, miel, piment rouge et gingembre. Réserver."/>
+    <step description = "Heat oil in a large skillet over medium-high heat. Stir in green onions and garlic; cook 30 seconds. Stir in shrimp, and toss to coat with oil. Stir in sauce. Cook and stir until sauce is bubbly and thickened."
+        description_fr = "Faire chauffer l'huile dans une poele à feu moyen. Ajouter les oignon et l'ail; Faire revenir 30 secondes. Ajouter les crevettes et mélanger. Ajouter la sauce. Mélnager jusqu'à ce que la sauce s'épaississe."/>
+
+</recipe>

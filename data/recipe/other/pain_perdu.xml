@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="French Toast" name_fr="Pain Perdu" category="other"
+        href="http://www.marmiton.org/recettes/recette_pain-perdu_10975.aspx"
+        path="recipe/other/pain_perdu.xml" people="3" pic="../data/images/other/pain_perdu.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="250" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="75" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="6" unit="" name="Slice of bread" name_fr="Tranche de pain"/>
+        <ingredient amount="3" unit="" name="Egg" name_fr="Oeuf"/>
+    </ingredient_group>
+
+    <step description = "Mix eggs, sugar and milk. Soak each bread slice in the mixture."
+        description_fr = "Mixez les oeufs le sucre et le lait. Tremper complètement les tranches de pain."/>
+    <step description = "Brown each bread sides in butter."
+        description_fr = "Passer à la poêle dans du beurre. Laisser cuire jusqu'à que les tranches soient dorées."/>
+
+
+</recipe>

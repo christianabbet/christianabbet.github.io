@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Squash Blossom Fritters" name_fr="Beignets de Fleurs de Courges" category="vegetable"
+        href="http://www.marmiton.org/recettes/recette_beignets-de-fleurs-de-courgettes-et-de-courges_229501.aspx"
+        path="recipe/vegetable/beignet_fleur.xml" people="4" pic="../data/images/vegetable/fleur_courge.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="15" time_prep_unit="min"/>
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="12" unit="" name="Squash blossom" name_fr="Fleur de courge"/>
+        <ingredient amount="110" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="200" unit="ml" name="Milk" name_fr="Lait" />
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step description = "Slightly open the squash blossom and remove the pistil. Using a knife, remove the squash blossom base so that it forms a cone. Split cones in 2 to 3 pieces."
+        description_fr = "Ouvrir légèrement la fleur et appuyer sur le pistile pour le retirer. Puis à l'aide d'un couteau couper la base de la fleur pour ne garder qu'un cône. Séparer les cônes en 2-3 pièces."/>
+    <step description = "In a large bowl mix flour, milk, egg yolk and olive oil until it forms a homogeneous mixture."
+        description_fr = "Dans un saladier, mélanger la farine, le lait, le jaune d'oeuf et la cuillère d'huile d'olive jusqu'à ce que le mélange devienne homogène. "/>
+    <step description = "In a bowl take egg white up in snow. Add salt. Slowly add it to the previous mixture."
+        description_fr = "Dans un bol, monter le blanc de l'oeuf en neige auquel on a ajouté au préalable une pincée de sel. Incorporer délicatement le blanc en neige au mélange."/>
+    <step description = "In a pan heat olive oil. Soak each squash blossom in the mixture and fry them. Set aside on paper towels and let drain."
+        description_fr = "Couvrir le fond d'une poêle d'huile d'olive et faire chauffer. Tremper chaque fleur de courgettes dans le mélange. Faire cuire des deux côtés les fleurs dans l'huile. Déposer sur du papier ménage et laisser égoutter."/>
+
+</recipe>

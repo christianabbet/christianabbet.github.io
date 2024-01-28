@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Vegetable Pie" name_fr="Tarte aux Legumes" category="vegetable"
+        href="Abbet Christian" path="recipe/vegetable/tarte_legume.xml" people="5"
+        pic="../data/images/vegetable/gateau_legumes.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="40" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="ml" name="Coconut milk" name_fr="Lait de coco"/>
+        <ingredient amount="400" unit="g" name="Squash" name_fr="Courge"/>
+        <ingredient amount="250" unit="g" name="Zucchini" name_fr="Courgette"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1" unit="" name="Leek" name_fr="Poireau"/>
+        <ingredient amount="1" unit="" name="Puff pastry" name_fr="Pâte feuilletée"/>
+        <ingredient amount="3" unit="tsp" name="Red curry paste" name_fr="Pâte de curry rouge"/>
+    </ingredient_group>
+
+    <step description="Chop squash, zucchini, leek, garlic and onion. In a fry pan sauté vegetables with oil."
+        description_fr = "Couper la courge, les courgettes, le poireau, l'ail et l'oignon. Dans un poêle faire revenir les legumes avec de l'huile de tournesol."/>
+    <step description = "When squash starts to soften add coconut milk. Add curry paste. Season. Let reduce."
+        description_fr = "Lorsque la courge commence à devenir molle, ajouter le lait de coco et la pâte de curry. Saler et poivrer. Laisser réduire."/>
+    <step description = "Let cool a bit and add egg. Mix."
+        description_fr = "Une fois le lait de coco réduit et le mélange pâteux laisser refroidire un peu puis ajouter un oeuf. Mélanger."/>
+    <step description = "Put pastry in a mold and using a fork make holes. Spread vegetable over. Flatten."
+        description_fr = "Disposer la pâte feuilltée sur une plaque. Utiliser une fourchette pour percer légèrement la pâte. Verser les légumes et égaliser le tout."/>
+    <step description = "Put in oven for 10 minutes in 150°C. Then take it out of the oven and spread parmesan over. Return to the oven for 10 to 15 minuntes."
+        description_fr = "Enfourner pendant 10 minutes à 150°C. Sortir la gâteau et répartir le parmesan sur toute la surface. Renfourner pendant 10 à 15 minutes."/>
+
+</recipe>

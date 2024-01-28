@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Beef Tartar" name_fr="Tartare de Boeuf" category="meat" href="Abbet Chrisitan"
+        path="recipe/meat/tartare_boeuf.xml" people="3" pic="../data/images/meat/tartare_boeuf.jpg"
+        time_bake="-" time_bake_unit="" time_prep="25" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="" unit="" name="Toast" name_fr="Toast"/>
+        <ingredient amount="" unit="" name="French fries" name_fr="Frites"/>
+        <ingredient amount="400" unit="g" name="Beef tenderloin" name_fr="Filet de boeuf"/>
+        <ingredient amount="60" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="5" unit="" name="Black olive" name_fr="Olives noires"/>
+        <ingredient amount="1" unit="" name="Egg yolk" name_fr="Jaune d'oeuf"/>
+        <ingredient amount="1" unit="tbsp" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1.5" unit="tsp" name="Chives" name_fr="Ciboulette"/>
+        <ingredient amount="1.5" unit="tsp" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="1" unit="tsp" name="Capers" name_fr="Câpres"/>
+        <ingredient amount="1" unit="tsp" name="Mustard" name_fr="Moutarde"/>
+        <ingredient amount="1" unit="tsp" name="Worcestershire sauce" name_fr="Sauce Worcestershire"/>
+        <ingredient amount="" unit="" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="" unit="" name="Tabasco" name_fr="Tabasco"/>
+        <ingredient amount="" unit="" name="Cayenne pepper" name_fr="Piment de Cayenne"/>
+        <ingredient amount="" unit="" name="Black pepper" name_fr="Poivre noir"/>
+    </ingredient_group>
+
+    <step description = "Mince parmesan, olives, onion, chives, parsley and capers."
+        description_fr = "Couper finement le parmesan, les olives, l'oignon, la ciboulette, le persil et les câpres."/>
+    <step description = "Chop beef and stir by hand with olive oil, mustard, worcestershire sauce, egg yolk and previous mixture"
+        description_fr = "Hacher le boeuf et mélanger à la main le toute avec l'huile d'olive, la moutarde, la sauce worcestershire et le jaune d'oeuf."/>
+    <step description = "Season beef. Use pepper, cayenne pepper and salt. Cayenne pepper will give a nice spicy taste"
+        description_fr = "Assaisonner à souhait. Bien poivrer et ne pas lésiner sur le poivre de Cayenne pour donner un bon gout piquant."/>
+    <step description = "Serve with french fries and toast."
+        description_fr = "Servir avec les toasts et les frites."/>
+
+</recipe>

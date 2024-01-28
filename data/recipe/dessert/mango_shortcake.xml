@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Mango Shortcakes" name_fr="Sablé Mangue" category="dessert"
+        href="http://allrecipes.com/recipe/202344/summery-lime-mango-shortcakes"
+        path="recipe/dessert/mango_shortcake.xml" people="8" pic="../data/images/dessert/mango_shortcake.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="1" time_prep_unit="h" />
+        
+    <ingredient_group name = "Fruit" name_fr = "Fruit">
+        <ingredient amount="2" unit="" name="Mango" name_fr="Mangue"/>
+        <ingredient amount="125" unit="g" name="Blueberries" name_fr="Myrtilles"/>
+        <ingredient amount="150" unit="g" name="Strawberries" name_fr="Fraises"/>
+        <ingredient amount="1" unit="tbsp" name="Honey" name_fr="Miel"/>
+        <ingredient amount="1.5" unit="tsp" name="Lime" name_fr="Citron vert"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Cream" name_fr = "Crème">
+        <ingredient amount="0.5" unit="tsp" name="Gelatin" name_fr="Gelatine"/>
+        <ingredient amount="1" unit="tbsp" name="Water" name_fr="Eau"/>
+        <ingredient amount="250" unit="ml" name="Heavy cream" name_fr="Crème entière"/>
+        <ingredient amount="2" unit="tbsp" name="Icing sugar" name_fr="Sucre glace"/>
+        <ingredient amount="0.5" unit="tsp" name="Coconut extract" name_fr="Extrait de coco"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Shortcakes" name_fr = "Sablé">
+        <ingredient amount="350" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="60" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="1" unit="tbsp" name="Lime zest" name_fr="Zeste de citron vert"/>
+        <ingredient amount="1.5" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="125" unit="g" name="Vegetable shortening" name_fr="Graisse végétal"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="250" unit="ml" name="Buttermilk" name_fr="Double crème"/>
+    </ingredient_group>
+
+    <step description = "Preheat an oven to 200°C. Grease a baking sheet."
+        description_fr = "Préchauffer le four à 200°C."/>
+    <step name = "Fruit" name_fr="Fruit"
+        description = "Combine mango, blueberries and strawberries in a large bowl. Drizzle with lime juice and honey. Mix well. Cover. Reserve in refrigerator."
+        description_fr = "Dans un grand bol, mélanger mangue, myrtilles et fraises. Ajouter le jus de citron et le miel. Mélanger soigneusement. Mettre au refrigerateur."/>
+    <step name = "Cream" name_fr="Crème"
+        description = "Beat cream in the large bowl with an electric mixer. When cream begins to thicken, sprinkle in icing sugar and coconut extract. Mix in gelatin all at once. Whip until soft peaks form. Cover and refrigerate."
+        description_fr = "Battre la crème dans un grand bol à l'aide d'un batteur électrique. Quand la crème commence à s'épaissir, ajouter le sucre glace et l'extrait de coco. Ajouter la gélatine. Mélanger jusqu'à ce que le mélange soit homogène. Mettre au refrigerateur."/>
+    <step name = "Shortcakes" name_fr="Sablé"
+        description = "Whisk flour, dry yeast, sugar, lime zest and salt in a large bowl. Cut in the shortening with a knife or pastry blender until the mixture resembles coarse crumbs. Beat the egg and buttermilk in a small bowl, lightly stir into flour mixture just until moistened."
+        description_fr = "Mélanger farine, levure, sucre, zestes de citron et sel dans un grand bol. Mélanger la graisse végétale à la farine à la main ou à l'aide d'un batteur électrique. Dans un bol battre double crème et oeuf. Ajouter gentillement à la farine."/>
+    <step description = "Turn out onto a floured work surface. Knead 3 to 4 times, or until dough just comes together. Roll to 1.2cm thickness. Cut with round biscuit cutter. Place on prepared baking sheet."
+        description_fr = "Pétrir la pâte pendant 2 minutes. Etaler la pâte sur une surface farineuse jusqu'à obtenir une épaisseur d'environ 1.2cm. A l'aide d'un emporte-pièce découper des ronds de pâte. Placer sur le papier sulfurisé."/>
+    <step description = "Bake shortcakes in preheated oven until golden brown, about 15 to 18 minutes. Allow to cool slightly. Split each cake in half horizontally."
+        description_fr = "Cuire au four pendant 15 à 18 minutes. Surveiller la cuisson. Laisser refroidir. Couper chaque sablé en deux horizontalement."/>
+    <step name = "Assemble" name_fr="Assemblage"
+        description = "To assemble, arrange fruit on the bottom half of each cake. Spoon or pipe cream evenly over fruit. Top each with remaining biscuit halves."
+        description_fr = "Recouvir la première moitier de fruit. Ajouter la crème. Recourvir avec la deuxième moitié."/>
+
+</recipe>
+
+
+
+
+
+

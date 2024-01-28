@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Vegetable Lasagna" name_fr="Lasagnes aux Légumes" category="vegetable"
+        href="Abbet Christian" path="recipe/vegetable/lasagne_legume.xml" people="4"
+        pic="../data/images/vegetable/lasagne_legume.jpg"
+        time_bake="40" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Bechamel sauce" name_fr = "Sauce béchamel">
+        <ingredient amount="500" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="45" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="45" unit="g" name="Butter" name_fr="Beurre"/>
+    </ingredient_group>
+
+    <ingredient_group name="Lasagna" name_fr = "Lasagne">
+        <ingredient amount="200" unit="g" name="Squash" name_fr="Courge"/>
+        <ingredient amount="125" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="125" unit="ml" name="Vegetable stock" name_fr="Bouillon de légumes"/>
+        <ingredient amount="3" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="2" unit="" name="Zucchini" name_fr="Courgette"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="" unit="" name="Lasagna noodle" name_fr="Pâte à lasagne"/>
+    </ingredient_group>
+
+    <step name="Bechamel sauce" name_fr = "Sauce béchamel"
+        description = "In a large bowl, microwave butter during 1 minute. Slowly add flour while stirring."
+        description_fr = "Dans un grand récipient, faire fondre le beurre 1 minute au micro-ondes. Le sortir et ajouter la farine en remuant bien."/>
+    <step description = "Bring to a boil milk and allow to cool for a moment. Pour milk in the bowl while stirring. Season."
+        description_fr = "Porter le lait à ébullition et laisser bouillir quelques instants. Verser le lait sur le mélange farine/beurre en fouettant. Assaisonner."/>
+    <step description = "Microwave again for 1 minute."
+        description_fr = "Remettre le tout au micro-ondes pendant 1 minute."/>
+    <step name="Lasagna" name_fr = "Lasagnes"
+        description = "Preheat oven at 150°C."
+        description_fr = "Préchauffer le four à 150°C."/>
+    <step description = "Dice and sauté vegetables until slightly golden."
+        description_fr = "Couper tous les légumes en petits dés et les faire dorer dans une poêle."/>
+    <step description = "During the last stage add stock and stir. Let reduce"
+        description_fr = "En fin de cuisson, ajouter le bouillon et mélangez. Laissez réduire."/>
+    <step description = "In a lasagna plate pour a small amout of vegetable at the bottom. Mix the bachamel sauce with the resulting vegetables."
+        description_fr = "Dans un plat à lasagnes, déposer une petite quantité de légumes au fond. Mélanger la sauce béchamel avec le reste des légumes."/>
+    <step description = "Fill plate arranging alternating lasagna noodle and vegetable. End with vegetable on top."
+        description_fr = "Mettre dans le plat en alternance les pâtes et les légumes. Terminer par une couche de sauce."/>
+    <step description = "Sprinkle parmesan and put it in the oven during 30 to 40 minutes."
+        description_fr = "Recouvrir avec du parmesan et enfourner pendant 30 à 40 min."/>
+
+
+</recipe>

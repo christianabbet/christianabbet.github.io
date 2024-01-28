@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Russian Pasta Sauce" name_fr="Sauce à la Russe" category="other"
+        href="http://www.750g.com/sauce-a-la-russe-r19741.htm"
+        path="recipe/other/sauce_russe.xml" people="4" pic="../data/images/other/sauce_russe.jpg"
+        time_bake="35" time_bake_unit="min" time_prep="5" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr="Globale">
+        <ingredient amount="500" unit="ml" name="Vodka" name_fr="Vodka"/>
+        <ingredient amount="500" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="400" unit="g" name="Peeled tomatoes" name_fr="Tomates pelées"/>
+        <ingredient amount="250" unit="g" name="Crème fraîche" name_fr="Crème fraîche"/>
+        <ingredient amount="125" unit="g" name="Butter" name_fr="Beurre"/>
+    </ingredient_group>
+
+    <step description = "In a saucepan, heat peeled tomatoes. Add butter and vodka. Bring to a boil and cook for 30 minutes."
+        description_fr = "Dans une casserole, faire chauffer les tomates pelées. Ajouter le beurre et la vodka. Faire bouillir pendant 30 minutes."/>
+    <step description = "Add crème fraîche. Stir. Add grated parmesan. Bring to a boil and cook for 5 minutes."
+        description_fr = "Ajouter la crème fraîche. Mélanger. Ajouter le parmesan rapé. Porter à ébullition pendant 5 minutes."/>
+
+</recipe>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Chana Masala" name_fr="Chana Masala" category="other"
+        href="http://allrecipes.com/recipe/236564/chana-masala-savory-indian-chick-peas/"
+        path="recipe/other/chana_masala.xml" people="2" pic="../data/images/other/chana_masala.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="15" time_prep_unit="min"/>
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="425" unit="g" name="Chickpeas" name_fr="Pois chiches"/>
+        <ingredient amount="15" unit="g" name="Ginger" name_fr="Gingembre"/>
+        <ingredient amount="4" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="1" unit="" name="Chili pepper" name_fr="Piment"/>
+        <ingredient amount="3" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1.5" unit="tsp" name="Garam masala" name_fr="Garam masala"/>
+        <ingredient amount="1" unit="tsp" name="Chili powder" name_fr="Poudre de chili"/>
+        <ingredient amount="1" unit="tsp" name="Cilantro" name_fr="Coriandre"/>
+        <ingredient amount="0.5" unit="tsp" name="Tumeric" name_fr="Curcuma"/>
+    </ingredient_group>
+
+    <step description="Grind onion, tomato, ginger, garlic, and chile pepper together in a food processor into a paste."
+        description_fr="Dans un mixeur, mixer oignon, tomate, gingembre et piment jusqu'à l'obtention d'un mélange homogène."/>
+    <step description="Heat olive oil in a large skillet over medium heat. Pour the paste into the skillet and cook until is golden brown in color, 2 to 3 minutes."
+        description_fr="Faire chuaffer l'huile dans une poele à feu moyen. Faire revernir la mixture jusqu'à ce que le mélange brunisse."/>
+    <step description="Season the mixture with chili powder, coriander, gram masala, turmeric, and a pinch of salt; cook and stir until very hot, 2 to 3 minutes."
+        description_fr="Ajouter poudre de chili, coriandre, garam masala, curcuma et une pincée de sel. Faire revenir pendant 2 à 3 minutes."/>
+    <step description="Stir enough water into the mixture to get a thick gravy; bring to a boil and stir chickpeas into the gravy. Reduce heat to medium and cook until the chickpeas are heated through, 5 to 7 minutes. Garnish with cilantro."
+        description_fr="Ajouter progressivement de l'eau jusqu'à ce que le mélange ait une consistance de sauce. Ajouter les pois chiches cuits. Faire cuire 5 à 7 minutes à feu moyen."/>
+
+</recipe>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Homemade Burger"  name_fr="Burger Maison" category="meat"
+        href="Abbet Christian"
+        path="recipe/meat/homemade_burger.xml" people="4" pic="../data/images/meat/homemade_burger.jpg"
+        time_bake="35" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="100" unit="g" name="Bacon" name_fr="Bacon"/>
+        <ingredient amount="50" unit="g" name="Mayonnaise" name_fr="Mayonnaise"/>
+        <ingredient amount="50" unit="g" name="Ketchup" name_fr="Ketchup"/>
+        <ingredient amount="50" unit="g" name="Salad rocket" name_fr="Roquette"/>
+        <ingredient amount="40" unit="ml" name="Oil" name_fr="Huile"/>
+        <ingredient amount="30" unit="ml" name="Balsamic vinegar" name_fr="Vinaigre balsamique"/>
+        <ingredient amount="4" unit="" name="Ground meat patty" name_fr="Steak haché"/>
+        <ingredient amount="4" unit="" name="Burger bread" name_fr="Pain à burger"/>
+        <ingredient amount="3" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Avocado" name_fr="Avocat"/>
+        <ingredient amount="1" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="1" unit="" name="Chili pepper" name_fr="Piment"/>
+        <ingredient amount="1" unit="" name="Lime" name_fr="Citron vert"/>
+        <ingredient amount="0.5" unit="tbsp" name="Honey" name_fr="Miel"/>
+        <ingredient amount="0.25" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+
+    <step name="Gravy" name_fr="Sauce"
+        description = "In a bowl, mix mayonnaise, ketchup, chopped half onion, one chopped garlic clove, black pepper and chopped chili pepper. "
+        description_fr = "Dans un bol, mélanger mayonnaise, ketchup, un demi oignon haché, une gousse d'ail hachée, poivre noir et piment émincé."/>
+    <step name="Guacamole" name_fr="Guacamole"
+        description = "In a bowl, grind chopped half onion, one chopped garlic colve, avocado and lime juice. Season."
+        description_fr = "Dans un bol, écraser un demi oignon haché, une gousse d'ail hachée, les avocats et le jus de citron. Assaisoner."/>
+    <step name="Caramelized onions" name_fr="Oignons caramélisés"
+        description = "In a sauce pan, caramelize the two left onions in oil during 15 to 20 minutes."
+        description_fr = "Dans une casserole, faire caraméliser deux oignons dans l’huile pendant 15 à 20 minutes."/>
+    <step description = "Add balsamic vinegar, honey, salt. Cook for 2 to 3 minutes until it thickens. Season."
+        description_fr = "Ajouter le vinaigre balsamique, le miel et le sel. Poursuivre la cuisson de 2 à 3 minutes ou jusqu’à ce que la préparation soit sirupeuse. Poivrer."/>
+    <step name="Burger" name_fr="Burger"
+        description = "In a fry pan, cook meat and fry bacon."
+        description_fr = "Dans une poele faire cuire les steaks hachés et faire frire le bacon."/>
+    <step description = "Assemble burger. Start with bread, then gravy, meat, rocket salad, sliced tomato, caramelize onion, bacon, bread. "
+        description_fr = "Assembler dans l'ordre pain, sauce, viande, roquette, tranche de tomate, guacamole, oignons caramélisés, bacon, pain."/>
+
+
+</recipe>

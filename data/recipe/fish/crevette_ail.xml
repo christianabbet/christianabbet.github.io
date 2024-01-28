@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+        <info name="Garlic Shrimps" name_fr="Crevette à l'Ail" category="fish"
+        href="http://www.marmiton.org/recettes/recette_crevettes-a-l-ail_23490.aspx"
+        path="recipe/fish/crevette_ail.xml" people="6" pic="../data/images/fish/crevette_ail.jpg"
+        time_bake="5" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="60" unit="g" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="7" unit="tbsp" name="Oil" name_fr="Huile"/>
+        <ingredient amount="6" unit="" name="Garlic glove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Sweet pepper" name_fr="Piment doux"/>
+    </ingredient_group>
+
+    <step description = "Wash, dry and top and tail the shrimps. Heat oil in a large pan. Set aside."
+        description_fr = "Lavez, essuyez et équeutez les crevettes. Faites chauffer l'huile dans une grande poêle. mettez de côté."/>
+    <step description = "Chop the garlic, parsley and sweet pepper. Add them in another the pan. Stir until the garlic browns."
+        description_fr = "Hachez l'ail, le persil et le piment doux. Ajouter dans une autre poêle. Remuez bien, pour que l'ail soit cuit mais non brûlé."/>
+    <step description = "Put shrimps in and heat for a short time. Add salt, pepper."
+    description_fr="Remettez les crevettes à chauffer un très court instant. Salez, poivrez et servez chaud."/>
+
+    <hint description = "Shrimps will harden if overheated. Do not heat garlic too much.!"
+        description_fr="Trop cuire les crevettes les durcissent. L’ail ne doit pas être brun.!"/>
+
+</recipe>

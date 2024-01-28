@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Chili con Carne"  name_fr="Chili con Carne" category="meat"
+        href="http://allrecipes.com/recipe/78299/boilermaker-tailgate-chili/photos/890638/"
+        path="recipe/meat/boilermaker_chili.xml" people="6" pic="../data/images/meat/boilermaker_chili.jpg"
+        time_bake="2" time_bake_unit="h" time_prep="30" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Ground beef chuck" name_fr="Viande hachée"/>
+        <ingredient amount="250" unit="g" name="Italian sausage" name_fr="Merguez"/>
+        <ingredient amount="850" unit="g" name="Chili bean" name_fr="Haricot rouge"/>
+        <ingredient amount="800" unit="g" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="85" unit="g" name="Tomato paste" name_fr="Concentré de tomate"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Red bell pepper" name_fr="Poivron rouge"/>
+        <ingredient amount="1" unit="" name="Chili pepper" name_fr="Piment"/>
+        <ingredient amount="2" unit="" name="Beef cube bouillon" name_fr="Cubes de bouillon de boeuf"/>
+        <ingredient amount="60" unit="ml" name="Beer" name_fr="Bière"/>
+        <ingredient amount="1" unit="tbsp" name="Chili powder" name_fr="Poudre de chili"/>
+        <ingredient amount="0.5" unit="tbsp" name="Worcestershire sauce" name_fr="Sauce worcestershire"/>
+        <ingredient amount="0.5" unit="tbsp" name="Garlic" name_fr="Ail"/>
+        <ingredient amount="0.5" unit="tbsp" name="Oregano" name_fr="Oregan"/>
+        <ingredient amount="1" unit="tsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="1" unit="tsp" name="Tabasco" name_fr="Tabasco"/>
+        <ingredient amount="0.5" unit="tsp" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="0.5" unit="tsp" name="Pepper" name_fr="Poivre"/>
+        <ingredient amount="0.5" unit="tsp" name="Cayenne pepper" name_fr="Poivre de cayenne"/>
+        <ingredient amount="0.5" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="0.5" unit="tsp" name="Sugar" name_fr="Sucre"/>
+    </ingredient_group>
+
+    <step description = "Heat a large stock pot over medium-high heat. Crumble the ground chuck and sausage into the hot pan, and cook until evenly browned. Drain off excess grease."
+        description_fr = "Dans une grande casserole faire revenir la viande hachée, les merguez coupées en tranche. Evacuer l'excès de graisse."/>
+    <step description = "Pour in the chili beans, diced tomatoes and tomato paste. Add the onion, red bell peppers, chile pepper, bouillon, and beer."
+        description_fr = "Ajouter haricots rouge, tomates coupées en dés et concentré de tomate. Ajouter oignon, poivron rouge, piment, bouillon et bière."/>
+    <step description = "Season with chili powder, Worcestershire sauce, garlic, oregano, cumin, tabasco, basil, salt, pepper, cayenne, paprika, and sugar. Stir to blend, then cover and simmer over low heat for at least 2 hours, stirring occasionally."
+        description_fr = "Ajouter poudre de chili, sauce Worcestershire, ail, oregan, cumin, tabasco, basilic, sel, poivre, poivre de cayenne, paprika et sucre. Mélanger. Couvrir et laisser mijoter à feu doux pendant au moins 2 heures. Remuer de temps en temps. "/>
+
+</recipe>

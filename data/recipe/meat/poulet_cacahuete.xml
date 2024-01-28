@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+	    <info name="Peanut Butter Chicken" name_fr="Poulet Beurre de Cacahuete" category="meat"
+        href="http://www.750g.com/poulet-thai-au-beurre-de-cacahuetes-r91542.htm"
+        path="recipe/meat/poulet_cacahuete.xml" people="6" pic="../data/images/meat/poulet_cacahuete.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+		<ingredient amount="700" unit="g" name="Chicken" name_fr="Poulet"/>
+		<ingredient amount="500" unit="ml" name="Coconut milk" name_fr="Lait de coco"/>
+		<ingredient amount="250" unit="g" name="Snow peas" name_fr="Pois mange-tout"/>
+		<ingredient amount="200" unit="ml" name="Chicken stock" name_fr="Bouillon de vollaile"/>
+		<ingredient amount="80" unit="g" name="Peanut butter" name_fr="Beurre de cacahuète"/>
+		<ingredient amount="40" unit="g" name="Salt-free Penut" name_fr="Cacahuète non salée"/>
+		<ingredient amount="20" unit="g" name="Flour" name_fr="Farine"/>
+		<ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+		<ingredient amount="1" unit="" name="Onion" name_fr="Oigon rouge"/>
+		<ingredient amount="2" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+		<ingredient amount="1" unit="tbsp" name="Red curry paste" name_fr="Pâte de curry rouge"/>
+		<ingredient amount="" unit="" name="Peanut oil" name_fr="Huile d'arachide"/>
+	</ingredient_group>
+
+    <step description = "Grind half of the peanuts and mix with flour."
+		description_fr = "Broyez la moitié des cacahuètes jusqu'à obtention d'une poudre fine et mélangez ceci avec la farine."/>
+    <step description = "Thinly slice chicken and coat them with flour mixture."
+		description_fr = "Coupez le poulet en lanières et enrobez-les du mélange farine/cacahuètes."/>
+    <step description = "In a wok, heat peanut oil. Brown the meat thoroughly during 5 minutes. Set aside."
+		description_fr = "Dans un wok, faites chauffer un peu d'huile d'arachide et une fois celle-ci chaude, faites-y revenir le poulet pendant 5 minutes. Réservez à part."/>
+    <step description = "Add some peanut oil in the wok and lightly brown garlic and chopped onion."
+		description_fr = "Rajoutez un peu d'huile dans le wok et faites-y revenir l'ail ainsi que l'oignon émincé. Colorez légèrement (2 - 3 min)."/>
+    <step description = "Add snow peas. Add coconut milk, sugar, curry paste and finally peanut butter."
+		description_fr = "Ajoutez les mange-tout. Ajoutez le lait de coco, puis le sucre, la pâte de curry et terminez par le beurre de cacahuètes."/>
+    <step description = "Mix, then add chicken. Simmer for 10 minutes. If the sauce is too thick add chicken stock. Add salt, pepper."
+		description_fr = "Mélangez bien, rajoutez le poulet et laissez mijoter pendant 10 minutes. Si la sauce devient trop épaisse, rallongez-la à petites doses de bouillon de volaille. N'oubliez pas de salez et de poivrez vers la fin."/>
+
+
+</recipe>

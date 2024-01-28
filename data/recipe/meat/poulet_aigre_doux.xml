@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Sweet-and-Sour Chicken"  name_fr="Poulet Aigre-Doux" category="meat"
+        href="http://cuisine.journaldesfemmes.com/recette/342926-poulet-a-l-aigre-doux"
+        path="recipe/meat/poulet_aigre_doux.xml" people="2" pic="../data/images/meat/poulet_aigre_doux.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+		<ingredient amount="2" unit="" name="Chicken breast" name_fr="Blanc de poulet"/>
+		<ingredient amount="2" unit="" name="Onion" name_fr="Oignon"/>
+		<ingredient amount="2" unit="" name="Carrot" name_fr="Carotte"/>
+		<ingredient amount="1" unit="" name="Baby pineapple" name_fr="Baby ananas"/>
+		<ingredient amount="1" unit="" name="Red bell pepper" name_fr="Poivron rouge"/>
+		<ingredient amount="1" unit="l" name="Vegetable stock" name_fr="Bouillon de légume"/>
+		<ingredient amount="3" unit="tbsp" name="Rice vinegar" name_fr="Vinaigre de riz"/>
+		<ingredient amount="2" unit="tbsp" name="Ketchup" name_fr="Ketchup"/>
+		<ingredient amount="2" unit="tbsp" name="Fish sauce" name_fr="Sauce poisson"/>
+		<ingredient amount="1" unit="tbsp" name="Mirin" name_fr="Mirin"/>
+		<ingredient amount="1" unit="tbsp" name="Cornstarch" name_fr="Maïzena"/>
+		<ingredient amount="2" unit="tsp" name="Sugar" name_fr="Sucre"/>
+		<ingredient amount="2" unit="tsp" name="Brown sugar" name_fr="Sucre brun"/>
+    </ingredient_group>
+
+	<step description = "Dice chicken breast. Sauté chicken in a large pan with olive oil during 3 to 4 minutes. Set aside"
+		description_fr = "Émincer les filets de poulet en dés. Les faire dorer dans un wok avec un peu d'huile pendant 3-4 minutes. "/>
+	<step description = "Sauté vegetables and pineapple. Add vegetable stock."
+		description_fr = "Faire sauter les légumes et l'ananas émincés brièvement dans le wok, puis mouiller avec le bouillon."/>
+	<step description = "Bring to a boil and add all ingredient except cornstarch and chicken."
+		description_fr = "Porter le tout à petite ébullition puis ajouter tous les ingrédients sauf la maïzena et le poulet."/>
+	<step description = "Let cook until sauce thickens then add chicken. Add cornstarch and season. Let reduce."
+		description_fr = "Laisser cuire jusqu'à ce que la sauce épaississe, puis ajouter le poulet. Une fois que la sauce a bien réduit, finir le plat en saupoudrant la maïzena. Assaisonner."/>
+
+
+</recipe>

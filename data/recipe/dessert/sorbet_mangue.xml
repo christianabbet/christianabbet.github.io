@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Mango Sorbet" name_fr="Sorbet Mangue" category="dessert"
+        href="https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/sorbet-mangue.html"
+        path="recipe/dessert/sorbet_mangue.xml" people="6" pic="../data/images/dessert/sorbet_mangue.jpg"
+        time_bake="-" time_bake_unit="" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name = "Sorbet" name_fr = "Sorbet">
+        <ingredient amount="1" unit="kg" name="Mango" name_fr="Mangue"/>
+        <ingredient amount="150" unit="g" name="Powdered sugar" name_fr="Sucre glace"/>
+        <ingredient amount="100" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="0.5" unit="" name="Lemon" name_fr="Citron"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Topping" name_fr = "Garniture">
+        <ingredient amount="" unit="" name="Gooseberries" name_fr="Groseilles"/>
+        <ingredient amount="" unit="" name="Mint" name_fr="Menthe"/>
+    </ingredient_group>
+
+    <step description = "Peel and dice mango. Blend mango, powdered sugar, water and lemon juice."
+        description_fr = "Eplucher et couper les mangue en dés. Dans un mixeur mélanger mangue, sucre glace, eau et jus de citron."/>
+    <step description = "Put in freezer for 2 hours."
+        description_fr = "Mettre au congélateur pendant 2 heures"/>
+    <step description = "Serve with mint leaves and gooseberries on top."
+        description_fr = "Servir en décorant de feuilles de menthe et des groseilles."/>
+
+</recipe>

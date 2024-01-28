@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Teriyaki Chicken"  name_fr="Poulet Teriyaki" category="meat"
+        href="http://www.papillesetpupilles.fr/2016/02/poulet-sauce-teriyaki-miel-et-gingembre.html/"
+        path="recipe/meat/poulet_teriyaki.xml" people="2" pic="../data/images/meat/poulet_teriyaki.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="2" unit="" name="Chicken breast" name_fr="Blanc de poulet"/>
+        <ingredient amount="60" unit="ml" name="Teriyaki sauce" name_fr="Sauce teriyaki"/>
+        <ingredient amount="2" unit="tbsp" name="Honey" name_fr="Miel"/>
+        <ingredient amount="1" unit="tbsp" name="Chive" name_fr="Ciboulette"/>
+        <ingredient amount="1" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tsp" name="Ginger" name_fr="Gingembre"/>
+    </ingredient_group>
+
+    <step description = "Dice chicken breast. In a large bowl mix chicken, Teriyaki sauce, honey and ginger. Set aside for 15 minutes"
+        description_fr = "Coupez les escalopes de poulet en dés. Mettez-les dans un saladier. Ajoutez la sauce Teriyaki, le miel et le gingembre. Mélangez et réservez 15 minutes."/>
+    <step description = "Pour olive oil in a large pan. Cook chicken and marinade over high heat during 7 to 8 minute while stirring. Allow to cool and add chives "
+        description_fr = "Versez l’huile dans une poele. Faites chauffer à feu vif. Versez le poulet et sa marinade dans la poêle et faites chauffer à feu vif pendant 7 à 8 minutes en remuant quelques fois en cours de cuisson. Juste avant de servir, saupoudrez de ciboulette ciselée."/>
+
+</recipe>

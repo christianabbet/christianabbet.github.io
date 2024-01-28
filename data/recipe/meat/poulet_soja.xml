@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+      <info name="Soy Chicken" name_fr="Poulet sauce Soja" category="meat"
+        href="http://www.cuisineaz.com/recettes/poulet-a-la-sauce-soja-84320.aspx"
+        path="recipe/meat/poulet_soja.xml" people="4" pic="../data/images/meat/poulet_soja.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="10" time_prep_unit="min"/>
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="4" unit="" name="Chicken wing" name_fr="Cuisses de poulet"/>
+	    <ingredient amount="1" unit="tbsp" name="Olive oil" name_fr="Huile d'olive"/>
+        <ingredient amount="1" unit="tbsp" name="Soy sauce" name_fr="Sauce soja"/>
+        <ingredient amount="1" unit="tbsp" name="Honey" name_fr="Miel"/>
+        <ingredient amount="1" unit="tbsp" name="Sesame seed" name_fr="Graines de sésame"/>
+    </ingredient_group>
+
+    <step description = "In a bowl, mix soy sauce, honey and sesame seeds."
+        description_fr = "Dans un bol, mélanger la sauce soja, le miel et les graines de sésame."/>
+    <step description = "Heat oil in a pan. Cook the chicken wings for 15 minutes."
+        description_fr= "Huiler la poele, y déposer les cuisses de poulet et faire cuire pendant 15 minutes"/>
+    <step description = "Pour the sauce in the pan. Cook over medium heat. Stir. It should caramelize."
+        description_fr="Verser la sauce, mélanger, et cuire à nouveau. La sauce doit caraméliser."/>
+
+    <hint description = "Do not overcook chicken. It will harden. When adding soy sauce, rise temperature "
+        description_fr = "Ne pas trop faire cuire lepoulet puis augmenter le feu en métant le soja (dois caraméliser)"/>
+
+</recipe>

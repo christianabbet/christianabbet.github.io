@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Onion Rings" name_fr="Onion Rings" category="other"
+        href="http://allrecipes.com/recipe/82659/old-fashioned-onion-rings/"
+        path="recipe/other/onion_rings.xml" people="4" pic="../data/images/other/onion_rings.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr="Globale">
+        <ingredient amount="250" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="175" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="50" unit="g" name="Bread crumbs" name_fr="Chapelure"/>
+        <ingredient amount="1" unit="tsp" name="Baking powder" name_fr="Poudre à lever"/>
+        <ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="1" unit="" name="Large onion" name_fr="Gros oignon"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="" unit="" name="Vegetable oil" name_fr="Huile végétale"/>
+    </ingredient_group>
+
+    <step description = "Heat the oil in a deep-fryer."
+        description_fr = "Dans une poêle, faire chauffer l'huile."/>
+    <step description = "Cut onion into 0.75cm slices. Separate the onion slices into rings, and set aside. In a small bowl, stir together the flour, baking powder and salt."
+        description_fr = "Couper les oignons en tranche d'environ 0.75cm. Séparer les tranches en anneaux. Réserver. Dans un bol, mélanger farine, poudre à lever et sel."/>
+    <step description = "Dip the onion slices into the flour mixture until they are all coated; set aside. Whisk the egg and milk into the flour mixture using a fork. Dip the floured rings into the batter to coat, then place on a wire rack to drain until the batter stops dripping."
+        description_fr = "Recouvrir les tranches d'oignon avec le mélange de farine. Réserver. Ajouter l'oeuf et le lait à la farine et mélanger à l'aide d'une fourchette. Tremper les tranche dans la pâte. Placer sur une grille et laisser égoutter."/>
+    <step description = "Spread the bread crumbs out on a plate or shallow dish. Place rings one at a time into the crumbs, and scoop the crumbs up over the ring to coat. Give it a hard tap as you remove it from the crumbs. Repeat with remaining rings."
+        description_fr = "Répartir la chapelure sur une grande plaque. Placer les tranches, les une après les autres, sur la chapelure. A l'aide d'une cuillère, recouvrir de chapelure. Donner un coup ferme, en retirant les tranches, pour enlever la chapelure résiduelle."/>
+    <step description = "Deep fry the rings a few at a time for 2 to 3 minutes, or until golden brown. Remove to paper towels to drain. Season with seasoning salt, and serve."
+        description_fr = "Faire frire les tranches, pendant 2 à 3 minutes. Disposer sur du papier ménage pour éponger l'huile. Assaisoner de sel et servir."/>
+
+</recipe>

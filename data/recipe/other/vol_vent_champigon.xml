@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Mushrooms Vol-au-Vent" name_fr="Vol-au-Vent aux Champignons" category="other"
+        href="http://www.cuisineaz.com/recettes/vol-au-vent-a-la-bechamel-39395.aspx"
+        path="recipe/other/vol_vent_champigon.xml" people="8" pic="../data/images/other/vol_vent_champigon.jpg"
+        time_bake="12" time_bake_unit="min" time_prep="40" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="250" unit="g" name="Mushroom" name_fr="Champignon"/>
+	    <ingredient amount="60" unit="g" name="Ham" name_fr="Jambon"/>
+        <ingredient amount="60" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="60" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="1" unit="l" name="Milk" name_fr="Lait"/>
+        <ingredient amount="8" unit="" name="Vol-au-vent" name_fr="Vol-au-vent"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven at 180°C."
+        description_fr = "Préchauffez le four à 180°C."/>
+    <step description = "Chop ham and mushrooms. In a pan add oil and sauté mushrooms and ham."
+        description_fr = "Coupez les tranches de jambon en petits morceaux. Emincez les champignons et faites les cuire pendant ce temps dans une poêle avec un peu d'huile."/>
+    <step name="Bechamel" name_fr = "Béchamel"
+        description = "In a saucepan melt butter, slowly add flour while stirring to avoid lumps. Add milk and stir until it thickens. Season. Add mushrooms and ham. Stir. Simmer for 10 minutes"
+        description_fr = "Dans une casserole, faites fondre le beurre, ajouter la farine et mélangez pour éviter les grumeaux. Ajoutez le lait et touillez jusqu'à épaississement. Salez et poivrez. Ajoutez les champignons et le jambon. Mélangez bien. Laissez mijoter 10 minutes"/>
+    <step name="Assembly" name_fr="Assemblage"
+        description = "Fill vol-au-vent with sauce. Put vol-au-vent in oven in 180°C for 15 minutes"
+        description_fr = "Mettez dans un plat à 180°C au four les vol-au-vent remplis de la préparation pendant 15 minutes."/>
+
+</recipe>

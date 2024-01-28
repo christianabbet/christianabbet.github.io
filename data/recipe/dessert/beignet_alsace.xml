@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="French Fritters" name_fr="Beignets de Carnaval" category="dessert"
+        href="http://www.marmiton.org/recettes/recette_beignets-de-carnaval-alsace_12895.aspx"
+        path="recipe/dessert/beignet_alsace.xml" people="8" pic="../data/images/dessert/beignet_alsace.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="300" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="80" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="4" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="2" unit="tbsp" name="Kirsh" />
+        <ingredient amount="20" unit="g" name="Vanilla Sugar" name_fr="Sucre vanillé"/>
+        <ingredient amount="7" unit="g" name="Dry Yeast" name_fr="Levure sèche"/>
+        <ingredient amount="" unit="" name="Powdered Sugar" name_fr="Sucre glace"/>
+        <ingredient amount="" unit="" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="" unit="" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step description = "In a bowl mix flour, dry yeast, eggs, vanilla sugar, melted butter, Kirch and a pinch salt. Knead."
+        description_fr = "Dans le creux de la farine, ajouter la levure chimique, puis les oeufs, le sucre vanillé, le buerre fondu, l'alcool et une pincée de sel. Bien pétrir."/>
+    <step description = "Roll out the dough and cut it into small diamond shapes."
+        description_fr = "Bien étaler la pâte que l'on découpera en carrés, losanges ou ronds (à l'aide d'un verre, par exemple)."/>
+    <step description = "Fill a pan with oil and warm it. Fry the dough pieces, then drain them. Add icing sugar and cinnamon on top of it for more taste"
+        description_fr = "Faire dorer dans une friture moyennement chaude, puis égoutter et saupoudrer de sucre et de cannelle ou de sucre glace."/>
+
+    <hint description = "Be careful about the thickness. If it is too thick it will not fry properly."
+        description_fr = "Attention a l’épaisseur. Si trop épais cuits mal à l’interieur." />
+
+
+</recipe>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Indian Chicken" name_fr="Poulet à l'Indienne" category="meat"
+        href="http://www.750g.com/poulet-a-lindienne-lait-de-coco-et-riz-r90947.htm"
+        path="recipe/meat/poulet_indien.xml" people="3" pic="../data/images/meat/poulet_indien.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="250" unit="ml" name="Coconut milk " name_fr="Lait de coco"/>
+        <ingredient amount="150" unit="g" name="Basmati rice" name_fr="Riz basmati"/>
+        <ingredient amount="4" unit="" name="Chicken breast" name_fr="Poitrine de poulet"/>
+        <ingredient amount="3" unit="" name="Garlic clove" name_fr="Gousses d'ail"/>
+        <ingredient amount="1" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="tbsp" name="Ginger" name_fr="Gingembre"/>
+        <ingredient amount="1" unit="tsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="1" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="0.5" unit="tsp" name="Turmeric" name_fr="Curcuma"/>
+        <ingredient amount="0.5" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="0.25" unit="tsp" name="Cardamom" name_fr="Cardamome"/>
+        <ingredient amount="" unit="" name="Black peppercorn" name_fr="Grain de poivre noir"/>
+        <ingredient amount="" unit="" name="Olive oil" name_fr="Huile d'olive"/>
+    </ingredient_group>
+
+    <step description = "Pour rice in a saucepan, add water, olive oil, salt, black peppercorn and cardamom. Simmer for 10 minutes over low heat and cover. Set aside."
+        description_fr = "Versez le riz dans une casserole, recouvrez d'eau et ajoutez l'huile, du sel, les grains de poivre et la cardamome. Laissez cuire une dizaine de minutes à feu très doux et couvert puis réservez hors du feu."/>
+    <step description = "Peel, mince onion and garlic. Mix them with ginger, add some water and mash."
+        description_fr = "Epluchez l'oignon et l'ail. Mixez-les avec le gingembre en ajoutant un filet d'eau pour obtenir une petite purée."/>
+    <step description = "In a pan heat the mash with cumin, cinnamon, turmeric and paprika. Stir. Add coconut milk and simmer over medium heat."
+        description_fr = "Dans une poêle, faites chauffer le mélange obtenu avec les autres épices : cumin, cannelle, curcuma et paprika. Après quelques instants, ajoutez le lait de coco et laissez mijoter à petites ébullitions."/>
+    <step description = "Dice chicken and brown them in a pan with olive oil. Add diced tomatoes and salt."
+        description_fr = "Coupez le poulet en gros dés et faites-le revenir dans une autre poêle avec un filet d'huile d'olive. Ajoutez ensuite la tomate coupée en petits dés, salez."/>
+    <step description = "When the chicken is cooked, mix it with coconut milk. Serve with rice."
+        description_fr = "Quand le poulet est cuit, mélangez-le à la sauce au lait de coco. Servez avec le riz."/>
+
+</recipe>

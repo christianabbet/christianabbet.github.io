@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Basil Chicken"  name_fr="Poulet Basilic" category="meat"
+        href="http://www.marmiton.org/recettes/recette_emince-de-poulet-au-basilic-recette-chinoise_65290.aspx"
+        path="recipe/meat/poulet_basilic.xml" people="3" pic="../data/images/meat/poulet_basilic.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="3" unit="" name="Chicken breast" name_fr="Blanc de poulet"/>
+        <ingredient amount="100" unit="g" name="Bean sprouts" name_fr="Pousse de soja"/>
+        <ingredient amount="25" unit="g" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Green bell pepper" name_fr="Poivron vert"/>
+        <ingredient amount="200" unit="ml" name="Chicken stock" name_fr="Bouillon de vollaile"/>
+        <ingredient amount="2" unit="tbsp" name="Soy sauce" name_fr="Sauce Soja"/>
+        <ingredient amount="1" unit="tbsp" name="Cornstarch" name_fr="Maizena"/>
+        <ingredient amount="" unit="" name="Withe pepper" name_fr="Poivre blanc"/>
+        <ingredient amount="" unit="" name="Cayenne pepper" name_fr="Piment de cayenne"/>
+    </ingredient_group>
+
+    <step description = "Chop the onion and thinly slice the bell pepper."
+        description_fr = "Commencez par émincer l'oignon et découpez le poivron en fines lanières."/>
+    <step description = "Slice into thin slices the chicken breast using a sharp knife. Heat some oil in a large pan."
+        description_fr = "Découpez les blancs de poulet en lanières assez fines à l'aide d'un couteau de cuisine très aiguisé. Faites chauffer l'huile d'olive dans le récipient de cuisson."/>
+    <step description = "Put the chicken in the pan and stir during one minute. Chicken should not be cooked, just slightly brown."
+        description_fr = "Jetez les lanières de poulet dans l'huile bien chaude et remuez très vite pendant une minute environ. La viande ne doit pas cuire mais dorer."/>
+    <step description = "Add the soy sauce, white pepper and cayenne pepper. Add chopped onion, sliced bell pepper and bean sprouts. Mix vigorously over high heat."
+        description_fr = "Ajoutez la sauce au soja, le poivre blanc et le piment de cayenne moulus. Ajoutez ensuite l'oignon émincé, les lanières de poivron et les pousses de soja. Remuez le tout vigoureusement en maintenant le feu vif."/>
+    <step description = "Add basil and chicken stock."
+        description_fr = "Ajoutez les feuilles de basilic. Ajoutez le bouillon de volaille."/>
+    <step description = "Add the cornstarch. Stir. When it starts getting thick and syrupy remove form the heat."
+        description_fr = "Pour finir saupoudrez avec la cuillèrée à soupe de maïzena et mélangez le tout. Dès que le bouillon prend une consistance très sirupeuse enlevez le tout du feu."/>
+
+    <hint description = "Do not cook chicken too much, it should stay soft."
+        description_fr = "Ne pas chercher à faire trop cuire la viande, vous la durcirez."/>
+
+</recipe>

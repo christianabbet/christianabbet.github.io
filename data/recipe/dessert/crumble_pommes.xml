@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Apple Crumble" name_fr="Crumble aux Pommes" category="dessert"
+        href="http://cuisine.journaldesfemmes.com/recette/312469-crumble-aux-pommes"
+        path="recipe/dessert/crumble_pommes.xml" people="6" pic="../data/images/dessert/crumble_pommes.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="125" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="90" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="140" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="1" unit="tbsp" name="Cinnamon" name_fr="Canelle"/>
+        <ingredient amount="5" unit="" name="Apple" name_fr="Pomme"/>
+    </ingredient_group>
+
+    <step description = "Preheat the oven at 180°C."
+        description_fr = "Préchauffer le four à 180°C."/>
+    <step description = "Peel and dice the apples. Put them at the bottom of the mold."
+        description_fr = "Eplucher et couper les pommes en dés, les disposer au fond du moule."/>
+    <step description = "In a bowl mix the butter, flour, sugar and cinnamon."
+        description_fr = "Dans un saladier, malaxer avec les doigts le beurre, la farine, le sucre et la cannelle afin d'obtenir des miettes plus ou moins grosses."/>
+    <step description = "Sprinkle the dough on the apples."
+        description_fr = "Répartir ce mélange sur les pommes sans tasser."/>
+    <step description = "Put in oven during 30 minutes until the crumble is golden brown."
+        description_fr = "Enfourner environ 30 minutes jusqu'à ce que crumble soit bien doré."/>
+
+</recipe>

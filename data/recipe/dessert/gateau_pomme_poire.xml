@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Apple Pear Pie" name_fr="Gâteau aux Pommes-Poires" category="dessert"
+        href="http://cuisine.journaldesfemmes.com/recette/322626-gateau-aux-pommes-poires"
+        path="recipe/dessert/gateau_pomme_poire.xml" people="6" pic="../data/images/dessert/gateau_pomme_poire.jpg"
+        time_bake="35" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="70" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="50" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="20" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="1" unit="dl" name="Milk" name_fr="Lait"/>
+        <ingredient amount="1" unit="tbsp" name="Vanilla aroma" name_fr="Arome vanille"/>
+        <ingredient amount="3" unit="" name="Apple" name_fr="Pomme"/>
+        <ingredient amount="3" unit="" name="Pear" name_fr="Poires"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="0.25" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="" unit="" name = "Icing sugar" name_fr = "Sucre glace"/>
+    </ingredient_group>
+
+    <step description = "Preheat the oven at 200°C. Mix the flour, yeast and salt. Whip the eggs with the sugar until it begins to whiten. Add the melted butter, milk and the vanilla aroma. Whip. Add, a little at a time, the flour, whipping."
+        description_fr = "Préchauffer le four à 200°C. Tamiser ensemble la farine, la levure chimique et le sel. Battre les oeufs avec le sucre jusqu'à ce que le mélange mousse et pâlisse. Ajouter alors le beurre préalablement fondu, le lait et l'arôme vanille. Fouetter de nouveau. Ajouter le mélange de farine progressivement, sans cesser de battre."/>
+    <step description = "Split the dough in two different bowls. Peel and seed the apples. Slice them thinly. Put them in one of the two bowls, stirring to soak them with the dough. Do the same with the pears, in the other bowl."
+        description_fr = "Diviser la quantité de pâte obtenue de manière plus ou moins égale dans deux saladiers différents. Peler, épépiner les pommes. Les couper en deux puis les trancher très finement. Au fur et à mesure, les jeter dans un des deux saladiers, en remuant pour les imbiber de pâte. Faire de même pour les poires, dans l'autre saladier."/>
+    <step description = "Butter a round mold. First add the apples. Smooth. Then add the pears. Smooth again. Put it in th oven during 35 minutes in 200°C. Let cool and sprinkle some icing sugar on the top."
+        description_fr = "Beurrer et fariner un moule. Verser d'abord le contenu du saladier aux pommes, lisser. Verser par-dessus le contenu du saladier aux poires. Lisser de nouveau. Enfourner pour 35 minutes à 200°C. Laisser tiédir dans le moule avant de saupoudrer de sucre glace."/>
+
+</recipe>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Honey Nougat" name_fr="Nougat au Miel" category="dessert"
+        href="https://www.youtube.com/watch?v=RcgiwoOyYWI" path="recipe/dessert/nougat_miel.xml"
+        people="12" pic="../data/images/dessert/nougat_miel.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name = "Overall" name_fr="Globale">
+        <ingredient amount="500" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="175" unit="g" name="Honey" name_fr="Miel"/>
+        <ingredient amount="75" unit="g" name="Almonds" name_fr="Amandes"/>
+        <ingredient amount="75" unit="g" name="Hazelnuts" name_fr="Noisettes"/>
+        <ingredient amount="1.5" unit="dl" name="Water" name_fr="Eau"/>
+        <ingredient amount="2" unit="" name="Egg white" name_fr="Blanc d'oeufs" />
+    </ingredient_group>
+
+    <step description="In a sauce pan mix sugar, honey and water. Het it while stirring with a plastic spatula."
+        description_fr="Dans une casserole mélanger le sucre, le miel et l'eau. En remuant à l'aide d'une spatule en plastique. Faire chauffer le mélange" />
+    <step description="While the syrup is heating, roast the almonds and the hazelnuts"
+        description_fr="Pendant que le mélange chauffe, torréfier les noisettes et les amandes." />
+    <step description="Just before the syrup reaches 143°C take up whites in snow."
+        description_fr="Juste avant que le mélange atteigne 143°C monter les blancs en neige." />
+    <step description="When it reaches 143°C, slowly add the syrup in the bowl with the eggs whites while mixing it using a rotary beater (slow speed)."
+        description_fr="Incorporer gentillement le mélange à 143°C au blancs d'oeuf en mixant à l'aide d'un batteur électrique (vitesse faible)." />
+    <step description="Speed up the rotary beater until it thickens. The sugar will cook the egg white. Stop the rotary beater when it stops flowing."
+        description_fr="Une fois le mélange complètement intégrer, augmenter la vitesse en remuant bien jusqu'à épaississement du mélange. Le sucre va cuire les blancs d'oeuf. Au final le mélange doit ne plus couler en sortant le mixeur." />
+    <step description="Add the almond and the hazelnuts. Mix."
+        description_fr="Ajouter les amandes et les noisettes. Mélanger."/>
+    <step description="Pour it a mold and smooth it. Put in the fridge for 3 hours."
+        description_fr="Disposer au fond d'un moule à cake et laisser durcir 3h."/>
+
+    <hint description="Use the rotary beater at least 10 minutes, otherwise the mixture will be too soft."
+        description_fr="Bien mélanger au batteur électrique (plus de 5-10 minutes) car le mélange doit durcir." />
+
+
+</recipe>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Sushi Rice" name_fr="Riz Vinaigré pour Sushis" category="other"
+        href="http://cuisine.journaldesfemmes.com/recette/306291-riz-vinaigre-pour-sushis"
+        path="recipe/other/riz_sushi.xml" people="8" pic="../data/images/other/riz_sushi.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="20" time_prep_unit="min"/>
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="300" unit="g" name="Short grain rice" name_fr="Riz rond"/>
+        <ingredient amount="300" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="4" unit="tbsp" name="Rice vinegar" name_fr="Vinaigre de riz"/>
+        <ingredient amount="2" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="0.5" unit="tbsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step description = "Wash rice in a sieve with cold water. Continue while water is not clear. Drain and let rest for 30 minutes."
+        description_fr = "Lavez le riz à l'eau froide dans une passoire, en remuant bien, jusqu'à ce que l'eau qui s'en écoule soit bien claire. Laissez-le égoutter dans la passoire pendant 30 minutes."/>
+    <step description = "Pour rice and water in a saucepan. Cover and bring to a boil over medium heat. Trust your sense of hearing. Do not remove the cover. Let cook for 5 more minutes."
+        description_fr = "Placez le riz et l'eau dans une casserole et posez un couvercle dessus de façon à ce que l'ensemble soit totalement hermétique. Portez à ébullition sur feu moyen en vous fiant à vos oreilles sans jamais soulever le couvercle de la casserole. Continuez alors la cuisson pendant 5 minutes."/>
+    <step description = "Lower heat and let cook for 10 minutes. Remove cover and let cool for 10 minutes."
+        description_fr = "Baissez le feu au minimum et laissez cuire pendant 10 minutes environ. Soulevez le couvercle et laissez reposer le riz pendant 10 minutes."/>
+    <step description = "In a saucepan heat rice vinegar, salt, sugar, without bringing it to a boil. When sugar is completely dissolved, allow to cool."
+        description_fr = "Dans une casserole, faites chauffer le vinaigre, le sel et le sucre sans porter à ébullition. Laissez refroidir une fois le sucre totalement dissout."/>
+    <step description = "Pour rice in a large bowl. Pour rice vinegar mixture, while carefully stirring to not crush rice grains."
+        description_fr = "Déposez le riz dans un hangiri ou un saladier pour le refroidir. Versez la préparation vinaigrée sur le riz en plusieurs fois, en mélangeant délicatement pour ne pas écraser les grains."/>
+
+</recipe>

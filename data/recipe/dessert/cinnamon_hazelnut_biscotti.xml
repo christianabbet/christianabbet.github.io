@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Hazelnuts Biscotti" name_fr="Biscuits aux Noisettes" category="dessert"
+        href="http://allrecipes.com/recipe/11525/cinnamon-hazelnut-biscotti/"
+        path="recipe/dessert/cinnamon_hazelnut_biscotti.xml" people="8" pic="../data/images/dessert/cinnamon_hazelnut_biscotti.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="350" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="200" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="160" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="100" unit="g"  name = "Hazelnuts" name_fr = "Noisettes"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1.5" unit="tsp" name="Vanilla extract" name_fr="Extrait de vanille"/>
+        <ingredient amount="1" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="0.75" unit="tsp" name="Baking powder" name_fr="Poudre à lever"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+
+    <step description = "Preheat oven to 175°C. Grease a cookie sheet or line with parchment paper."
+        description_fr="Préchauffer le four à 175°C. Beurrer une plaque à biscuits."/>
+    <step description = "In a medium bowl, cream together butter and sugar until light and fluffy. Beat in eggs and vanilla. Sift together the flour, cinnamon, baking powder, and salt; mix into the egg mixture. Stir in the hazelnuts."
+        description_fr="Dans un bol, mélanger, à la main, beurre et sucre. Ajouter les oeufs et l'extrait de vanille. Ajouter farine, cannelle, poudre à lever et sel. Incorporer les noisettes."/>
+    <step description = "Shape dough into two equal logs approximately 30cm long. Place logs on baking sheet, and flatten out to about 1cm thickness."
+        description_fr="Séparer la pâte en deux et former des bûches de 30cm de long. Placer les bûches sur la plaques et aplatir pour obtenir une épaisseur de 1.5cm"/>
+    <step description = "Bake for about 30 minutes in preheated oven. Remove from oven to cool on the pans. When loaves are cool enough to handle, use a serrated knife to slice the loaves diagonally into 1cm thick slices. Return the slices to the baking sheet."
+        description_fr="Faire cuire au four pendant 30 minutes. Retirer et laisser refroidir. Quand les bûches sont assez froides, couper dans la diagonal des tranches d'environ 1.5cm d'épaisseur."/>
+    <step description = "Bake for an additional 10 minutes, turning over once."
+        description_fr="Remettre au four pendant 10 minutes. Retourner à mi-cuisson."/>
+
+
+</recipe>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Meat Pie" name_fr="Tourte à la Viande" category="meat" href="Abbet Chrisitan"
+        path="recipe/meat/tourte_viande.xml" people="8" pic="../data/images/meat/tourte_viande.jpg"
+        time_bake="20" time_bake_unit="min" time_prep="35" time_prep_unit="min" />
+
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="700" unit="g" name="Minced meat" name_fr="Viande hachée"/>
+        <ingredient amount="250" unit="ml" name="Tomato sauce" name_fr="Sauce tomate"/>
+        <ingredient amount="125" unit="ml" name="Creme" name_fr="Crème"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Puff pastry" name_fr="Pâte feuilletée"/>
+        <ingredient amount="2" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="1" unit="" name="Leek" name_fr="Poireau"/>
+        <ingredient amount="1" unit="" name="Pepper bell" name_fr="Poivron"/>
+        <ingredient amount="1" unit="" name="Zucchini" name_fr="Courgette"/>
+        <ingredient amount="" unit="" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="" unit="" name="Cayenne pepper" name_fr="Piment de cayenne"/>
+    </ingredient_group>
+
+    <step description = "Prehat oven at 180°C "
+        description_fr = "Préchauffer le four à 180°C "/>
+    <step description = "Chop onions, garlic, leek, pepper bell and zucchini."
+        description_fr = "Couper les oigons, les gousses d'ail, le poireau, le poivron et la courgette."/>
+    <step description = "In a pan saute vegetables with oil and then add meat."
+        description_fr = "Dans une poêle faire revenir les légumes avec un fond d'huile puis rajouter la viande."/>
+    <step description = "When meat is almost cooked add tomato sauce and creme. Let reduce."
+        description_fr = "Une fois la viande presque cuite, rajouter la sauce tomate et la crème. Laisser reduire."/>
+    <step description = "Add pepper, paprika, cayenne pepper. Stir and let cool a bit. Add the egg and stir again."
+        description_fr = "Assaisonner avec du poivre, du paprika et du piment de Cayenne. Mélanger et laisser refrodir un peu. Ajouter l'oeuf et remuer rapidement pour mélanger."/>
+    <step description = "Put the first puff pastry at the bottom of the tart pan. Make holes with a fork. Add the meat and put the second puff pastry on top. Pinch all around to seal."
+        description_fr = "Dans une plaque à gâteau disposer la pâte feuillettée. A l'aide d'une fourchette trouer la pâte. Ajouter le mélange puis recouvrir le toute à l'aide de la seconde pâte. Pincer les bords pour sceller."/>
+
+</recipe>

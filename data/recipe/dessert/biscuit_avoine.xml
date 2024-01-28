@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Oatmeal Biscuits" name_fr="Biscuits aux Flocons d'Avoine" category="dessert"
+        href="http://www.marmiton.org/recettes/recette_biscuits-croquants-aux-flocons-d-avoine_22416.aspx"
+        path="recipe/dessert/biscuit_avoine.xml" people="6" pic="../data/images/dessert/biscuit_avoine.jpg"
+        time_bake="12" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="120" unit="g" name="Oatmeal" name_fr="Flocon d'avoine"/>
+        <ingredient amount="110" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="110" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="60" unit="g" name="Raisins" name_fr="Raisins secs"/>
+        <ingredient amount="50" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="0.4" unit="dl" name="Milk" name_fr="Lait"/>
+    </ingredient_group>
+
+    <step description = "Preheat the oven at 180°C."
+        description_fr="Préchauffer le four à 180°C."/>
+    <step description = "Whisk eggs and sugar together (with an egg beater)"
+        descritpion_fr = "Fouetter le beurre et le sucre (au fouet électrique, c'est mieux)."/>
+    <step description = "Add oatmeal, flour, raisins and milk. Whisk again."
+        description_fr = "Ajouter les flocons d'avoine, la farine, les raisins et le lait. Fouetter de nouveau."/>
+    <step  description = "Make little heaps (Not too big because usually dough tends to spread out ). Put them on a greaseproof paper."
+        description_fr = "Faire des petits tas (pas trop gros car les biscuits ont tendance à s'étaler). Les mettre sur une plaque beurrée ou recouverte de papier sulfurisé."/>
+    <step description = "Change oven temperature to 140°C. Bake them for 12-15 minutes."
+        description_fr = "Baisser le four à 140°C et à chaleur tournante. Faire cuire 12-15 min."/>
+
+
+</recipe>

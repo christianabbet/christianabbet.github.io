@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+        <info name="Maple Syrup Chicken" name_fr="Poulet au Sirop d'érable" category="meat"
+        href="http://www.marmiton.org/recettes/recette_emince-de-poulet-au-basilic-recette-chinoise_65290.aspx"
+        path="recipe/meat/poulet_miel_ail.xml" people="4" pic="../data/images/meat/poulet_honey.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Chicken breast" name_fr="Poitrine de poulet"/>
+        <ingredient amount="340" unit="g" name="Vegetable oil" name_fr="Huile végétale"/>
+        <ingredient amount="250" unit="ml" name="Maple syrup" name_fr="Sirop d'érable"/>
+        <ingredient amount="140" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="4" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="2" unit="tbsp" name="Soy sauce" name_fr="Sauce soja"/>
+        <ingredient amount="1" unit="tbsp" name="Cornstarch" name_fr="Maizena"/>
+        <ingredient amount="1" unit="tsp" name="Dry thyme" name_fr="Thym séché"/>
+        <ingredient amount="1" unit="tsp" name="Dry oregano" name_fr="Oregan séché"/>
+        <ingredient amount="0.5" unit="tsp" name="Paprika" name_fr="Paprika"/>
+        <ingredient amount="0.25" unit="tsp" name="Cayenne pepper" name_fr="Piment de cayenne"/>
+    </ingredient_group>
+
+    <step description = "In a saucepan mix maple syrup, garlic and soy sauce over medium heat. In a small bowl, mix cornstarch, 4 tbsp of water. Add it to maple syrup and stir until it thickens (about 1 to 2 minutes). Set aside."
+        description_fr = "Dans un casserolle chauffée moyenne température, mélangez le sirop d'érable, l'ail et la sauce soja. Dans un petit bol, mélangez la mïzena et 4 càs d'eau. Mélangez le toute dans la casserolle jusqu'à ce que la sauce d'épaissice (env. 1 à 2 minutes). Réservez la sauce."/>
+    <step description = "Heat vegetable oil in a pan. In a bowl mix flour, thyme, oregano, paprika and cayenne pepper."
+        description_fr = "Chauffez l'huile végétale dans une poêle. Dans un grand bol mélangez la farine, le thym, l'oregan, le paprika et le piment de Cayenne."/>
+    <step description = "Cut chicken breast into strips. Season with salt, pepper."
+        description_fr = "Coupez les poitrines de poulet en lamelles. Assaisonnez le poulet avec du sel et du poivre."/>
+    <step description = "Coat each chicken piece with flour, then beaten eggs, then flour again. Hardly press to allow flour to stick properly."
+        description_fr = "En prenant un morceau après l'autre, roulez le dans la farine, puis trempez le dans les oeufs battu et finalement encore une fois dans la farine. Appuyez fermement la deuxème fois pour que la farine s'accroche bien."/>
+    <step description = "Fry the chicken slices in hot oil. Remove from oil when it browns (about 3-4 minute on each side). Put them on a plat covered with paper towels so oil will be drained."
+        description_fr = "Frire les tranches par groupe de 3 ou 4 dans l'huile. Retirer lorsque le poulet est doré et croustillant (environ 3-4 minute par côté). Puis transferez les morceaux sur un plat recouvert d'un papier ménage."/>
+    <step description = "Serve with maple syrup dip."
+        description_fr = "Servez immédiatement avec la sauce."/>
+
+</recipe>

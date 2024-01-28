@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Cantonese Rice" name_fr="Riz Cantonais" category="other"
+        href="http://cuisine.journaldesfemmes.com/recette/305623-riz-cantonais"
+        path="recipe/other/riz_cantonais.xml" people="4" pic="../data/images/other/riz_cantonais.jpg"
+        time_bake="12" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr="Globale">
+        <ingredient amount="600" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="300" unit="g" name="Basmati rice" name_fr="Riz basmati" />
+        <ingredient amount="150" unit="g" name="Peas" name_fr="Petits pois"/>
+        <ingredient amount="150" unit="g" name="Ham" name_fr="Jambons"/>
+        <ingredient amount="1" unit="dl" name="Oil" name_fr="Huile"/>
+        <ingredient amount="2" unit="tbsp" name="Chives" name_fr="Ciboulette"/>
+        <ingredient amount="1" unit="tbsp" name="Parsley" name_fr="Persil"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf" />
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+    </ingredient_group>
+
+    <step description="In a sauce pan heat oil. Sauté garlic and chopped onion. Add rice and let fry a bit."
+        description_fr="Faire revenir l'ail et l'oignon hachés dans l'huile chaude. Ajouter le riz et le laisser un peu frire." />
+    <step description="Add peas, ham. Pour hot water. Season. Stir. Cover and cook for 12 minutes over low heat."
+        description_fr="Incorporer les petits pois et le jambon. Verser 6 dl d'eau bouillante. Saler et poivrer. Bien mélanger. Couvrir et cuire pendant environ 12 minutes, à feu doux." />
+    <step description="Meanwhile in another pan add eggs. Scramble. "
+        description_fr="Pendant ce temp dans une autre poele ajouter les oeuf. Brouiller." />
+    <step description="Add scrambled eggs. Stir. Sprinkle the chopped chives and parsley"
+        description_fr="Ajouter les oeufs brouillés. Mélanger. Saupoudrer de ciboulette hachée et le persil" />
+
+</recipe>

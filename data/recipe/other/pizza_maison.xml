@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Italian Pizza" name_fr="Pizza Italienne Maison" category="other" href="Abbet Christian"
+        path="recipe/other/pizza_maison.xml" people="6" pic="../data/images/other/pizza_maison.jpg"
+        time_bake="2" time_bake_unit="h" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name="Dough" name_fr="Pâte">
+        <ingredient amount="250" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="150" unit="g" name="Semolina" name_fr="Semoule"/>
+        <ingredient amount="0.5" unit="dl" name="Sunflower oil" name_fr="Huile de tournesol"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="3" unit="tsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <ingredient_group name="Topping" name_fr="Garniture">
+        <ingredient amount="500" unit="ml" name="Peeled tomato" name_fr="Tomate pelée"/>
+        <ingredient amount="400" unit="g" name="Mozzarella" name_fr="Mozzarella"/>
+        <ingredient amount="100" unit="g" name="Ham" name_fr="Jambon cuit"/>
+        <ingredient amount="100" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="100" unit="g" name="Tuna" name_fr="Thon"/>
+        <ingredient amount="1" unit="" name="Red bell pepper" name_fr="Poivron rouge"/>
+    </ingredient_group>
+
+
+    <step name="Dough" name_fr = "Pâte"
+        description = "Mix flour, semolina, dry yeast, sugar, salt. Add oil."
+        description_fr = "Mélanger la farine, la semoule et la levure. Puis ajouter le sucre, le sel ainsi que l'huile."/>
+    <step description = "Gradually add water while stirring by hand. Knead for 10 minutes until dough becomes elastic."
+        description_fr = "Progressivement ajouter de l'eau, en travaillant à la main pendant 10 minutes, jusqu'à obtenir une pate très molle et élastique."/>
+    <step description = "Let rest for 1 hour 30 (1 hour at least) in a large bowl. Cover with linen."
+        description_fr = "Laisser reposer la pâte pendant 1h30 (1h minimum) en la placant dans un recipiant et en recouvrant celui-ci d'un linge de cuisine."/>
+    <step description = "Knead for 10-15 minutes."
+        description_fr = "Travailer la pâte encore une fois pendant 10-15 minutes."/>
+    <step name="Pizza" name_fr="Pizza"
+        description = "Spread dough on the baking sheet. Use a fork to make holes in the dough."
+        description_fr = "Etaler la pâte a pizza sur la plaque. Utilisez une fourchette pour trouer légèrement la pâte."/>
+    <step description = "Spread all over tomatoes and diced mozzarella. Spread sliced bell pepper on top."
+        description_fr = "Etaler le sauce tomate et la mozarella découpée en petits morceaux. Etaler les poivrons et mettre au four."/>
+    <step description = "When the dough begins to browns, come it out of the oven. Add chopped ham, cooked shrimps and tuna."
+        description_fr = "Quand la pâte commence à dorer, sortir la pizza du four et rajouter le jambon, les crevettes cuites et le thon."/>
+    <step description = "Return to the oven and let cook."
+        description_fr = "Remettre au four et laisser cuire le tout."/>
+
+
+</recipe>

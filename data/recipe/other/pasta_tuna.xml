@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Tuna Sauce with Linguine" name_fr="Linguine Sauce au Thon" category="other"
+        href="Abbet Christian"
+        path="recipe/other/pasta_tuna.xml" people="2" pic="../data/images/other/pasta_tuna.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="10" time_prep_unit="min"/>
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="300" unit="g" name="Linguine pasta" name_fr="Pâte linguine"/>
+        <ingredient amount="400" unit="g" name="Tomato Sauce" name_fr="Sauce tomate"/>
+        <ingredient amount="200" unit="g" name="Tuna" name_fr="Thon"/>
+        <ingredient amount="15" unit="g" name="Basil" name_fr="Basilic"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+    </ingredient_group>
+
+    <step description="In a saucepan sauté, over medium heat, chopped garlic and onion with olive oil."
+        description_fr="Dans une casserole, faire revenir oignon et ail émincé avec l'huile d'olive, à feu moyen."/>
+    <step description="Add tomato sauce, tuna and chopped basil."
+        description_fr="Ajouter la sauce tomate, le thon et le basilic."/>
+    <step description="In another saucepan bring water to a boil. Cook pasta for 4-5 minutes."
+        description_fr="Dans une casserole porter de l'eau à ébullition. Cuire les pâtes pendant 4-5 minutes."/>
+    <step description="Drain pasta and mix with sauce."
+        description_fr="Egoutter les pâtes et mélanger à la sauce."/>
+
+
+</recipe>

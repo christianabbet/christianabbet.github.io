@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Baklawa" name_fr="Baklawa" category="dessert"
+        href="http://www.750g.com/baklawa-tunisienne-r22619.htm"
+        people="20" time_bake="20" time_bake_unit="min" time_prep="50" time_prep_unit="min" pic="../data/images/dessert/baklava.jpg"/>
+
+    <ingredient_group name="Syrup" name_fr="Sirop">
+        <ingredient amount="300" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="1" unit="dl" name="Water" name_fr="Eau"/>
+        <ingredient amount="1" unit="tbsp" name="Water of orange flowers" name_fr="Eau de fleur d'oranger"/>
+        <ingredient amount="1" unit="tsp" name="Lemon juice" name_fr="Jus de citron"/>
+    </ingredient_group>
+
+    <ingredient_group name="Filling" name_fr="Farce">
+        <ingredient amount="500" unit="g" name="Filo pastry" name_fr="Pâte filo"/>
+        <ingredient amount="200" unit="g" name="Almonds" name_fr="Amandes"/>
+        <ingredient amount="180" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="100" unit="g" name="Walnuts" name_fr="Noix"/>
+        <ingredient amount="50" unit="g" name="Pistachio" name_fr="Pistaches"/>
+        <ingredient amount="3" unit="tbsp" name="Icing sugar" name_fr="Sucre glace"/>
+        <ingredient amount="1" unit="tbsp" name="Water of orange flowers" name_fr="Eau de fleur d'oranger"/>
+    </ingredient_group>
+
+    <step name="Syrup" name_fr="Sirop"
+        description="Pour sugar, water, water of orange flower and lemon juice in a saucepan. Heat mixture until it becomes syrupy. Set aside."
+        description_fr="Versez le sucre, l'eau, l'eau de fleur d'oranger et le jus de citron dans une casserole. Faites fondre sur feu doux jusqu'à ce que le mélange prenne la consistance d'un sirop. Réserver."/>
+    <step name="Baklawa" name_fr="Baklawa"
+        description="Preheat oven at 180°C. Grill almonds, walnuts and pistachio. Coarsely chop them. Add icing sugar and wator of orange flowers. Mix well."
+        description_fr="Préchauffer le four à 180°C. Torréfier les fruits secs. Les hacher grossièrement. Ajoutez le sucre glace et l'eau de fleur d'oranger et bien mélanger."/>
+    <step description="Melt butter. Butter a baking pan. Spread one sheet of filo pastry and butter it. Add a second sheet and butter it as well. Continue until half of the filo sheets remains."
+        description_fr="Faites fondre le beurre. Beurrez un plat à four. Étalez une première feuille de filo. Beurrez-la au pinceau. Recouvrez d'une deuxième feuille, beurrez-la à son tour et continuez jusqu'à épuisement du demi-paquet de pâte filo."/>
+    <step description="Pour nuts mixture and flatten. Spread the remaining filo sheets on top. Butter each filo sheet. Cut baklawas, using a sharp knife, forming squares."
+        description_fr="Étalez la pâte avec les fruits secs. Recouvrez comme précédemment avec le reste de la pâte filo. Avec un très bon couteau, découpez les baklawas en carrés ou en losanges."/>
+    <step description="Put in oven for 15 to 20 minutes. Remove form the oven and pour syrup all over. Allow to cool before eating."
+        description_fr="Enfournez, laissez cuire 15 à 20 min. Retirez du four dès que toute la surface est dorée. Versez doucement le sirop sur la baklawa très chaude et laissez refroidir"/>
+
+</recipe>

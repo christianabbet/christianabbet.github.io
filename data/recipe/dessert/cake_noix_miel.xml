@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Maple Syrup Walnuts Cake" name_fr="Cake aux Noix et Sirop d'érable" category="dessert"
+        href="http://cuisine.journaldesfemmes.com/recette/309633-cake-aux-noix"
+        path="recipe/dessert/cake_noix_miel.xml" people="6" pic="../data/images/dessert/cake_noix.jpg"
+        time_bake="45" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name = "Overall" name_fr = "Globale">
+        <ingredient amount="180" unit="g" name="Walnuts" name_fr="Noix"/>
+        <ingredient amount="150" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="100" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="100" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="10" unit="tbsp" name="Maple syrup" name_fr="Sirop d'érable"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="3" unit="" name="Egg" name_fr="Oeuf"/>
+    </ingredient_group>
+
+    <step description = "Preheat the oven at 240°C. Mix the sugar with the melted butter. Add the maple syrup, flour, yeast and eggs. Mix."
+        description_fr = "Préchauffer le four à 240°C. Mélanger bien le sucre avec le beurre ramolli. Incorporer le sirop d'érable, la farine, la levure et les oeufs. Mélanger."/>
+    <step description = "Add the walnuts to the dough. Pour it in a buttered cake mold"
+        description_fr="Ajouter les noix décortiquées à la préparation et mélanger. Verser dans un moule à cake beurré et fariné."/>
+    <step description = "Put in the oven in 240°C during 5 minutes, then during 40 minutes in 180°C."
+        description_fr="Enfourner 5 minutes à 240°C puis 40 minutes à 180°C."/>
+
+</recipe>

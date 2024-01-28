@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Mexican Chicken and Lentils" name_fr="Poulet lentilles à la Mexicaine" category="meat"
+        href="http://www.troisfoisparjour.com/fr/recettes/viandes/poulet-lentilles-a-la-mexicaine"
+        path="recipe/meat/poulet_lentille_mexicain.xml" people="3" pic="../data/images/meat/poulet_mexicain.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="15" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="4" unit="" name="Chicken breast" name_fr="Poitrine de poulet"/>
+        <ingredient amount="200" unit="g" name="Lentil" name_fr="Lentille"/>
+        <ingredient amount="30" unit="g" name="Coriander" name_fr="Coriandre"/>
+        <ingredient amount="3" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Avocado" name_fr="Avocat"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="3" unit="tbsp" name="Sour cream" name_fr="Crème fraîche"/>
+        <ingredient amount="0.75" unit="tbsp" name="Cumin" name_fr="Cumin"/>
+        <ingredient amount="0.75" unit="tbsp" name="Chili powder" name_fr="Poudre de chili"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven at 180°C."
+        description_fr = "Préchauffer le four à 180°C."/>
+    <step description = "In a large bowl, mix cumin, chili powder, salt, 1 tbsp of oil and chicken breasts. Put the chicken breasts in oven."
+        description_fr = "Dans un bol, verser 1 càs d'huile, le cumin, la poudre de chili, le sel et le poulet. Bien mélanger, puis disposer les poitrines sur la plaque à cuisson."/>
+    <step description = "Bake for 25 minutes."
+        description_fr = "Enfourner pendant 25 minutes."/>
+    <step description = "Meanwhile, wash lentils. Put them in a saucepan with 3 cup of water. Simmer during 25 minutes, drain. Set aside."
+        description_fr = "Pendant ce temps, rincer les lentilles, puis les déposer dans une casserole avec 3 tasses d'eau. Laisser mijoter pendant 25 minutes, puis égoutter. Réserver."/>
+    <step description = "In a pan brown minced onion. Add salt, pepper. Add garlic, sliced avocado, diced tomato, sour cream and lentils. Stir."
+        description_fr = "Dans une poêle, faire revenir l'oignon dans un filet d'huile d'olive jusqu'à ce qu'il soit translucide. Assaisonner, puis ajouter l'ail, l'avocat coupé en tranches, la tomate coupée en dés, la crème fraiche et les lentilles. Bien mélanger."/>
+    <step description = "Before serving add coriander and slice chicken breast."
+        description_fr = "Avant la fin ajouter la coriandre pour garder le gout et couper en tranches le poulets."/>
+
+</recipe>

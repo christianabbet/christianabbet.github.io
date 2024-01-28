@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Mozzarella Toasts" name_fr="Tosts Mozzarella" category="other"
+        href="Abbet Christian"
+        path="recipe/other/sandwich_mozza.xml" people="2" pic="../data/images/other/sandwish_mozza.jpg"
+        time_bake="15" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="8" unit="" name="Toasts" name_fr="Toasts"/>
+        <ingredient amount="100" unit="g" name="Ham" name_fr="Jambon"/>
+        <ingredient amount="150" unit="g" name="Mozzarella" name_fr="Mozzarella"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Tomato" name_fr="Tomate"/>
+        <ingredient amount="1.5" unit="tbsp" name="Balsamic vinegar" name_fr="Vinaigre balsamique"/>
+        <ingredient amount="" unit="" name="Basil" name_fr="Basilic"/>
+    </ingredient_group>
+
+    <step description = "Prehat oven at 180°C."
+        description_fr = "Préchauffer le four à 180°C."/>
+    <step description = "Slice tomato and chop garlic."
+        description_fr = "Couper la tomate en fines tranches et émincé l'ail."/>
+    <step description = "On a plat spread 4 toasts. On each toasts put ham, tomato, garlic, basil leaves, mozzarella and a toast."
+        description_fr = "Sur une plaque répartir 4 toasts. Sur chaque toast superposer jambon, tomate, ail, feuilles de basilic et mozzarella. Recouvrir d'un toast."/>
+    <step description = "Put in oven for 10-15 minutes."
+        description_fr = "Mettre au four pendant 10-15 minutes."/>
+
+</recipe>

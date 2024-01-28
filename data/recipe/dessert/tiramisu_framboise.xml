@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+   <info name="Raspberry Crumble Tiramisù" name_fr="Tiramisù aux Framboises Crumble" category="dessert"
+        href="http://www.marmiton.org/recettes/recette_coupes-de-creme-au-mascarpone-et-framboises-facon-crumble_40730.aspx"
+        path="recipe/dessert/tiramisu_framboise.xml" people="4" pic="../data/images/dessert/tiramisu_framboise.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="1" time_prep_unit="h" />
+        
+    <ingredient_group name = "Tiramisù">
+        <ingredient amount="400" unit="g" name="Raspberries" name_fr="Framboises"/>
+        <ingredient amount="250" unit="g" name="Mascarpone" name_fr="Mascarpone"/>
+        <ingredient amount="5" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="3" unit="" name="Vanilla bean" name_fr="Gousses de vanille"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Crumble">
+        <ingredient amount="90" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="70" unit="g" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="70" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+    </ingredient_group>
+
+    <step name = "Crumble" name_fr = "Crumble"
+        description = "Put the flour and sugar in a bowl, then add the butter. Stir butter in by hand."
+        description_fr = "Verser la farine et le sucre dans une terrine, et ajouter le beurre mou, coupé en morceaux. Bien mélanger."/>
+    <step description = "Spread it on a plate on put in the oven in 210°C during 30 minutes (it should turn golden). Mix half-way point. Allow to cool."
+        description_fr = "Disposer sur un plat, et mettre au four thermostat à 210°C pendant 30 min environ (jusqu'à ce que la pâte soit bien dorée). Mélanger à mi-cuisson. Laisser refroidir."/>
+    <step name = "Tiramisù" name_fr = "Tiramisù"
+        description = "Mix the egg yolks, sugar and vanilla sugar with a rotary beater, until it whitens."
+        description_fr = "Avec un batteur électrique, mélanger les jaunes d'oeufs avec le sucre en poudre, et le sachet de sucre vanillé, jusqu'à ce que le mélange blanchisse."/>
+    <step description = "Add the mascarpone. Mix"
+        description_fr = "Puis ajouter le mascarpone. Mélanger."/>
+    <step description = "Take up whites in snow with salt, and add it to the mascarpone."
+        description_fr = "Monter les blancs d'oeufs en neige avec une pincée de sel, et les incorporer à la préparation précédente."/>
+    <step description = "Take 4 jars, and alternate one layer of raspberries, one layer of mascarpone, one layer of crumble."
+        description_fr = "Prendre 4 verrines, et alterner une couche de framboises, une couche de crème au mascarpone, une couche de pâte à crumble."/>
+    <step description = "End with a layer of crumble and put 3 full raspberries on top. Put 2h in the freezer before eating it."
+        description_fr = "Terminer par une couche de crumble. Ajouter 3 framboises entières par coupe. Mettre 2 h au congelatteur, avant de déguster."/>
+
+</recipe>

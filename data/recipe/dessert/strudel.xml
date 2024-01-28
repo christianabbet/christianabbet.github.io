@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Appel Strudel" name_fr="Strudel aux Pommes" category="dessert"
+        href="http://allrecipes.com/recipe/47821/easy-apple-strudel/"
+        path="recipe/dessert/strudel.xml" people="10" pic="../data/images/dessert/strudel.jpg"
+        time_bake="40" time_bake_unit="min" time_prep="30" time_prep_unit="min" />
+        
+    <ingredient_group name="Overall" name_fr="Global">
+        <ingredient amount="3" unit="" name="Apple" name_fr="Pomme"/>
+        <ingredient amount="220" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="50" unit="g" name="Raisins" name_fr="Raisins secs"/>
+        <ingredient amount="50" unit="g" name="Pecans" name_fr="Noix de pécans"/>
+        <ingredient amount="60" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="1" unit="" name="Puff pastry" name_fr="Pâte feuilletée"/>
+        <ingredient amount="1" unit="" name="Egg" name_fr="Oeuf"/>
+    </ingredient_group>
+
+    <step description="Preheat oven to 200°C."
+        description_fr="Préchauffer le four à 200°C."/>
+    <step description="Place coarsely chopped apples in a large bowl. Stir in brown sugar and golden raisins and chopped pecans; set aside."
+        description_fr="Placer les pommes, grossièrement coupées, dans un grand bol. Ajouter le sucre, les raisins secs et les noix de pécans découpées. Mélanger."/>
+    <step description="Place puff pastry on baking sheet. Roll lightly with a rolling pin. Arrange apple filling down the middle of the pastry lengthwise. Fold the pastry lengthwise around the mixture. Seal edges of pastry by using a bit of water on your fingers, and rubbing the pastry edges together."
+        description_fr="Etaler la pâte feuilletée. Disposer le mélange au centre de la pâte dans le sens de la largeur. Refermer la pâte au dessus des pommes sur toute la largeur. Puis refermer les longueurs."/>
+    <step description="Whisk egg and milk together, and brush onto top of pastry. Bake in preheated oven for 35 to 40 minutes, or until golden brown."
+        description_fr="Dans un bol, mélanger le lait et l'oeuf. A l'aide d'un pinceau, étaler le mélange sur tout la surface. Faire cuire pendant 35-40 minutes."/>
+
+</recipe>

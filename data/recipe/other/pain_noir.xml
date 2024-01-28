@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+  <info name="Fig Walnuts Bread" name_fr="Pain aux Noix et Figues" category="other" href="Irma Besenval"
+        path="recipe/other/pain_noir.xml" people="12" pic="../data/images/other/pain_noix.jpg"
+        time_bake="1" time_bake_unit="h" time_prep="3" time_prep_unit="h" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="500" unit="g" name="Whole-wheat flour" name_fr="Farine intégrale"/>
+        <ingredient amount="300" unit="ml" name="Water" name_fr="Eau"/>
+        <ingredient amount="100" unit="g" name="Walnuts" name_fr="Noix"/>
+        <ingredient amount="100" unit="g" name="Fig" name_fr="Figue"/>
+        <ingredient amount="60" unit="g" name="Raisins" name_fr="Raisins secs"/>
+        <ingredient amount="1" unit="tbsp" name="Oil" name_fr="Huile"/>
+        <ingredient amount="1" unit="tsp" name="Sucre" name_fr="Sucre"/>
+        <ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="7" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+    </ingredient_group>
+
+    <step description = "Mix flour with dry yeast. Add sugar, salt, walnuts, figs and raisins."
+        description_fr = "Mélanger la farine avec la levure. Puis ajouter le sucre, le sel, les noix, les figues et les raisins."/>
+    <step description = "Add tepid water, a few at a time, while stirring by hand until dough becomes a bit sticky. If dough is too sticky add flour."
+        description_fr = "Ajouter au fur et à mesure de l'eau tiède, en mélangeant à la main, jusqu'à obtenir une pate légèrement collante. Si la pâte est trop liquide ou trop collante rajouter de la farine."/>
+    <step description = "Add oil and knead during 10 minutes"
+        description_fr = "Ajouter l'huile et travailler à la main pendant 10 minutes"/>
+    <step description = "Let rest the dough in a large bowl for 1 hour and a half (1 hour at least). Cover with a linen."
+        description_fr = "Laisser reposer la pâte pendant 1h30 (1h minimum) en la placant dans un recipiant et en recouvrant celui-ci d'un linge de cuisine."/>
+    <step description = "Knead the dough for 10 minutes and add flour so the dough will not stick anymore."
+        description_fr = "Travailler la pâte encore un moment en ajoutant un peu de farine pour que celle-ci ne colle plus."/>
+    <step description = "Form a ball. Make a cut at the top of it. Put in oven in 150°C for 1 hour."
+        description_fr = "Faire un boule. Effectuer un entaille au dessus puis placer au four à 150°C pendant 1h."/>
+
+
+</recipe>

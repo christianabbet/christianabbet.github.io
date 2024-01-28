@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+       <info name="Apple Fritters" name_fr="Beignets aux Pommes" category="vegetable"
+        href="http://www.marmiton.org/recettes/recette_beignets-de-pomme-de-mon-papi_51021.aspx"
+        path="recipe/vegetable/beignet_pomme.xml" people="4" pic="../data/images/vegetable/beignet_pomme.jpg"
+        time_bake="10" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="3" unit="" name="Apple" name_fr="Pomme"/>
+        <ingredient amount="300" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="250" unit="ml" name="Milk" name_fr="Lait"/>
+        <ingredient amount="1" unit="tbsp" name="Kirsh" name_fr="Kirsh"/>
+        <ingredient amount="2" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="10" unit="g" name="Vanilla sugar" name_fr="Sucre vanillé"/>
+        <ingredient amount="5" unit="g" name="Dry yeast" name_fr="Levure sèche"/>
+        <ingredient amount="" unit="" name="Sugar" name_fr="Sucre"/>
+    </ingredient_group>
+
+    <step description = "Mix flour, yeast, vanilla sugar and egg yolk. Slowly add milk and Kirsh while stirring. Take egg white up in snow. Add a pinch of salt. Slowly add it to the egg yolks mixture"
+        description_fr = "Mélanger la farine, la levure, le sucre vanilé et les jaunes d'oeufs, délayer peu à peu avec le lait et le kirsh. Battre les blancs en neige avec une pincée de sel. Ajouter dans la pâte très délicatement."/>
+    <step description = "Peal, seed and slice apples."
+        description_fr = "Peler les pommes, ôter le coeur au vide-pomme. Couper les pommes en rondelles."/>
+    <step description = "Heat oil in a pan. Soak apple slices in the mixture and fry them in oil on both sides."
+        description_fr = "Verser l'huile dans une sauteuse et chauffer. Rouler les rondelles de pommes dans la pâte. Les plonger dans l'huile sans qu'elles ne se touchent. Faire dorer sur les deux faces."/>
+    <step description = "Set aside on paper towel and let drain. Sprinkle with sugar."
+        description_fr = "Egoutter sur du papier absorbant ou sur un linge. Dès qu'ils sont égouttés, poudrer les beignets de sucre."/>
+
+
+</recipe>

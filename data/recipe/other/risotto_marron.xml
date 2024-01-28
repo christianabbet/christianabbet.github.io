@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Chestnuts Risotto" name_fr="Risotto aux Marrons" category="other"
+        href="http://www.swissmilk.ch/fr/recettes/LM201001_14/risotto-aux-marrons.html"
+        path="recipe/other/risotto_marron.xml" people="4" pic="../data/images/other/risotto_marron.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="10" time_prep_unit="min" />
+
+        
+    <ingredient_group name="Risotto" name_fr="Risotto">
+        <ingredient amount="300" unit="g" name="Risotto rice" name_fr="Riz à risotto"/>
+        <ingredient amount="150" unit="g" name="Chestnut" name_fr="Marron"/>
+        <ingredient amount="9" unit="dl" name="Beef stock" name_fr="Bouillon de boeuf"/>
+        <ingredient amount="1" unit="dl" name="White wine" name_fr="Vin blanc"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+    </ingredient_group>
+
+    <ingredient_group name="Sauce" name_fr="Sauce">
+        <ingredient amount="75" unit="g" name="Mascarpone" name_fr="Mascarpone"/>
+        <ingredient amount="60" unit="g" name="Bacon" name_fr="Lard cru"/>
+        <ingredient amount="50" unit="g" name="Parmesan" name_fr="Parmesan"/>
+        <ingredient amount="2" unit="tbsp" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="2" unit="tbsp" name="Hazelnut" name_fr="Noisette" />
+        <ingredient amount="30" unit="g" name="Sage" name_fr="Sauge"/>
+    </ingredient_group>
+
+    <step name="Risotto" name_fr="Risotto"
+        description="In a large pan add butter and sauté onion and garlic. Add rice and wine. Simmer until wine is completely absorbed."
+        description_fr="Faire suer l'oignon et l'ail dans le beurre. Ajouter le riz et le vin et mijoter jusqu'à l'absorption complète du liquide." />
+    <step description="Gradually pour beef stock, taking care rice is always covered by water. Simmer for 20 minutes. Add chesnuts during the last 10 minutes."
+        description_fr="Verser le bouillon petit à petit de sorte que le riz soit toujours recouvert. Mijoter 20 min en remuant régulièrement. Ajouter les marrons dans les 10 dernières minutes de cuisson."/>
+    <step name="Sauce" name_fr="Sauce"
+        description="Roast hazelnuts in a pan. Grind. Set aside. Brown bacon, add butter and roasted hazelnuts."
+        description_fr="Griller les noisettes. Réduire en poudre. Réserver. Saisir le lard, réserver. Faire revenir dans le beurre, ajouter au lard et aux noisettes."/>
+    <step description="Gradually add mascarpone and parmesan to rice. Season."
+        description_fr="Incorporer le mascarpone et le parmesan au riz, rectifier l'assaisonnement." />
+    <step description="When serving, spread bacon and sage on top"
+        description_fr="Répartir le risotto dans des assiettes creuses chaudes. Parsemer de mélange lard-sauge." />
+
+    <hint description="Replace frozen chestnuts with fresh ones. Cut the shell on both side. Cook chestnuts in boiling water for 3-4 min. Peel. Cook with rice since the beginning. "
+        description_fr="Remplacer les marrons surgelés par des marrons frais. Entailler la coque du côté bombé. Blanchir 3-4 min. Peler encore chauds. Cuire dès le début avec le riz." />
+
+
+</recipe>

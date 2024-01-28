@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+    <info name="Peach Cobbler" name_fr="Tarte aux Pêches" category="dessert"
+        href="http://allrecipes.com/recipe/51535/fresh-southern-peach-cobbler/"
+        path="recipe/dessert/peach_cobbler.xml" people="8" pic="../data/images/dessert/peach_cobbler.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+        
+    <ingredient_group name = "Base" name_fr = "Base">
+        <ingredient amount="8" unit="" name="Peach" name_fr="Pêche"/>
+        <ingredient amount="50" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="55" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="2" unit="tsp" name="Cornstarch" name_fr="Maïzena"/>
+        <ingredient amount="1" unit="tsp" name="Lemon juice" name_fr="Jus de citron"/>
+        <ingredient amount="0.25" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+        <ingredient amount="0.125" unit="tsp" name="Nutmeg" name_fr="Noix de muscade"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Dough" name_fr = "Pâte">
+        <ingredient amount="140" unit="g" name="Flour" name_fr="Farine"/>
+        <ingredient amount="50" unit="g" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="55" unit="g" name="Brown sugar" name_fr="Sucre brun"/>
+        <ingredient amount="6" unit="tbsp" name="Butter" name_fr="Beurre"/>
+        <ingredient amount="1" unit="tsp" name="Baking powder" name_fr="Levure sèche"/>
+        <ingredient amount="0.5" unit="tsp" name="Salt" name_fr="Sel"/>
+        <ingredient amount="60" unit="ml" name="Water" name_fr="Eau"/>
+    </ingredient_group>
+
+    <ingredient_group name = "Topping" name_fr = "Nappage">
+        <ingredient amount="3" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="1" unit="tsp" name="Cinnamon" name_fr="Cannelle"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven to 220°C"
+        description_fr = "Préchauffer le four à 220°C"/>
+    <step name="Base" name_fr="Base"
+        description = "In a large bowl, combine sliced peaches, white sugar, brown sugar, teaspoon cinnamon, nutmeg, lemon juice, and cornstarch."
+        description_fr = "Dans un grand bol, mélanger les pêches coupées en tranches, sucre, sucre brun, cannelle, noix de muscade, jus de citron et maïzena."/>
+    <step description = "Toss to coat evenly, and pour into a baking dish. Bake in preheated oven for 10 minutes."
+        description_fr = "Dans un grand plat, répartir et égaliser les pêches. Mettre au four pendant 10 minutes."/>
+    <step name="Dough" name_fr="Pâte"
+        description = "Meanwhile, in a large bowl, combine flour, white sugar, cup brown sugar, baking powder, and salt. Blend in butter with your fingertips, or a pastry blender, until mixture resembles coarse meal. Stir in water until just combined."
+        description_fr = "Pendant ce temps, dans un grand bol, mélanger farine, sucre, sucre brun, levure, et sel. Ajouter le beurre et mélanger à la main. Ajouter l'eau. Mélanger."/>
+    <step description = "Remove peaches from oven, and drop spoonfuls of topping over them. Sprinkle entire cobbler with the sugar and cinnamon mixture. Bake until topping is golden, about 20 minutes."
+        description_fr = "Sortir les pêches du four. Déposer des cuillerées de pâte sur les pêches. Saupoudrer du mélange sucre/cannelle. Mettre au four pendant 20 minutes."/>
+
+
+</recipe>

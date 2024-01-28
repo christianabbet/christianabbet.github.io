@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+
+	 <info name="Tandoori Chicken"  name_fr="Poulet Tandoori" category="meat"
+        href="http://allrecipes.com/recipe/50347/indian-tandoori-chicken/"
+        path="recipe/meat/poulet_tandoori.xml" people="4" pic="../data/images/meat/poulet_tandoori.jpg"
+        time_bake="25" time_bake_unit="min" time_prep="20" time_prep_unit="min" />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+		<ingredient amount="900" unit="g" name="Chicken" name_fr="Poulet"/>
+		<ingredient amount="300" unit="ml" name="Plain yogurt" name_fr="Yogourt nature"/>
+		<ingredient amount="1" unit="tsp" name="Salt" name_fr="Sel"/>
+		<ingredient amount="1" unit="" name="Lemon" name_fr="Citron"/>
+		<ingredient amount="0.5" unit="" name="Onion" name_fr="Oignon"/>
+		<ingredient amount="1" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+		<ingredient amount="2" unit="tsp" name="Garam Masala" name_fr="Garam Masala"/>
+		<ingredient amount="2" unit="tsp" name="Cilantro" name_fr="coriandre"/>
+		<ingredient amount="1" unit="tsp" name="Ginger" name_fr="Gingembre"/>
+		<ingredient amount="1" unit="tsp" name="Cayenne pepper" name_fr="Piment de cayenne"/>
+		<ingredient amount="1" unit="tsp" name="Yellow food coloring" name_fr="Colorant alimentaire jaune"/>
+		<ingredient amount="1" unit="tsp" name="Red food coloring" name_fr="Colorant alimentaire rouge"/>
+    </ingredient_group>
+
+	<step description = "Remove skin from chicken pieces, and cut slits into them lengthwise. Place in a shallow dish. Sprinkle both sides of chicken with salt and lemon juice. Set aside 20 minutes."
+		description_fr = "Retirer la peau du poulet et couper en dés. Dans un saladier verser le poulet et mélanger au sel et au jus de citron. Reserver 20 minutes."/>
+	<step description = "In a medium bowl, combine yogurt, onion, garlic, ginger, garam masala, and cayenne pepper. Stir in yellow and red food coloring. Spread yogurt mixture over chicken. Cover, and refrigerate for 12 hours."
+		description_fr = "Dans un bol mélanger yogourt, oignon, ail, gingembre, garam masala et piment de cayenne. Ajouter le colorant alimentaire, puis repartir le mélange sur le poulet. Couvrir et mettre au réfrigérateur pendant 12h"/>
+	<step description = "Cook chicken in a large pan over medium heat. Cook chicken  until no longer pink and juices run clear."
+		description_fr = "Faire cuire le poulet dans une poêle à feu moyen. Cuire jusqu'à ce que le poulet soit cuit et le jus clair"/>
+
+
+</recipe>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info name="Egg rolls" name_fr="Nem vietnamien" category="other"
+        href="http://www.marmiton.org/recettes/recette_les-nems-de-ma-grand-mere-recette-originale_38800.aspx"
+        path="recipe/other/asian_nem.xml" people="10" pic="../data/images/other/asian_nem.jpg"
+        time_bake="30" time_bake_unit="min" time_prep="1" time_prep_unit="h" />
+        
+    <ingredient_group name="Egg roll" name_fr="Nem vietnamien">
+        <ingredient amount="250" unit="g" name="Minced pork meat" name_fr="Viande hachée de porc"/>
+        <ingredient amount="100" unit="g" name="Shrimp" name_fr="Crevette"/>
+        <ingredient amount="8" unit="" name="Sheets brick pastry" name_fr="Feuilles de brick"/>
+        <ingredient amount="3" unit="" name="Egg" name_fr="Oeuf"/>
+        <ingredient amount="2" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="1" unit="" name="Onion" name_fr="Oignon"/>
+        <ingredient amount="1" unit="" name="Carrot" name_fr="Carotte"/>
+        <ingredient amount="150" unit="g" name="Chinese mushroom" name_fr="Champignon chinois"/>
+        <ingredient amount="50" unit="g" name="Rice vermicelli" name_fr="Vermicelles de riz"/>
+        <ingredient amount="50" unit="g" name="Bean sprouts" name_fr="Germes de soja"/>
+        <ingredient amount="4" unit="tbsp" name="Fish sauce" name_fr="Sauce poisson"/>
+    </ingredient_group>
+
+    <ingredient_group name="Sauce" name_fr = "Sauce">
+        <ingredient amount="3" unit="tbsp" name="Fish sauce" name_fr="Sauce poisson"/>
+        <ingredient amount="3" unit="tbsp" name="Rice vinegar" name_fr="Vinaigre de riz"/>
+        <ingredient amount="3" unit="tbsp" name="Sugar" name_fr="Sucre"/>
+        <ingredient amount="4" unit="" name="Garlic clove" name_fr="Gousse d'ail"/>
+        <ingredient amount="2" unit="" name="Red pepper" name_fr="Piment rouge"/>
+        <ingredient amount="1.5" unit="dl" name="Water" name_fr="Eau"/>
+    </ingredient_group>
+
+
+    <step name="Egg roll" name_fr="Nem vietnamien"
+        description = "Soak mushroom in cold water for 1h. Soak rice vermicelli in cold water for 10 minutes."
+        description_fr = "Faites tremper les champignons dans de l'eau froide pendant 1h. Faites tremper les vermicelles dans de l'eau froide pendant 10 min."/>
+    <step description = "Chop and mix pork, shrimps, onion, carrot, mushrooms, rice vermicelli, bean sprouts and eggs. Add black pepper and fish sauce."
+        description_fr = "Coupez et mélangez le porc, les crevettes, l'oignon, la carotte, les champigons, les vermicelles, les germes de soja et les oeufs. Rajoutez un peu de poivre et la sauce de poisson."/>
+    <step description = "On a brick pastry sheet, spread some meat mixture and roll."
+        description_fr = "Sur une feuille de brick, déposez la farce et rouler pour former les rouleaux."/>
+    <step description = "In a saucepan, heat oil and add garlic cloves. Fry, over medium heat, the egg rolls."
+        description_fr = "Dans une casserole, faites chauffer de l'huile et ajoutez les gousse d'ail. Faites frire, à feu moyen, les rouleaux."/>
+    <step name="Sauce" name_fr="Sauce"
+        description = "In a saucepan, heat sugar, water, fish sauce, vinegar. Add chopped garlic and minced red pepper. Allow to cool."
+        description_fr = "Dans une casserole, chauffer le sucre, l'eau, la sauce de poisson et le vinaigre. Ajoutez l'ail émincé et le piment émincé. Laisser refroidir."/>
+
+
+    <hint description = "Do not tighten roll too much. Start rolling, then fold sides in the middle. End rolling."
+        description_fr = "Ne pas trop serrer les rouleaux. Après avoir commencer à rouler replier la pâte latérale vers l'interieur, puis continuer à rouler."/>
+
+</recipe>
