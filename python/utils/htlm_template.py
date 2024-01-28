@@ -103,13 +103,13 @@ def get_html_article(style: int, img: str, title: str, npers: int, time_prep: st
             <div class="content">
                 <p>
                     <span class="icon solid fa-users"></span>
-                    <span style="display:inline-block; width: 4px;"></span> {3}
+                    <span style="display:inline-block; width: 4px;"></span> <b>{3}</b>
                     <span style="display:inline-block; width: 32px;"></span>
                     <span class="icon solid fa-clock"></span>
-                    <span style="display:inline-block; width: 4px;"></span> {4}
+                    <span style="display:inline-block; width: 4px;"></span> <b>{4}</b>
                     <span style="display:inline-block; width: 32px;"></span>
                     <span class="icon solid fa-fire"></span>
-                    <span style="display:inline-block; width: 4px;"></span> {5}
+                    <span style="display:inline-block; width: 4px;"></span> <b>{5}</b>
                 </p>
             </div>
         </a>

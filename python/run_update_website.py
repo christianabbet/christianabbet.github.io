@@ -4,7 +4,31 @@ import numpy as np
 import pandas as pd
 from utils.htlm_template import get_html_article, get_html_index
 import os
+from PIL import Image
 
+
+def resize_image(path, hmax=600, wmax=800, extension=".jpg"):
+    # Split with extension
+    path_new, ext = os.path.splitext(path)
+
+    # Open image and resize it
+    img = Image.open(path)
+    img_size = img.size
+    
+    # Rescale to match minimal size (reference)
+    factor = min(img_size[0] / wmax, img_size[1] / hmax)
+    img_crop = img.resize(size=( int(img_size[0] / factor), int(img_size[1] / factor)))
+        
+    # Cropped image to fit dimmension
+    left = int((img_crop.size[0] - wmax)/2)
+    top = int((img_crop.size[1] - hmax)/2) 
+    img_crop = img_crop.crop((left, top, left + wmax, hmax + top))
+
+    # New output name and save
+    path_new = path_new + "_resize" + extension
+    img_crop.save(path_new)
+    
+    return path_new
 
 def main():
     
@@ -40,7 +64,8 @@ def main():
                 # Check if image exists otherwise set dummy
                 img = '../data/images/pic01.jpg'
                 if article['pic'] is not None and os.path.exists(article['pic']):
-                    img = article['pic']
+                    # Open image and check for size
+                    img = resize_image(article['pic'])
                 else:
                     print("Missing picture: {}".format(article['pic']))
                     
