@@ -68,7 +68,7 @@ def get_html_index(title: str, articles: str):
                     <ul class="icons">
                         <li><a href="https://github.com/christianabbet/" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
                         <li><a href="https://www.linkedin.com/in/christian-abbet-519090142/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-                        <li><a href="mailto:christian.abbet@epfl.ch" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                        <li><a href="mailto:abbet.christian@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
                     </ul>
                 </section>
                 <ul class="copyright">
