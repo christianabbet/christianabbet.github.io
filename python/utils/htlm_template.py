@@ -129,13 +129,14 @@ def get_html_recipe(
     time_prep: str,
     time_bake: str,
     ingredient_tables: str,
+    steps: str,
     ):
                     
     index = """
         <!DOCTYPE HTML>
         <html>
         <head>
-            <title>Generic - Phantom by HTML5 UP</title>
+            <title>Cooking</title>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             <link rel="stylesheet" href="../../../assets/css/main.css" />
@@ -200,21 +201,7 @@ def get_html_recipe(
                     </section>
                     <section>
                         <hr />
-                        <h2>Step 1</h2>
-                        In a large bowl, microwave butter during 1 minute. Slowly add flour while stirring.
-                        <hr />
-                        <h2>Step 2</h2>
-                        Bring to a boil milk and allow to cool for a moment. Pour milk in the bowl while stirring. Season.
-                        <hr />
-                        <h2>Step 3</h2>
-                        Microwave again for 1 minute. Preheat oven at 150°C.
-                        <hr />
-                        <h2>Step 4</h2>
-                        Dice and sauté vegetables until slightly golden.
-                        <hr />
-                        <h2>Step 5</h2>
-                        During the last stage add stock and stir. Let reduce.
-                        <hr />
+                        {8}
                     </section>
                 </div>
 
@@ -248,7 +235,7 @@ def get_html_recipe(
 
         </body>
         </html>
-    """.format(url_back, title_back, title, url_image, npers, time_prep, time_bake, ingredient_tables)
+    """.format(url_back, title_back, title, url_image, npers, time_prep, time_bake, ingredient_tables, steps)
     
     return index
 
@@ -299,3 +286,16 @@ def get_html_ingredient_row(amount: str, name: str):
     """.format(amount, name)
     
     return row
+
+
+def get_html_step_row(id_step: int, step: str):
+    
+    row = """
+        <h2>Step {0}</h2>
+        {1}
+        <hr />
+    """.format(str(id_step), step)
+    
+    return row
+    
+    

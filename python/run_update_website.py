@@ -2,7 +2,9 @@ from glob import glob
 from utils.recipe_builder import RecipeList
 import numpy as np
 import pandas as pd
-from utils.htlm_template import get_html_article, get_html_index, get_html_recipe, get_html_ingredient
+from utils.htlm_template import (get_html_article, get_html_index, 
+                                 get_html_recipe, get_html_ingredient, 
+                                 get_html_step_row)
 import os
 from PIL import Image
 import sys
@@ -95,8 +97,10 @@ def main():
 
                 a_str = a_str + "\n" + a
                 
-                # Create ingredient list
+                # Get recipe raw data
                 raw_data = list.recipes[article['id_recipe']]
+                
+                # Create ingredient list
                 ingredient_tables = []
                 for g in raw_data.ingredient_groups:
                     ingredient_table = get_html_ingredient(
@@ -106,6 +110,17 @@ def main():
                     ingredient_tables.append(ingredient_table)
                 # Merge all table content
                 ingredient_tables = "\n".join(ingredient_tables)
+                   
+                # Create step list
+                steps = []
+                for id_step, s in enumerate(raw_data.steps):
+                    step = get_html_step_row(
+                        id_step=id_step+1,
+                        step=s["description"],
+                    )
+                    steps.append(step)
+                # Merge all table content
+                steps = "\n".join(steps)
                 
                 # Create recepe index page
                 recipe = get_html_recipe(
@@ -117,8 +132,8 @@ def main():
                     time_prep=article['time_prep'] + " " + article['time_prep_unit'],
                     time_bake=article['time_bake'] + " " + article['time_bake_unit'],
                     ingredient_tables=ingredient_tables,
+                    steps=steps,
                 )
-
                 
                 # Check if folder exists
                 os.makedirs(folder_recipe, exist_ok=True)
@@ -126,8 +141,6 @@ def main():
                 f = open(os.path.join(folder_recipe, filename_recipe), "w")
                 f.write(recipe)
                 f.close()
-                sys.exit(0)
-
 
             except Exception as e:
                 print("Exepected error: {}".format(article['name']))
