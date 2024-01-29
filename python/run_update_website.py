@@ -2,9 +2,10 @@ from glob import glob
 from utils.recipe_builder import RecipeList
 import numpy as np
 import pandas as pd
-from utils.htlm_template import get_html_article, get_html_index
+from utils.htlm_template import get_html_article, get_html_index, get_html_recipe
 import os
 from PIL import Image
+import sys
 
 
 def resize_image(path, hmax=600, wmax=800, extension=".jpg"):
@@ -56,10 +57,16 @@ def main():
     for n, dfcat in df.groupby(by="category"):
         print("Building index page {} ...".format(n))
             
+        # Define folders and variables
         a_str = ""
+        filename_index = "{}_index.html".format(n)
+        
         # Create articles
         for i, (_, article) in enumerate(dfcat.iterrows()):
             
+            filename_recipe = "{}.html".format(article['name'].lower().replace(" ", "_"))
+            folder_recipe = os.path.join("recipes", n)
+        
             try:
                 # Check if image exists otherwise set dummy
                 img = '../data/images/pic01.jpg'
@@ -78,9 +85,25 @@ def main():
                     npers=article['people'],
                     time_prep=article['time_prep'] + " " + article['time_prep_unit'],
                     time_bake=article['time_bake'] + " " + article['time_bake_unit'],
+                    url=os.path.join(folder_recipe, filename_recipe)
                 )
 
                 a_str = a_str + "\n" + a
+                
+                # Create recepe index page
+                recipe = get_html_recipe(
+                    url_back="../../{}".format(filename_index),
+                    title_back=n,
+                )
+
+                
+                # Check if folder exists
+                os.makedirs(folder_recipe, exist_ok=True)
+                
+                f = open(os.path.join(folder_recipe, filename_recipe), "w")
+                f.write(recipe)
+                f.close()
+                
 
             except Exception as e:
                 print("Exepected error: {}".format(article['name']))
@@ -90,10 +113,10 @@ def main():
         # Get index page
         r = get_html_index(title=n.upper(), articles=a_str)
 
-        f = open("{}_index.html".format(n), "w")
+        f = open(filename_index, "w")
         f.write(r)
         f.close()
-    
+        sys.exit(0)
 
 
 if __name__ == '__main__':
