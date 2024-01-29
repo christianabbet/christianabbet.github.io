@@ -30,7 +30,8 @@ class RecipeBuilder:
         self.hints = []
         for child in root:
             if child.tag == "ingredient_group":
-                self._parse_ingredient_group(child)
+                group = self._parse_ingredient_group(child)
+                self.ingredient_groups.append(group)
             elif child.tag == "info":
                 self.info = self._parse_info(child)
             elif child.tag == 'step':

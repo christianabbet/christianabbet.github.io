@@ -120,8 +120,17 @@ def get_html_article(style: int, img: str, title: str, npers: int, time_prep: st
 
     
 
-def get_html_recipe(url_back: str, title_back: str):
-    
+def get_html_recipe(
+    url_back: str, 
+    title_back: str, 
+    title: str, 
+    url_image: str,
+    npers: str,
+    time_prep: str,
+    time_bake: str,
+    ingredient_tables: str,
+    ):
+                    
     index = """
         <!DOCTYPE HTML>
         <html>
@@ -167,107 +176,27 @@ def get_html_recipe(url_back: str, title_back: str):
             <!-- Main -->
             <div id="main">
                 <div class="inner">
-                    <h1>Vegetable Lasagna</h1>
+                    <h1>{2}</h1>
                     <div class="box alt">
                         <div class="row gtr-uniform">
-                            <div class="col-12"><span class="image fit"><img src="../../../images/cooking/veggie/vegetable_lasagna.jpg" alt="" /></span></div>
+                            <div class="col-12"><span class="image fit"><img src="{3}" alt="" /></span></div>
                         </div>
                     </div>
                     <section>
                         <p style="text-align: center">
                             <span class="icon solid fa-users"></span>
-                            <span style="display:inline-block; width: 4px;"></span> 4
+                            <span style="display:inline-block; width: 4px;"></span> {4}
                             <span style="display:inline-block; width: 32px;"></span>
                             <span class="icon solid fa-clock"></span>
-                            <span style="display:inline-block; width: 4px;"></span> 1h
+                            <span style="display:inline-block; width: 4px;"></span> {5}
                             <span style="display:inline-block; width: 32px;"></span>
                             <span class="icon solid fa-fire"></span>
-                            <span style="display:inline-block; width: 4px;"></span> 40 min
+                            <span style="display:inline-block; width: 4px;"></span> {6}
                         </p>
                     </section>
                     <section>
                         <h2>Ingredients</h2>
-                        <h3>Bechamel sauce</h3>
-                        <div class="table-wrapper">
-                            <table>
-                                <colgroup>
-                                    <col span="1" style="width: 20%;">
-                                    <col span="1" style="width: 80%;">
-                                </colgroup>
-
-                                <thead>
-                                <tr>
-                                    <th>Quantity</th>
-                                    <th>Name</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>500 ml</td>
-                                    <td>Milk</td>
-                                </tr>
-                                <tr>
-                                    <td>45 g</td>
-                                    <td>BUtter</td>
-                                </tr>
-                                <tr>
-                                    <td>45 g</td>
-                                    <td>Flour</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <h3>Lasagna</h3>
-                        <div class="table-wrapper">
-                            <table>
-                                <colgroup>
-                                    <col span="1" style="width: 20%;">
-                                    <col span="1" style="width: 80%;">
-                                </colgroup>
-
-                                <thead>
-                                <tr>
-                                    <th>Quantity</th>
-                                    <th>Name</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>200 g</td>
-                                    <td>Squash</td>
-                                </tr>
-                                <tr>
-                                    <td>125 g</td>
-                                    <td>Parmesan</td>
-                                </tr>
-                                <tr>
-                                    <td>125 ml</td>
-                                    <td>Vegetable stock</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Carrots</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Zucchini</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Onion</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Garlic clove</td>
-                                </tr>
-                                <tr>
-                                    <td>-</td>
-                                    <td>Lasagna noodles</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        {7}
                     </section>
                     <section>
                         <hr />
@@ -319,5 +248,54 @@ def get_html_recipe(url_back: str, title_back: str):
 
         </body>
         </html>
-    """.format(url_back, title_back)
+    """.format(url_back, title_back, title, url_image, npers, time_prep, time_bake, ingredient_tables)
+    
     return index
+
+
+
+def get_html_ingredient(title: str, ingredients: list):
+    
+    
+    # Create rows
+    str_rows = []
+    for row in ingredients:
+        str_row = get_html_ingredient_row(amount=row["amount"] + " " + row["unit"], name=row["name"])
+        str_rows.append(str_row)
+    
+    ingredients_table = "\n".join(str_rows)
+    table = """
+        <h3>{0}</h3>
+        <div class="table-wrapper">
+            <table>
+                <colgroup>
+                    <col span="1" style="width: 20%;">
+                    <col span="1" style="width: 80%;">
+                </colgroup>
+
+                <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                {1}
+                </tbody>
+            </table>
+        </div>
+    """.format(title, ingredients_table)
+    
+    return table
+
+
+def get_html_ingredient_row(amount: str, name: str):
+        
+    row = """
+        <tr>
+            <td>{0}</td>
+            <td>{1}</td>
+        </tr>
+    """.format(amount, name)
+    
+    return row
