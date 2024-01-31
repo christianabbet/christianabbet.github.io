@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from utils.htlm_template import (get_html_article, get_html_index, 
                                  get_html_recipe, get_html_ingredient, 
-                                 get_html_step_row)
+                                 get_html_step_row, get_html_source)
 import os
 from PIL import Image
 import sys
@@ -133,6 +133,7 @@ def main():
                     time_bake=article['time_bake'] + " " + article['time_bake_unit'],
                     ingredient_tables=ingredient_tables,
                     steps=steps,
+                    url_source=article['href'],
                 )
                 
                 # Check if folder exists

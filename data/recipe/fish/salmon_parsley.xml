@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipe>
+
+    <info 
+        name="Caramelized Pecan-Crusted Salmon" 
+        category="fish"
+        href="https://dashofhoney.ca/fr/saumon-a-lerable-en-croute-de-pacanes/"
+        people="4" 
+        pic="../data/images/fish/salmon_crusted.jpg"
+        time_bake="15" 
+        time_bake_unit="min" 
+        time_prep="5" 
+        time_prep_unit="min" 
+        />
+
+    <ingredient_group name="Overall" name_fr = "Globale">
+        <ingredient amount="600" unit="g" name="Salmon"/>
+        <ingredient amount="80" unit="g" name="Pecans"/>
+        <ingredient amount="20" unit="g" name="Parsley"/>
+        <ingredient amount="2" unit="tbsp" name="Maple syrup" />
+        <ingredient amount="2" unit="tbsp" name="Mustard"/>
+        <ingredient amount="1" unit="tbsp" name="Olive oil"/>
+    </ingredient_group>
+
+    <step description = "Preheat oven to 220 degrees."/>
+    <step description = "Finely chop parsley and pecans."/>
+    <step description = "In a bowl, combine maple syrup, parsley and mustard."/>
+    <step description = "Add the chopped pecans and olive oil. Mix well."/>
+    <step description = "Place the pecans on the salmon and spread evenly."/>
+    <step description = "Bake for 12-15 minutes, depending on thickness of salmon."/>
+
+
+
+</recipe>

@@ -1,3 +1,6 @@
+import validators
+from urllib.parse import urlparse
+
 
 def get_html_index(title: str, articles: str):
     
@@ -130,7 +133,16 @@ def get_html_recipe(
     time_bake: str,
     ingredient_tables: str,
     steps: str,
+    url_source: str,
     ):
+    
+    # Check if URL or other
+    if validators.url(url_source):   
+        website = urlparse(url_source).netloc
+        source = get_html_source(url=url_source, text="Source - {}".format(website))
+    else:
+        source = get_html_source(url="#", text=url_source)
+
                     
     index = """
         <!DOCTYPE HTML>
@@ -203,6 +215,7 @@ def get_html_recipe(
                         <hr />
                         {8}
                     </section>
+                    {9}
                 </div>
 
             </div>
@@ -235,7 +248,7 @@ def get_html_recipe(
 
         </body>
         </html>
-    """.format(url_back, title_back, title, url_image, npers, time_prep, time_bake, ingredient_tables, steps)
+    """.format(url_back, title_back, title, url_image, npers, time_prep, time_bake, ingredient_tables, steps, source)
     
     return index
 
@@ -298,4 +311,11 @@ def get_html_step_row(id_step: int, step: str):
     
     return row
     
+    
+def get_html_source(url: str, text: str = "Source"):
+    
+    return """
+        <a href="{0}" class="button primary small">{1}</a>
+    """.format(url, text)
+
     
