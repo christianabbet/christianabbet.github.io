@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 
 SRC_DIR = Path(__file__).parent.parent / "assets" / "images"
 DST_DIR = Path(__file__).parent.parent / "assets" / "images_thumbnails"
-THUMB_SIZE = (400, 300)  # width, height (4:3)
+THUMB_SIZE = (600, 450)  # width, height (4:3)
 IMAGE_EXTS = {".jpg", ".jpeg", ".png"}
 
 
