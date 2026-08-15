@@ -1,4 +1,4 @@
-# BirdDex
+# Swiss BirdDex
 
 Website: https://christianabbet.github.io
 

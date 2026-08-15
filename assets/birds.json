@@ -5,7 +5,10 @@
       "fr": "Plongeon catmarin",
       "en": "Red-throated Loon"
     },
-    "vogelwarte_id": 10
+    "vogelwarte_id": 10,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 2,
@@ -13,7 +16,10 @@
       "fr": "Plongeon arctique",
       "en": "Black-Throated Diver"
     },
-    "vogelwarte_id": 20
+    "vogelwarte_id": 20,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 3,
@@ -21,7 +27,10 @@
       "fr": "Grèbe castagneux",
       "en": "Little Grebe"
     },
-    "vogelwarte_id": 50
+    "vogelwarte_id": 50,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 4,
@@ -29,7 +38,10 @@
       "fr": "Grèbe à cou noir",
       "en": "Black-Necked Grebe"
     },
-    "vogelwarte_id": 70
+    "vogelwarte_id": 70,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 5,
@@ -37,7 +49,10 @@
       "fr": "Grèbe huppé",
       "en": "Great Crested Grebe"
     },
-    "vogelwarte_id": 80
+    "vogelwarte_id": 80,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 6,
@@ -45,7 +60,10 @@
       "fr": "Grèbe jougris",
       "en": "Red-necked Grebe"
     },
-    "vogelwarte_id": 90
+    "vogelwarte_id": 90,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 7,
@@ -53,7 +71,10 @@
       "fr": "Grand cormoran",
       "en": "Great Cormorant"
     },
-    "vogelwarte_id": 350
+    "vogelwarte_id": 350,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 8,
@@ -61,7 +82,10 @@
       "fr": "Héron cendré",
       "en": "Grey Heron"
     },
-    "vogelwarte_id": 390
+    "vogelwarte_id": 390,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 9,
@@ -69,7 +93,10 @@
       "fr": "Héron pourpré",
       "en": "Purple Heron"
     },
-    "vogelwarte_id": 400
+    "vogelwarte_id": 400,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 10,
@@ -77,7 +104,10 @@
       "fr": "Grande aigrette",
       "en": "Great Egret"
     },
-    "vogelwarte_id": 440
+    "vogelwarte_id": 440,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 11,
@@ -85,7 +115,10 @@
       "fr": "Aigrette garzette",
       "en": "Little Egret"
     },
-    "vogelwarte_id": 450
+    "vogelwarte_id": 450,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 12,
@@ -93,7 +126,10 @@
       "fr": "Bihoreau gris",
       "en": "Black-Crowned Night-Heron"
     },
-    "vogelwarte_id": 460
+    "vogelwarte_id": 460,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 13,
@@ -101,7 +137,10 @@
       "fr": "Blongios nain",
       "en": "Common Little Bittern"
     },
-    "vogelwarte_id": 470
+    "vogelwarte_id": 470,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 14,
@@ -109,7 +148,10 @@
       "fr": "Butor étoilé",
       "en": "Eurasian Bittern"
     },
-    "vogelwarte_id": 480
+    "vogelwarte_id": 480,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 15,
@@ -117,7 +159,11 @@
       "fr": "Cigogne blanche",
       "en": "White Stork"
     },
-    "vogelwarte_id": 500
+    "vogelwarte_id": 500,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 16,
@@ -125,7 +171,11 @@
       "fr": "Cygne chanteur",
       "en": "Whooper Swan"
     },
-    "vogelwarte_id": 550
+    "vogelwarte_id": 550,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 17,
@@ -133,7 +183,10 @@
       "fr": "Cygne tuberculé",
       "en": "Mute Swan"
     },
-    "vogelwarte_id": 570
+    "vogelwarte_id": 570,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 18,
@@ -141,7 +194,10 @@
       "fr": "Oie cendrée",
       "en": "Greylag Goose"
     },
-    "vogelwarte_id": 590
+    "vogelwarte_id": 590,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 19,
@@ -149,7 +205,10 @@
       "fr": "Tadorne casarca",
       "en": "Ruddy Shelduck"
     },
-    "vogelwarte_id": 700
+    "vogelwarte_id": 700,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 20,
@@ -157,7 +216,11 @@
       "fr": "Tadorne de Belon",
       "en": "Common Shelduck"
     },
-    "vogelwarte_id": 710
+    "vogelwarte_id": 710,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 21,
@@ -165,7 +228,10 @@
       "fr": "Canard colvert",
       "en": "Mallard"
     },
-    "vogelwarte_id": 720
+    "vogelwarte_id": 720,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 22,
@@ -173,7 +239,10 @@
       "fr": "Sarcelle d'été",
       "en": "Garganey"
     },
-    "vogelwarte_id": 740
+    "vogelwarte_id": 740,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 23,
@@ -181,7 +250,10 @@
       "fr": "Sarcelle d'hiver",
       "en": "Common Teal"
     },
-    "vogelwarte_id": 750
+    "vogelwarte_id": 750,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 24,
@@ -189,7 +261,11 @@
       "fr": "Canard pilet",
       "en": "Northern Pintail"
     },
-    "vogelwarte_id": 780
+    "vogelwarte_id": 780,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 25,
@@ -197,7 +273,11 @@
       "fr": "Canard siffleur",
       "en": "Eurasian Wigeon"
     },
-    "vogelwarte_id": 800
+    "vogelwarte_id": 800,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 26,
@@ -205,7 +285,11 @@
       "fr": "Canard mandarin",
       "en": "Mandarin Duck"
     },
-    "vogelwarte_id": 810
+    "vogelwarte_id": 810,
+    "location": [
+      "forest",
+      "wetland"
+    ]
   },
   {
     "id": 27,
@@ -213,7 +297,10 @@
       "fr": "Canard chipeau",
       "en": "Gadwall"
     },
-    "vogelwarte_id": 820
+    "vogelwarte_id": 820,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 28,
@@ -221,7 +308,10 @@
       "fr": "Canard souchet",
       "en": "Northern Shoveler"
     },
-    "vogelwarte_id": 830
+    "vogelwarte_id": 830,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 29,
@@ -229,7 +319,10 @@
       "fr": "Nette rousse",
       "en": "Red-crested Pochard"
     },
-    "vogelwarte_id": 850
+    "vogelwarte_id": 850,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 30,
@@ -237,7 +330,10 @@
       "fr": "Fuligule milouin",
       "en": "Common Pochard"
     },
-    "vogelwarte_id": 860
+    "vogelwarte_id": 860,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 31,
@@ -245,7 +341,10 @@
       "fr": "Fuligule morillon",
       "en": "Tufted Duck"
     },
-    "vogelwarte_id": 870
+    "vogelwarte_id": 870,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 32,
@@ -253,7 +352,10 @@
       "fr": "Fuligule nyroca",
       "en": "Ferruginous Duck"
     },
-    "vogelwarte_id": 880
+    "vogelwarte_id": 880,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 33,
@@ -261,7 +363,10 @@
       "fr": "Fuligule milouinan",
       "en": "Greater Scaup"
     },
-    "vogelwarte_id": 890
+    "vogelwarte_id": 890,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 34,
@@ -269,7 +374,11 @@
       "fr": "Garrot à œil d'or",
       "en": "Common Goldeneye"
     },
-    "vogelwarte_id": 900
+    "vogelwarte_id": 900,
+    "location": [
+      "forest",
+      "wetland"
+    ]
   },
   {
     "id": 35,
@@ -277,7 +386,10 @@
       "fr": "Eider à duvet",
       "en": "Common Eider"
     },
-    "vogelwarte_id": 950
+    "vogelwarte_id": 950,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 36,
@@ -285,7 +397,10 @@
       "fr": "Macreuse brune",
       "en": "Velvet Scoter"
     },
-    "vogelwarte_id": 990
+    "vogelwarte_id": 990,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 37,
@@ -293,7 +408,10 @@
       "fr": "Grand Harle",
       "en": "Common Merganser"
     },
-    "vogelwarte_id": 1050
+    "vogelwarte_id": 1050,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 38,
@@ -301,7 +419,10 @@
       "fr": "Harle huppé",
       "en": "Red-Breasted Merganser"
     },
-    "vogelwarte_id": 1060
+    "vogelwarte_id": 1060,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 39,
@@ -309,7 +430,10 @@
       "fr": "Bondrée apivore",
       "en": "European Honey Buzzard"
     },
-    "vogelwarte_id": 1080
+    "vogelwarte_id": 1080,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 40,
@@ -317,7 +441,12 @@
       "fr": "Milan royal",
       "en": "Red Kite"
     },
-    "vogelwarte_id": 1090
+    "vogelwarte_id": 1090,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 41,
@@ -325,7 +454,12 @@
       "fr": "Milan noir",
       "en": "Black Kite"
     },
-    "vogelwarte_id": 1100
+    "vogelwarte_id": 1100,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 42,
@@ -333,7 +467,10 @@
       "fr": "Autour des palombes",
       "en": "Northern Goshawk"
     },
-    "vogelwarte_id": 1110
+    "vogelwarte_id": 1110,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 43,
@@ -341,7 +478,10 @@
       "fr": "Épervier d'Europe",
       "en": "Eurasian Sparrowhawk"
     },
-    "vogelwarte_id": 1130
+    "vogelwarte_id": 1130,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 44,
@@ -349,7 +489,12 @@
       "fr": "Buse variable",
       "en": "Common Buzzard"
     },
-    "vogelwarte_id": 1150
+    "vogelwarte_id": 1150,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 45,
@@ -357,7 +502,11 @@
       "fr": "Aigle royal",
       "en": "Golden Eagle"
     },
-    "vogelwarte_id": 1200
+    "vogelwarte_id": 1200,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 46,
@@ -365,7 +514,10 @@
       "fr": "Gypaète barbu",
       "en": "Bearded Vulture"
     },
-    "vogelwarte_id": 1320
+    "vogelwarte_id": 1320,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 47,
@@ -373,7 +525,11 @@
       "fr": "Busard saint-martin",
       "en": "Northern Harrier"
     },
-    "vogelwarte_id": 1330
+    "vogelwarte_id": 1330,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 48,
@@ -381,7 +537,10 @@
       "fr": "Busard des roseaux",
       "en": "Eurasian Marsh-Harrier"
     },
-    "vogelwarte_id": 1360
+    "vogelwarte_id": 1360,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 49,
@@ -389,7 +548,10 @@
       "fr": "Balbuzard pêcheur",
       "en": "Osprey"
     },
-    "vogelwarte_id": 1380
+    "vogelwarte_id": 1380,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 50,
@@ -397,7 +559,11 @@
       "fr": "Faucon pèlerin",
       "en": "Peregrine Falcon"
     },
-    "vogelwarte_id": 1420
+    "vogelwarte_id": 1420,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 51,
@@ -405,7 +571,12 @@
       "fr": "Faucon hobereau",
       "en": "Eurasian Hobby"
     },
-    "vogelwarte_id": 1430
+    "vogelwarte_id": 1430,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 52,
@@ -413,7 +584,11 @@
       "fr": "Faucon émerillon",
       "en": "Merlin"
     },
-    "vogelwarte_id": 1450
+    "vogelwarte_id": 1450,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 53,
@@ -421,7 +596,12 @@
       "fr": "Faucon crécerelle",
       "en": "Eurasian Kestrel"
     },
-    "vogelwarte_id": 1480
+    "vogelwarte_id": 1480,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 54,
@@ -429,7 +609,10 @@
       "fr": "Grand Tétras",
       "en": "Western Capercaillie"
     },
-    "vogelwarte_id": 1500
+    "vogelwarte_id": 1500,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 55,
@@ -437,7 +620,12 @@
       "fr": "Tétras lyre",
       "en": "Black Grouse"
     },
-    "vogelwarte_id": 1510
+    "vogelwarte_id": 1510,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 56,
@@ -445,7 +633,10 @@
       "fr": "Lagopède alpin",
       "en": "Rock Ptarmigan"
     },
-    "vogelwarte_id": 1540
+    "vogelwarte_id": 1540,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 57,
@@ -453,7 +644,10 @@
       "fr": "Gélinotte des bois",
       "en": "Hazel Grouse"
     },
-    "vogelwarte_id": 1550
+    "vogelwarte_id": 1550,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 58,
@@ -461,7 +655,10 @@
       "fr": "Perdrix bartavelle",
       "en": "Rock Partridge"
     },
-    "vogelwarte_id": 1560
+    "vogelwarte_id": 1560,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 59,
@@ -469,7 +666,10 @@
       "fr": "Caille des blés",
       "en": "Common Quail"
     },
-    "vogelwarte_id": 1610
+    "vogelwarte_id": 1610,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 60,
@@ -477,7 +677,11 @@
       "fr": "Faisan de Colchide",
       "en": "Common Pheasant"
     },
-    "vogelwarte_id": 1620
+    "vogelwarte_id": 1620,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 61,
@@ -485,7 +689,10 @@
       "fr": "Râle d'eau",
       "en": "Water Rail"
     },
-    "vogelwarte_id": 1670
+    "vogelwarte_id": 1670,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 62,
@@ -493,7 +700,10 @@
       "fr": "Marouette ponctuée",
       "en": "Spotted Crake"
     },
-    "vogelwarte_id": 1710
+    "vogelwarte_id": 1710,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 63,
@@ -501,7 +711,10 @@
       "fr": "Gallinule poule-d'eau",
       "en": "Common Moorhen"
     },
-    "vogelwarte_id": 1730
+    "vogelwarte_id": 1730,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 64,
@@ -509,7 +722,10 @@
       "fr": "Foulque macroule",
       "en": "Eurasian Coot"
     },
-    "vogelwarte_id": 1770
+    "vogelwarte_id": 1770,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 65,
@@ -517,7 +733,10 @@
       "fr": "Vanneau huppé",
       "en": "Northern Lapwing"
     },
-    "vogelwarte_id": 1850
+    "vogelwarte_id": 1850,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 66,
@@ -525,7 +744,10 @@
       "fr": "Petit gravelot",
       "en": "Little Ringed Plover"
     },
-    "vogelwarte_id": 1920
+    "vogelwarte_id": 1920,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 67,
@@ -533,7 +755,10 @@
       "fr": "Courlis corlieu",
       "en": "Eurasian Whimbrel"
     },
-    "vogelwarte_id": 2000
+    "vogelwarte_id": 2000,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 68,
@@ -541,7 +766,11 @@
       "fr": "Courlis cendré",
       "en": "Eurasian Curlew"
     },
-    "vogelwarte_id": 2020
+    "vogelwarte_id": 2020,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 69,
@@ -549,7 +778,10 @@
       "fr": "Barge à queue noire",
       "en": "Black-Tailed Godwit"
     },
-    "vogelwarte_id": 2030
+    "vogelwarte_id": 2030,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 70,
@@ -557,7 +789,12 @@
       "fr": "Chevalier arlequin",
       "en": "Spotted Redshank"
     },
-    "vogelwarte_id": 2050
+    "vogelwarte_id": 2050,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 71,
@@ -565,7 +802,10 @@
       "fr": "Chevalier gambette",
       "en": "Common Redshank"
     },
-    "vogelwarte_id": 2060
+    "vogelwarte_id": 2060,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 72,
@@ -573,7 +813,10 @@
       "fr": "Chevalier aboyeur",
       "en": "Common Greenshank"
     },
-    "vogelwarte_id": 2090
+    "vogelwarte_id": 2090,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 73,
@@ -581,7 +824,12 @@
       "fr": "Chevalier culblanc",
       "en": "Green Sandpiper"
     },
-    "vogelwarte_id": 2110
+    "vogelwarte_id": 2110,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 74,
@@ -589,7 +837,10 @@
       "fr": "Chevalier sylvain",
       "en": "Wood Sandpiper"
     },
-    "vogelwarte_id": 2130
+    "vogelwarte_id": 2130,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 75,
@@ -597,7 +848,10 @@
       "fr": "Chevalier guinette",
       "en": "Common Sandpiper"
     },
-    "vogelwarte_id": 2140
+    "vogelwarte_id": 2140,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 76,
@@ -605,7 +859,10 @@
       "fr": "Bécassine des marais",
       "en": "Common Snipe"
     },
-    "vogelwarte_id": 2210
+    "vogelwarte_id": 2210,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 77,
@@ -613,7 +870,10 @@
       "fr": "Bécasse des bois",
       "en": "Eurasian Woodcock"
     },
-    "vogelwarte_id": 2230
+    "vogelwarte_id": 2230,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 78,
@@ -621,7 +881,10 @@
       "fr": "Bécasseau minute",
       "en": "Little Stint"
     },
-    "vogelwarte_id": 2270
+    "vogelwarte_id": 2270,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 79,
@@ -629,7 +892,10 @@
       "fr": "Bécasseau variable",
       "en": "Dunlin"
     },
-    "vogelwarte_id": 2350
+    "vogelwarte_id": 2350,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 80,
@@ -637,7 +903,10 @@
       "fr": "Bécasseau cocorli",
       "en": "Curlew Sandpiper"
     },
-    "vogelwarte_id": 2360
+    "vogelwarte_id": 2360,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 81,
@@ -645,7 +914,11 @@
       "fr": "Combattant varié",
       "en": "Ruff"
     },
-    "vogelwarte_id": 2390
+    "vogelwarte_id": 2390,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 82,
@@ -653,7 +926,12 @@
       "fr": "Goéland cendré",
       "en": "Common Gull"
     },
-    "vogelwarte_id": 2550
+    "vogelwarte_id": 2550,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 83,
@@ -661,7 +939,12 @@
       "fr": "Goéland leucophée",
       "en": "Yellow-legged Gull"
     },
-    "vogelwarte_id": 2563
+    "vogelwarte_id": 2563,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 84,
@@ -669,7 +952,10 @@
       "fr": "Goéland pontique",
       "en": "Caspian Gull"
     },
-    "vogelwarte_id": 2564
+    "vogelwarte_id": 2564,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 85,
@@ -677,7 +963,10 @@
       "fr": "Goéland brun",
       "en": "Lesser Black-backed Gull"
     },
-    "vogelwarte_id": 2570
+    "vogelwarte_id": 2570,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 86,
@@ -685,7 +974,10 @@
       "fr": "Mouette mélanocéphale",
       "en": "Mediterranean Gull"
     },
-    "vogelwarte_id": 2620
+    "vogelwarte_id": 2620,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 87,
@@ -693,7 +985,10 @@
       "fr": "Mouette rieuse",
       "en": "Black-Headed Gull"
     },
-    "vogelwarte_id": 2630
+    "vogelwarte_id": 2630,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 88,
@@ -701,7 +996,10 @@
       "fr": "Mouette pygmée",
       "en": "Little Gull"
     },
-    "vogelwarte_id": 2660
+    "vogelwarte_id": 2660,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 89,
@@ -709,7 +1007,10 @@
       "fr": "Guifette noire",
       "en": "Black Tern"
     },
-    "vogelwarte_id": 2720
+    "vogelwarte_id": 2720,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 90,
@@ -717,7 +1018,10 @@
       "fr": "Sterne pierregarin",
       "en": "Common Tern"
     },
-    "vogelwarte_id": 2750
+    "vogelwarte_id": 2750,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 91,
@@ -725,7 +1029,10 @@
       "fr": "Pigeon biset",
       "en": "Rock Pigeon"
     },
-    "vogelwarte_id": 2971
+    "vogelwarte_id": 2971,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 92,
@@ -733,7 +1040,11 @@
       "fr": "Pigeon colombin",
       "en": "Stock Dove"
     },
-    "vogelwarte_id": 2980
+    "vogelwarte_id": 2980,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 93,
@@ -741,7 +1052,10 @@
       "fr": "Pigeon ramier",
       "en": "Common Wood Pigeon"
     },
-    "vogelwarte_id": 2990
+    "vogelwarte_id": 2990,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 94,
@@ -749,7 +1063,10 @@
       "fr": "Tourterelle turque",
       "en": "Eurasian Collared-Dove"
     },
-    "vogelwarte_id": 3020
+    "vogelwarte_id": 3020,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 95,
@@ -757,7 +1074,11 @@
       "fr": "Coucou gris",
       "en": "Common Cuckoo"
     },
-    "vogelwarte_id": 3040
+    "vogelwarte_id": 3040,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 96,
@@ -765,7 +1086,12 @@
       "fr": "Chouette effraie",
       "en": "Barn Owl"
     },
-    "vogelwarte_id": 3070
+    "vogelwarte_id": 3070,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 97,
@@ -773,7 +1099,11 @@
       "fr": "Grand-Duc d'Europe",
       "en": "Eurasian Eagle-Owl"
     },
-    "vogelwarte_id": 3090
+    "vogelwarte_id": 3090,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 98,
@@ -781,7 +1111,10 @@
       "fr": "Chevêchette d'Europe",
       "en": "Eurasian Pygmy Owl"
     },
-    "vogelwarte_id": 3120
+    "vogelwarte_id": 3120,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 99,
@@ -789,7 +1122,11 @@
       "fr": "Chevêche d'Athéna",
       "en": "Little Owl"
     },
-    "vogelwarte_id": 3130
+    "vogelwarte_id": 3130,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 100,
@@ -797,7 +1134,10 @@
       "fr": "Chouette hulotte",
       "en": "Tawny Owl"
     },
-    "vogelwarte_id": 3140
+    "vogelwarte_id": 3140,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 101,
@@ -805,7 +1145,11 @@
       "fr": "Hibou moyen-duc",
       "en": "Long-eared Owl"
     },
-    "vogelwarte_id": 3170
+    "vogelwarte_id": 3170,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 102,
@@ -813,7 +1157,10 @@
       "fr": "Chouette de Tengmalm",
       "en": "Boreal Owl"
     },
-    "vogelwarte_id": 3200
+    "vogelwarte_id": 3200,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 103,
@@ -821,7 +1168,12 @@
       "fr": "Martinet à ventre blanc",
       "en": "Alpine Swift"
     },
-    "vogelwarte_id": 3260
+    "vogelwarte_id": 3260,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 104,
@@ -829,7 +1181,10 @@
       "fr": "Martinet noir",
       "en": "Common Swift"
     },
-    "vogelwarte_id": 3270
+    "vogelwarte_id": 3270,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 105,
@@ -837,7 +1192,10 @@
       "fr": "Martin-pêcheur d'Europe",
       "en": "Common Kingfisher"
     },
-    "vogelwarte_id": 3320
+    "vogelwarte_id": 3320,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 106,
@@ -845,7 +1203,10 @@
       "fr": "Guêpier d'Europe",
       "en": "European Bee-Eater"
     },
-    "vogelwarte_id": 3330
+    "vogelwarte_id": 3330,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 107,
@@ -853,7 +1214,10 @@
       "fr": "Huppe fasciée",
       "en": "Eurasian Hoopoe"
     },
-    "vogelwarte_id": 3360
+    "vogelwarte_id": 3360,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 108,
@@ -861,7 +1225,11 @@
       "fr": "Torcol fourmilier",
       "en": "Eurasian Wryneck"
     },
-    "vogelwarte_id": 3370
+    "vogelwarte_id": 3370,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 109,
@@ -869,7 +1237,11 @@
       "fr": "Pic vert",
       "en": "Eurasian Green Woodpecker"
     },
-    "vogelwarte_id": 3380
+    "vogelwarte_id": 3380,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 110,
@@ -877,7 +1249,10 @@
       "fr": "Pic cendré",
       "en": "Grey-headed Woodpecker"
     },
-    "vogelwarte_id": 3390
+    "vogelwarte_id": 3390,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 111,
@@ -885,7 +1260,10 @@
       "fr": "Pic noir",
       "en": "Black Woodpecker"
     },
-    "vogelwarte_id": 3400
+    "vogelwarte_id": 3400,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 112,
@@ -893,7 +1271,10 @@
       "fr": "Pic épeiche",
       "en": "Great Spotted Woodpecker"
     },
-    "vogelwarte_id": 3410
+    "vogelwarte_id": 3410,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 113,
@@ -901,7 +1282,10 @@
       "fr": "Pic mar",
       "en": "Middle Spotted Woodpecker"
     },
-    "vogelwarte_id": 3430
+    "vogelwarte_id": 3430,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 114,
@@ -909,7 +1293,10 @@
       "fr": "Pic à dos blanc",
       "en": "White-Backed Woodpecker"
     },
-    "vogelwarte_id": 3440
+    "vogelwarte_id": 3440,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 115,
@@ -917,7 +1304,11 @@
       "fr": "Pic épeichette",
       "en": "Lesser Spotted Woodpecker"
     },
-    "vogelwarte_id": 3450
+    "vogelwarte_id": 3450,
+    "location": [
+      "forest",
+      "wetland"
+    ]
   },
   {
     "id": 116,
@@ -925,7 +1316,10 @@
       "fr": "Pic tridactyle",
       "en": "Eurasian Three-toed Woodpecker"
     },
-    "vogelwarte_id": 3460
+    "vogelwarte_id": 3460,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 117,
@@ -933,7 +1327,10 @@
       "fr": "Alouette lulu",
       "en": "Woodlark"
     },
-    "vogelwarte_id": 3560
+    "vogelwarte_id": 3560,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 118,
@@ -941,7 +1338,11 @@
       "fr": "Alouette des champs",
       "en": "Eurasian Skylark"
     },
-    "vogelwarte_id": 3570
+    "vogelwarte_id": 3570,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 119,
@@ -949,7 +1350,11 @@
       "fr": "Hirondelle rustique",
       "en": "Barn Swallow"
     },
-    "vogelwarte_id": 3610
+    "vogelwarte_id": 3610,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 120,
@@ -957,7 +1362,11 @@
       "fr": "Hirondelle de rochers",
       "en": "Eurasian Crag Martin"
     },
-    "vogelwarte_id": 3630
+    "vogelwarte_id": 3630,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 121,
@@ -965,7 +1374,11 @@
       "fr": "Hirondelle de fenêtre",
       "en": "Western House Martin"
     },
-    "vogelwarte_id": 3640
+    "vogelwarte_id": 3640,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 122,
@@ -973,7 +1386,11 @@
       "fr": "Hirondelle de rivage",
       "en": "Sand Martin"
     },
-    "vogelwarte_id": 3650
+    "vogelwarte_id": 3650,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 123,
@@ -981,7 +1398,11 @@
       "fr": "Loriot d'Europe",
       "en": "Eurasian Golden Oriole"
     },
-    "vogelwarte_id": 3660
+    "vogelwarte_id": 3660,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 124,
@@ -989,7 +1410,12 @@
       "fr": "Grand corbeau",
       "en": "Common Raven"
     },
-    "vogelwarte_id": 3670
+    "vogelwarte_id": 3670,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 125,
@@ -997,7 +1423,11 @@
       "fr": "Corneille noire",
       "en": "Carrion Crow"
     },
-    "vogelwarte_id": 3681
+    "vogelwarte_id": 3681,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 126,
@@ -1005,7 +1435,11 @@
       "fr": "Corneille mantelée",
       "en": "Hooded Crow"
     },
-    "vogelwarte_id": 3683
+    "vogelwarte_id": 3683,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 127,
@@ -1013,7 +1447,10 @@
       "fr": "Corbeau freux",
       "en": "Rook"
     },
-    "vogelwarte_id": 3700
+    "vogelwarte_id": 3700,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 128,
@@ -1021,7 +1458,12 @@
       "fr": "Choucas des tours",
       "en": "Western Jackdaw"
     },
-    "vogelwarte_id": 3710
+    "vogelwarte_id": 3710,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 129,
@@ -1029,7 +1471,10 @@
       "fr": "Pie d'Amérique",
       "en": "Black-Billed Magpie"
     },
-    "vogelwarte_id": 3720
+    "vogelwarte_id": 3720,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 130,
@@ -1037,7 +1482,10 @@
       "fr": "Cassenoix moucheté",
       "en": "Eurasian Nutcracker"
     },
-    "vogelwarte_id": 3740
+    "vogelwarte_id": 3740,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 131,
@@ -1045,7 +1493,10 @@
       "fr": "Geai des chênes",
       "en": "Eurasian Jay"
     },
-    "vogelwarte_id": 3750
+    "vogelwarte_id": 3750,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 132,
@@ -1053,7 +1504,10 @@
       "fr": "Crave à bec rouge",
       "en": "Red-billed Chough"
     },
-    "vogelwarte_id": 3770
+    "vogelwarte_id": 3770,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 133,
@@ -1061,7 +1515,10 @@
       "fr": "Chocard à bec jaune",
       "en": "Alpine Chough"
     },
-    "vogelwarte_id": 3780
+    "vogelwarte_id": 3780,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 134,
@@ -1069,7 +1526,10 @@
       "fr": "Mésange charbonnière",
       "en": "Great Tit"
     },
-    "vogelwarte_id": 3790
+    "vogelwarte_id": 3790,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 135,
@@ -1077,7 +1537,10 @@
       "fr": "Mésange bleue",
       "en": "Eurasian Blue Tit"
     },
-    "vogelwarte_id": 3800
+    "vogelwarte_id": 3800,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 136,
@@ -1085,7 +1548,10 @@
       "fr": "Mésange noire",
       "en": "Coal Tit"
     },
-    "vogelwarte_id": 3820
+    "vogelwarte_id": 3820,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 137,
@@ -1093,7 +1559,10 @@
       "fr": "Mésange huppée",
       "en": "Crested Tit"
     },
-    "vogelwarte_id": 3830
+    "vogelwarte_id": 3830,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 138,
@@ -1101,7 +1570,10 @@
       "fr": "Mésange nonnette",
       "en": "Marsh Tit"
     },
-    "vogelwarte_id": 3860
+    "vogelwarte_id": 3860,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 139,
@@ -1109,7 +1581,10 @@
       "fr": "Mésange alpestre",
       "en": "Alpine Tit"
     },
-    "vogelwarte_id": 3871
+    "vogelwarte_id": 3871,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 140,
@@ -1117,7 +1592,10 @@
       "fr": "Mésange boréale",
       "en": "Willow Tit"
     },
-    "vogelwarte_id": 3872
+    "vogelwarte_id": 3872,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 141,
@@ -1125,7 +1603,10 @@
       "fr": "Mésange à longue queue",
       "en": "Long-Tailed Tit"
     },
-    "vogelwarte_id": 3880
+    "vogelwarte_id": 3880,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 142,
@@ -1133,7 +1614,10 @@
       "fr": "Rémiz penduline",
       "en": "Eurasian Penduline Tit"
     },
-    "vogelwarte_id": 3890
+    "vogelwarte_id": 3890,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 143,
@@ -1141,7 +1625,10 @@
       "fr": "Panure à moustaches",
       "en": "Bearded Reedling"
     },
-    "vogelwarte_id": 3900
+    "vogelwarte_id": 3900,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 144,
@@ -1149,7 +1636,10 @@
       "fr": "Sittelle torchepot",
       "en": "Eurasian Nuthatch"
     },
-    "vogelwarte_id": 3910
+    "vogelwarte_id": 3910,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 145,
@@ -1157,7 +1647,10 @@
       "fr": "Grimpereau des bois",
       "en": "Eurasian Treecreeper"
     },
-    "vogelwarte_id": 3940
+    "vogelwarte_id": 3940,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 146,
@@ -1165,7 +1658,10 @@
       "fr": "Grimpereau des jardins",
       "en": "Short-Toed Treecreeper"
     },
-    "vogelwarte_id": 3950
+    "vogelwarte_id": 3950,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 147,
@@ -1173,7 +1669,10 @@
       "fr": "Tichodrome échelette",
       "en": "Wallcreeper"
     },
-    "vogelwarte_id": 3960
+    "vogelwarte_id": 3960,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 148,
@@ -1181,7 +1680,10 @@
       "fr": "Cincle plongeur",
       "en": "White-Throated Dipper"
     },
-    "vogelwarte_id": 3970
+    "vogelwarte_id": 3970,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 149,
@@ -1189,7 +1691,12 @@
       "fr": "Troglodyte mignon",
       "en": "Eurasian Wren"
     },
-    "vogelwarte_id": 3980
+    "vogelwarte_id": 3980,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 150,
@@ -1197,7 +1704,10 @@
       "fr": "Rouge-gorge familier",
       "en": "European Robin"
     },
-    "vogelwarte_id": 4000
+    "vogelwarte_id": 4000,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 151,
@@ -1205,7 +1715,12 @@
       "fr": "Rossignol philomèle",
       "en": "Common Nightingale"
     },
-    "vogelwarte_id": 4020
+    "vogelwarte_id": 4020,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 152,
@@ -1213,7 +1728,11 @@
       "fr": "Gorgebleue à miroir",
       "en": "Bluethroat"
     },
-    "vogelwarte_id": 4040
+    "vogelwarte_id": 4040,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 153,
@@ -1221,7 +1740,10 @@
       "fr": "Rougequeue noir",
       "en": "Black Redstart"
     },
-    "vogelwarte_id": 4060
+    "vogelwarte_id": 4060,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 154,
@@ -1229,7 +1751,11 @@
       "fr": "Rougequeue à front blanc",
       "en": "Common Redstart"
     },
-    "vogelwarte_id": 4070
+    "vogelwarte_id": 4070,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 155,
@@ -1237,7 +1763,10 @@
       "fr": "Tarier des prés",
       "en": "Whinchat"
     },
-    "vogelwarte_id": 4090
+    "vogelwarte_id": 4090,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 156,
@@ -1245,7 +1774,11 @@
       "fr": "Tarier pâtre",
       "en": "European Stonechat"
     },
-    "vogelwarte_id": 4100
+    "vogelwarte_id": 4100,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 157,
@@ -1253,7 +1786,11 @@
       "fr": "Traquet motteux",
       "en": "Northern Wheatear"
     },
-    "vogelwarte_id": 4120
+    "vogelwarte_id": 4120,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 158,
@@ -1261,7 +1798,11 @@
       "fr": "Monticole de roche",
       "en": "Common Rock Thrush"
     },
-    "vogelwarte_id": 4180
+    "vogelwarte_id": 4180,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 159,
@@ -1269,7 +1810,12 @@
       "fr": "Monticole merle-bleu",
       "en": "Blue Rock-Thrush"
     },
-    "vogelwarte_id": 4190
+    "vogelwarte_id": 4190,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 160,
@@ -1277,7 +1823,10 @@
       "fr": "Merle à plastron",
       "en": "Ring Ouzel"
     },
-    "vogelwarte_id": 4230
+    "vogelwarte_id": 4230,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 161,
@@ -1285,7 +1834,10 @@
       "fr": "Merle noir",
       "en": "Common Blackbird"
     },
-    "vogelwarte_id": 4240
+    "vogelwarte_id": 4240,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 162,
@@ -1293,7 +1845,11 @@
       "fr": "Grive litorne",
       "en": "Fieldfare"
     },
-    "vogelwarte_id": 4290
+    "vogelwarte_id": 4290,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 163,
@@ -1301,7 +1857,12 @@
       "fr": "Grive mauvis",
       "en": "Redwing"
     },
-    "vogelwarte_id": 4300
+    "vogelwarte_id": 4300,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 164,
@@ -1309,7 +1870,11 @@
       "fr": "Grive musicienne",
       "en": "Song Thrush"
     },
-    "vogelwarte_id": 4310
+    "vogelwarte_id": 4310,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 165,
@@ -1317,7 +1882,11 @@
       "fr": "Grive draine",
       "en": "Mistle Thrush"
     },
-    "vogelwarte_id": 4320
+    "vogelwarte_id": 4320,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 166,
@@ -1325,7 +1894,11 @@
       "fr": "Locustelle tachetée",
       "en": "Common Grasshopper Warbler"
     },
-    "vogelwarte_id": 4390
+    "vogelwarte_id": 4390,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 167,
@@ -1333,7 +1906,10 @@
       "fr": "Locustelle luscinioïde",
       "en": "Savi's Warbler"
     },
-    "vogelwarte_id": 4430
+    "vogelwarte_id": 4430,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 168,
@@ -1341,7 +1917,10 @@
       "fr": "Rousserolle turdoïde",
       "en": "Great Reed Warbler"
     },
-    "vogelwarte_id": 4450
+    "vogelwarte_id": 4450,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 169,
@@ -1349,7 +1928,10 @@
       "fr": "Rousserolle effarvatte",
       "en": "Common Reed Warbler"
     },
-    "vogelwarte_id": 4460
+    "vogelwarte_id": 4460,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 170,
@@ -1357,7 +1939,12 @@
       "fr": "Rousserolle verderolle",
       "en": "Marsh Warbler"
     },
-    "vogelwarte_id": 4470
+    "vogelwarte_id": 4470,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 171,
@@ -1365,7 +1952,10 @@
       "fr": "Phragmite des joncs",
       "en": "Sedge Warbler"
     },
-    "vogelwarte_id": 4500
+    "vogelwarte_id": 4500,
+    "location": [
+      "wetland"
+    ]
   },
   {
     "id": 172,
@@ -1373,7 +1963,11 @@
       "fr": "Hypolaïs polyglotte",
       "en": "Melodious Warbler"
     },
-    "vogelwarte_id": 4520
+    "vogelwarte_id": 4520,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 173,
@@ -1381,7 +1975,10 @@
       "fr": "Fauvette à tête noire",
       "en": "Eurasian Blackcap"
     },
-    "vogelwarte_id": 4570
+    "vogelwarte_id": 4570,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 174,
@@ -1389,7 +1986,11 @@
       "fr": "Fauvette des jardins",
       "en": "Garden Warbler"
     },
-    "vogelwarte_id": 4600
+    "vogelwarte_id": 4600,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 175,
@@ -1397,7 +1998,10 @@
       "fr": "Fauvette grisette",
       "en": "Common Whitethroat"
     },
-    "vogelwarte_id": 4610
+    "vogelwarte_id": 4610,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 176,
@@ -1405,7 +2009,11 @@
       "fr": "Fauvette babillarde",
       "en": "Lesser Whitethroat"
     },
-    "vogelwarte_id": 4620
+    "vogelwarte_id": 4620,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 177,
@@ -1413,7 +2021,11 @@
       "fr": "Pouillot fitis",
       "en": "Willow Warbler"
     },
-    "vogelwarte_id": 4720
+    "vogelwarte_id": 4720,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 178,
@@ -1421,7 +2033,11 @@
       "fr": "Pouillot véloce",
       "en": "Common Chiffchaff"
     },
-    "vogelwarte_id": 4730
+    "vogelwarte_id": 4730,
+    "location": [
+      "forest",
+      "wetland"
+    ]
   },
   {
     "id": 179,
@@ -1429,7 +2045,10 @@
       "fr": "Pouillot de Bonelli",
       "en": "Western Bonelli's Warbler"
     },
-    "vogelwarte_id": 4740
+    "vogelwarte_id": 4740,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 180,
@@ -1437,7 +2056,10 @@
       "fr": "Pouillot siffleur",
       "en": "Wood Warbler"
     },
-    "vogelwarte_id": 4750
+    "vogelwarte_id": 4750,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 181,
@@ -1445,7 +2067,10 @@
       "fr": "Roitelet Huppé",
       "en": "Goldcrest"
     },
-    "vogelwarte_id": 4820
+    "vogelwarte_id": 4820,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 182,
@@ -1453,7 +2078,10 @@
       "fr": "Roitelet à triple bandeau",
       "en": "Common Firecrest"
     },
-    "vogelwarte_id": 4830
+    "vogelwarte_id": 4830,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 183,
@@ -1461,7 +2089,10 @@
       "fr": "Gobemouche gris",
       "en": "Spotted Flycatcher"
     },
-    "vogelwarte_id": 4840
+    "vogelwarte_id": 4840,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 184,
@@ -1469,7 +2100,10 @@
       "fr": "Gobemouche noir",
       "en": "European Pied Flycatcher"
     },
-    "vogelwarte_id": 4860
+    "vogelwarte_id": 4860,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 185,
@@ -1477,7 +2111,10 @@
       "fr": "Accenteur mouchet",
       "en": "Dunnock"
     },
-    "vogelwarte_id": 4900
+    "vogelwarte_id": 4900,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 186,
@@ -1485,7 +2122,11 @@
       "fr": "Accenteur alpin",
       "en": "Alpine Accentor"
     },
-    "vogelwarte_id": 4910
+    "vogelwarte_id": 4910,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 187,
@@ -1493,7 +2134,10 @@
       "fr": "Pipit farlouse",
       "en": "Meadow Pipit"
     },
-    "vogelwarte_id": 4930
+    "vogelwarte_id": 4930,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 188,
@@ -1501,7 +2145,10 @@
       "fr": "Pipit des arbres",
       "en": "Tree Pipit"
     },
-    "vogelwarte_id": 4970
+    "vogelwarte_id": 4970,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 189,
@@ -1509,7 +2156,12 @@
       "fr": "Pipit spioncelle",
       "en": "Water Pipit"
     },
-    "vogelwarte_id": 5000
+    "vogelwarte_id": 5000,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 190,
@@ -1517,7 +2169,11 @@
       "fr": "Bergeronnette grise",
       "en": "White Wagtail"
     },
-    "vogelwarte_id": 5030
+    "vogelwarte_id": 5030,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 191,
@@ -1525,7 +2181,12 @@
       "fr": "Bergeronnette des ruisseaux",
       "en": "Gray Wagtail"
     },
-    "vogelwarte_id": 5050
+    "vogelwarte_id": 5050,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 192,
@@ -1533,7 +2194,12 @@
       "fr": "Bergeronnette printanière",
       "en": "Western Yellow Wagtail"
     },
-    "vogelwarte_id": 5060
+    "vogelwarte_id": 5060,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 193,
@@ -1541,7 +2207,12 @@
       "fr": "Pie-grièche grise",
       "en": "Great Grey Shrike"
     },
-    "vogelwarte_id": 5120
+    "vogelwarte_id": 5120,
+    "location": [
+      "forest",
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 194,
@@ -1549,7 +2220,10 @@
       "fr": "Pie-grièche écorcheur",
       "en": "Red-Backed Shrike"
     },
-    "vogelwarte_id": 5160
+    "vogelwarte_id": 5160,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 195,
@@ -1557,7 +2231,11 @@
       "fr": "Étourneau sansonnet",
       "en": "Common Starling"
     },
-    "vogelwarte_id": 5180
+    "vogelwarte_id": 5180,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 196,
@@ -1565,7 +2243,10 @@
       "fr": "Moineau domestique",
       "en": "House Sparrow"
     },
-    "vogelwarte_id": 5250
+    "vogelwarte_id": 5250,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 197,
@@ -1573,7 +2254,10 @@
       "fr": "Moineau cisalpin",
       "en": "Italian Sparrow"
     },
-    "vogelwarte_id": 5252
+    "vogelwarte_id": 5252,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 198,
@@ -1581,7 +2265,11 @@
       "fr": "Moineau friquet",
       "en": "Eurasian Tree Sparrow"
     },
-    "vogelwarte_id": 5280
+    "vogelwarte_id": 5280,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 199,
@@ -1589,7 +2277,10 @@
       "fr": "Niverolle alpine",
       "en": "White-winged Snowfinch"
     },
-    "vogelwarte_id": 5290
+    "vogelwarte_id": 5290,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 200,
@@ -1597,7 +2288,10 @@
       "fr": "Gros-bec casse-noyaux",
       "en": "Hawfinch"
     },
-    "vogelwarte_id": 5320
+    "vogelwarte_id": 5320,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 201,
@@ -1605,7 +2299,10 @@
       "fr": "Verdier d'Europe",
       "en": "European Greenfinch"
     },
-    "vogelwarte_id": 5330
+    "vogelwarte_id": 5330,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 202,
@@ -1613,7 +2310,11 @@
       "fr": "Chardonneret élégant",
       "en": "European Goldfinch"
     },
-    "vogelwarte_id": 5350
+    "vogelwarte_id": 5350,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 203,
@@ -1621,7 +2322,11 @@
       "fr": "Tarin des aulnes",
       "en": "Eurasian Siskin"
     },
-    "vogelwarte_id": 5360
+    "vogelwarte_id": 5360,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 204,
@@ -1629,7 +2334,11 @@
       "fr": "Linotte mélodieuse",
       "en": "Common Linnet"
     },
-    "vogelwarte_id": 5370
+    "vogelwarte_id": 5370,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 205,
@@ -1637,7 +2346,11 @@
       "fr": "Sizerin cabaret",
       "en": "Lesser Redpoll"
     },
-    "vogelwarte_id": 5390
+    "vogelwarte_id": 5390,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 206,
@@ -1645,7 +2358,10 @@
       "fr": "Venturon montagnard",
       "en": "Citril Finch"
     },
-    "vogelwarte_id": 5450
+    "vogelwarte_id": 5450,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 207,
@@ -1653,7 +2369,11 @@
       "fr": "Serin cini",
       "en": "European Serin"
     },
-    "vogelwarte_id": 5460
+    "vogelwarte_id": 5460,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 208,
@@ -1661,7 +2381,10 @@
       "fr": "Bouvreuil Pivoine",
       "en": "Bullfinch"
     },
-    "vogelwarte_id": 5480
+    "vogelwarte_id": 5480,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 209,
@@ -1669,7 +2392,10 @@
       "fr": "Bec-croisé rouge",
       "en": "Red Crossbill"
     },
-    "vogelwarte_id": 5520
+    "vogelwarte_id": 5520,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 210,
@@ -1677,7 +2403,11 @@
       "fr": "Pinson des arbres",
       "en": "Common Chaffinch"
     },
-    "vogelwarte_id": 5550
+    "vogelwarte_id": 5550,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 211,
@@ -1685,7 +2415,10 @@
       "fr": "Pinson du nord",
       "en": "Brambling"
     },
-    "vogelwarte_id": 5560
+    "vogelwarte_id": 5560,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 212,
@@ -1693,7 +2426,11 @@
       "fr": "Bruant proyer",
       "en": "Corn Bunting"
     },
-    "vogelwarte_id": 5570
+    "vogelwarte_id": 5570,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 213,
@@ -1701,7 +2438,11 @@
       "fr": "Bruant jaune",
       "en": "Yellowhammer"
     },
-    "vogelwarte_id": 5580
+    "vogelwarte_id": 5580,
+    "location": [
+      "forest",
+      "grassland"
+    ]
   },
   {
     "id": 214,
@@ -1709,7 +2450,10 @@
       "fr": "Bruant zizi",
       "en": "Cirl Bunting"
     },
-    "vogelwarte_id": 5640
+    "vogelwarte_id": 5640,
+    "location": [
+      "grassland"
+    ]
   },
   {
     "id": 215,
@@ -1717,7 +2461,10 @@
       "fr": "Bruant fou",
       "en": "Rock Bunting"
     },
-    "vogelwarte_id": 5690
+    "vogelwarte_id": 5690,
+    "location": [
+      "forest"
+    ]
   },
   {
     "id": 216,
@@ -1725,7 +2472,11 @@
       "fr": "Bruant des roseaux",
       "en": "Common Reed Bunting"
     },
-    "vogelwarte_id": 5740
+    "vogelwarte_id": 5740,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   },
   {
     "id": 217,
@@ -1733,6 +2484,10 @@
       "fr": "Klaxon",
       "en": "Klaxon"
     },
-    "vogelwarte_id": 10000
+    "vogelwarte_id": 10000,
+    "location": [
+      "grassland",
+      "wetland"
+    ]
   }
 ]

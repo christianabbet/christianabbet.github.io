@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BirdDex</title>
+    <title>Swiss BirdDex</title>
     <style>
       * {
         box-sizing: border-box;
@@ -39,18 +39,17 @@
       }
       #cards {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 1rem;
         padding: 0 1rem 2rem;
-        max-width: 1000px;
+        max-width: 1400px;
         margin: 0 auto;
       }
       .card {
-        background: #fff;
+        position: relative;
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-        text-align: center;
       }
       .card .thumb {
         background: #ccc;
@@ -62,22 +61,37 @@
         object-fit: cover;
         display: block;
       }
-      .card .info {
-        padding: 0.5rem;
+      .card .badges {
+        position: absolute;
+        left: 0.4rem;
+        right: 0.4rem;
+        bottom: 0.4rem;
+        display: flex;
+        gap: 0.3rem;
       }
-      .card .name {
+      .card .badge {
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        color: #fff;
+        padding: 0.25rem 0.6rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
         font-weight: 600;
-        font-size: 0.9rem;
       }
-      .card .id {
-        color: #777;
-        font-size: 0.8rem;
+      .card .badge.name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .card .badge.id {
+        flex-shrink: 0;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>BirdDex</h1>
+      <h1>Swiss BirdDex</h1>
       <select id="lang">
         <option value="en">English</option>
         <option value="fr">Français</option>
@@ -94,6 +108,12 @@
       let lang = localStorage.getItem("lang") || "fr";
       langEl.value = lang;
 
+      const HABITAT_COLORS = {
+        forest: "rgba(46, 125, 50, 0.55)",
+        grassland: "rgba(249, 168, 37, 0.55)",
+        wetland: "rgba(25, 118, 210, 0.55)",
+      };
+
       function render() {
         const q = searchEl.value.trim().toLowerCase();
         cardsEl.innerHTML = birds
@@ -102,9 +122,9 @@
             (b) => `
           <div class="card">
             <div class="thumb"><img src="assets/images_thumbnails/${b.vogelwarte_id}.jpg" loading="lazy" decoding="async" onerror="this.remove()" /></div>
-            <div class="info">
-              <div class="name">${b.name[lang]}</div>
-              <div class="id">#${b.id}</div>
+            <div class="badges">
+              <div class="badge id">#${b.id}</div>
+              <div class="badge name" style="background: linear-gradient(135deg, ${b.location.map((loc) => HABITAT_COLORS[loc]).join(", ")})">${b.name[lang]}</div>
             </div>
           </div>
         `,
