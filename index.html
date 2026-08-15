@@ -28,6 +28,11 @@
         background: #fff;
         font-size: 0.9rem;
       }
+      #progress {
+        margin: 0.5rem 0 0;
+        font-size: 0.85rem;
+        color: #666;
+      }
       #search {
         display: block;
         width: min(400px, 90%);
@@ -76,7 +81,7 @@
       }
       #cards {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 1rem;
         padding: 0 1rem 2rem;
         max-width: 1400px;
@@ -140,6 +145,7 @@
         <option value="en">English</option>
         <option value="fr">Français</option>
       </select>
+      <p id="progress"></p>
     </header>
     <input id="search" type="search" placeholder="Search by name..." />
     <div id="chips">
@@ -175,7 +181,9 @@
         const q = searchEl.value.trim().toLowerCase();
         cardsEl.innerHTML = birds
           .filter((b) => b.name[lang].toLowerCase().includes(q))
-          .filter((b) => [...activeHabitats].every((h) => b.location.includes(h)))
+          .filter((b) =>
+            [...activeHabitats].every((h) => b.location.includes(h)),
+          )
           .map(
             (b) => `
           <div class="card">
@@ -211,14 +219,32 @@
         render();
       });
 
-      Promise.all([fetch("assets/birds.json").then((res) => res.json()), fetch("assets/translations.json").then((res) => res.json())]).then(
-        ([birdsData, translationsData]) => {
-          birds = birdsData;
-          translations = translationsData;
-          updateUiText();
-          render();
-        },
-      );
+      function reportImageProgress() {
+        Promise.all(
+          birds.map((b) =>
+            fetch(`assets/images_thumbnails/${b.vogelwarte_id}.jpg`, {
+              method: "HEAD",
+            })
+              .then((res) => res.ok)
+              .catch(() => false),
+          ),
+        ).then((results) => {
+          const done = results.filter(Boolean).length;
+          document.getElementById("progress").textContent =
+            `${t("completed_entries")}: ${done}/${birds.length} (${Math.round((100 * done) / birds.length)}%)`;
+        });
+      }
+
+      Promise.all([
+        fetch("assets/birds.json").then((res) => res.json()),
+        fetch("assets/translations.json").then((res) => res.json()),
+      ]).then(([birdsData, translationsData]) => {
+        birds = birdsData;
+        translations = translationsData;
+        updateUiText();
+        render();
+        reportImageProgress();
+      });
     </script>
   </body>
 </html>

@@ -2,5 +2,6 @@
   "search_placeholder": { "en": "Search by name...", "fr": "Rechercher par nom..." },
   "forest": { "en": "Forest", "fr": "Forêt" },
   "grassland": { "en": "Grassland", "fr": "Prairie" },
-  "wetland": { "en": "Wetland", "fr": "Zone humide" }
+  "wetland": { "en": "Wetland", "fr": "Zone humide" },
+  "completed_entries": { "en": "Completed entries", "fr": "Entrées complétées" }
 }
