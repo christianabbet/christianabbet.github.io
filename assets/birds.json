@@ -1,1087 +1,1738 @@
 [
   {
     "id": 1,
-    "name": "Plongeon catmarin",
+    "name": {
+      "fr": "Plongeon catmarin",
+      "en": "Red-throated Loon"
+    },
     "vogelwarte_id": 10
   },
   {
     "id": 2,
-    "name": "Plongeon arctique",
+    "name": {
+      "fr": "Plongeon arctique",
+      "en": "Black-Throated Diver"
+    },
     "vogelwarte_id": 20
   },
   {
     "id": 3,
-    "name": "Grèbe castagneux",
+    "name": {
+      "fr": "Grèbe castagneux",
+      "en": "Little Grebe"
+    },
     "vogelwarte_id": 50
   },
   {
     "id": 4,
-    "name": "Grèbe à cou noir",
+    "name": {
+      "fr": "Grèbe à cou noir",
+      "en": "Black-Necked Grebe"
+    },
     "vogelwarte_id": 70
   },
   {
     "id": 5,
-    "name": "Grèbe huppé",
+    "name": {
+      "fr": "Grèbe huppé",
+      "en": "Great Crested Grebe"
+    },
     "vogelwarte_id": 80
   },
   {
     "id": 6,
-    "name": "Grèbe jougris",
+    "name": {
+      "fr": "Grèbe jougris",
+      "en": "Red-necked Grebe"
+    },
     "vogelwarte_id": 90
   },
   {
     "id": 7,
-    "name": "Grand cormoran",
+    "name": {
+      "fr": "Grand cormoran",
+      "en": "Great Cormorant"
+    },
     "vogelwarte_id": 350
   },
   {
     "id": 8,
-    "name": "Héron cendré",
+    "name": {
+      "fr": "Héron cendré",
+      "en": "Grey Heron"
+    },
     "vogelwarte_id": 390
   },
   {
     "id": 9,
-    "name": "Héron pourpré",
+    "name": {
+      "fr": "Héron pourpré",
+      "en": "Purple Heron"
+    },
     "vogelwarte_id": 400
   },
   {
     "id": 10,
-    "name": "Grande aigrette",
+    "name": {
+      "fr": "Grande aigrette",
+      "en": "Great Egret"
+    },
     "vogelwarte_id": 440
   },
   {
     "id": 11,
-    "name": "Aigrette garzette",
+    "name": {
+      "fr": "Aigrette garzette",
+      "en": "Little Egret"
+    },
     "vogelwarte_id": 450
   },
   {
     "id": 12,
-    "name": "Bihoreau gris",
+    "name": {
+      "fr": "Bihoreau gris",
+      "en": "Black-Crowned Night-Heron"
+    },
     "vogelwarte_id": 460
   },
   {
     "id": 13,
-    "name": "Blongios nain",
+    "name": {
+      "fr": "Blongios nain",
+      "en": "Common Little Bittern"
+    },
     "vogelwarte_id": 470
   },
   {
     "id": 14,
-    "name": "Butor étoilé",
+    "name": {
+      "fr": "Butor étoilé",
+      "en": "Eurasian Bittern"
+    },
     "vogelwarte_id": 480
   },
   {
     "id": 15,
-    "name": "Cigogne blanche",
+    "name": {
+      "fr": "Cigogne blanche",
+      "en": "White Stork"
+    },
     "vogelwarte_id": 500
   },
   {
     "id": 16,
-    "name": "Cygne chanteur",
+    "name": {
+      "fr": "Cygne chanteur",
+      "en": "Whooper Swan"
+    },
     "vogelwarte_id": 550
   },
   {
     "id": 17,
-    "name": "Cygne tuberculé",
+    "name": {
+      "fr": "Cygne tuberculé",
+      "en": "Mute Swan"
+    },
     "vogelwarte_id": 570
   },
   {
     "id": 18,
-    "name": "Oie cendrée",
+    "name": {
+      "fr": "Oie cendrée",
+      "en": "Greylag Goose"
+    },
     "vogelwarte_id": 590
   },
   {
     "id": 19,
-    "name": "Tadorne casarca",
+    "name": {
+      "fr": "Tadorne casarca",
+      "en": "Ruddy Shelduck"
+    },
     "vogelwarte_id": 700
   },
   {
     "id": 20,
-    "name": "Tadorne de Belon",
+    "name": {
+      "fr": "Tadorne de Belon",
+      "en": "Common Shelduck"
+    },
     "vogelwarte_id": 710
   },
   {
     "id": 21,
-    "name": "Canard colvert",
+    "name": {
+      "fr": "Canard colvert",
+      "en": "Mallard"
+    },
     "vogelwarte_id": 720
   },
   {
     "id": 22,
-    "name": "Sarcelle d'été",
+    "name": {
+      "fr": "Sarcelle d'été",
+      "en": "Garganey"
+    },
     "vogelwarte_id": 740
   },
   {
     "id": 23,
-    "name": "Sarcelle d'hiver",
+    "name": {
+      "fr": "Sarcelle d'hiver",
+      "en": "Common Teal"
+    },
     "vogelwarte_id": 750
   },
   {
     "id": 24,
-    "name": "Canard pilet",
+    "name": {
+      "fr": "Canard pilet",
+      "en": "Northern Pintail"
+    },
     "vogelwarte_id": 780
   },
   {
     "id": 25,
-    "name": "Canard siffleur",
+    "name": {
+      "fr": "Canard siffleur",
+      "en": "Eurasian Wigeon"
+    },
     "vogelwarte_id": 800
   },
   {
     "id": 26,
-    "name": "Canard mandarin",
+    "name": {
+      "fr": "Canard mandarin",
+      "en": "Mandarin Duck"
+    },
     "vogelwarte_id": 810
   },
   {
     "id": 27,
-    "name": "Canard chipeau",
+    "name": {
+      "fr": "Canard chipeau",
+      "en": "Gadwall"
+    },
     "vogelwarte_id": 820
   },
   {
     "id": 28,
-    "name": "Canard souchet",
+    "name": {
+      "fr": "Canard souchet",
+      "en": "Northern Shoveler"
+    },
     "vogelwarte_id": 830
   },
   {
     "id": 29,
-    "name": "Nette rousse",
+    "name": {
+      "fr": "Nette rousse",
+      "en": "Red-crested Pochard"
+    },
     "vogelwarte_id": 850
   },
   {
     "id": 30,
-    "name": "Fuligule milouin",
+    "name": {
+      "fr": "Fuligule milouin",
+      "en": "Common Pochard"
+    },
     "vogelwarte_id": 860
   },
   {
     "id": 31,
-    "name": "Fuligule morillon",
+    "name": {
+      "fr": "Fuligule morillon",
+      "en": "Tufted Duck"
+    },
     "vogelwarte_id": 870
   },
   {
     "id": 32,
-    "name": "Fuligule nyroca",
+    "name": {
+      "fr": "Fuligule nyroca",
+      "en": "Ferruginous Duck"
+    },
     "vogelwarte_id": 880
   },
   {
     "id": 33,
-    "name": "Fuligule milouinan",
+    "name": {
+      "fr": "Fuligule milouinan",
+      "en": "Greater Scaup"
+    },
     "vogelwarte_id": 890
   },
   {
     "id": 34,
-    "name": "Garrot à œil d'or",
+    "name": {
+      "fr": "Garrot à œil d'or",
+      "en": "Common Goldeneye"
+    },
     "vogelwarte_id": 900
   },
   {
     "id": 35,
-    "name": "Eider à duvet",
+    "name": {
+      "fr": "Eider à duvet",
+      "en": "Common Eider"
+    },
     "vogelwarte_id": 950
   },
   {
     "id": 36,
-    "name": "Macreuse brune",
+    "name": {
+      "fr": "Macreuse brune",
+      "en": "Velvet Scoter"
+    },
     "vogelwarte_id": 990
   },
   {
     "id": 37,
-    "name": "Grand Harle",
+    "name": {
+      "fr": "Grand Harle",
+      "en": "Common Merganser"
+    },
     "vogelwarte_id": 1050
   },
   {
     "id": 38,
-    "name": "Harle huppé",
+    "name": {
+      "fr": "Harle huppé",
+      "en": "Red-Breasted Merganser"
+    },
     "vogelwarte_id": 1060
   },
   {
     "id": 39,
-    "name": "Bondrée apivore",
+    "name": {
+      "fr": "Bondrée apivore",
+      "en": "European Honey Buzzard"
+    },
     "vogelwarte_id": 1080
   },
   {
     "id": 40,
-    "name": "Milan royal",
+    "name": {
+      "fr": "Milan royal",
+      "en": "Red Kite"
+    },
     "vogelwarte_id": 1090
   },
   {
     "id": 41,
-    "name": "Milan noir",
+    "name": {
+      "fr": "Milan noir",
+      "en": "Black Kite"
+    },
     "vogelwarte_id": 1100
   },
   {
     "id": 42,
-    "name": "Autour des palombes",
+    "name": {
+      "fr": "Autour des palombes",
+      "en": "Northern Goshawk"
+    },
     "vogelwarte_id": 1110
   },
   {
     "id": 43,
-    "name": "Épervier d'Europe",
+    "name": {
+      "fr": "Épervier d'Europe",
+      "en": "Eurasian Sparrowhawk"
+    },
     "vogelwarte_id": 1130
   },
   {
     "id": 44,
-    "name": "Buse variable",
+    "name": {
+      "fr": "Buse variable",
+      "en": "Common Buzzard"
+    },
     "vogelwarte_id": 1150
   },
   {
     "id": 45,
-    "name": "Aigle royal",
+    "name": {
+      "fr": "Aigle royal",
+      "en": "Golden Eagle"
+    },
     "vogelwarte_id": 1200
   },
   {
     "id": 46,
-    "name": "Gypaète barbu",
+    "name": {
+      "fr": "Gypaète barbu",
+      "en": "Bearded Vulture"
+    },
     "vogelwarte_id": 1320
   },
   {
     "id": 47,
-    "name": "Busard saint-martin",
+    "name": {
+      "fr": "Busard saint-martin",
+      "en": "Northern Harrier"
+    },
     "vogelwarte_id": 1330
   },
   {
     "id": 48,
-    "name": "Busard des roseaux",
+    "name": {
+      "fr": "Busard des roseaux",
+      "en": "Eurasian Marsh-Harrier"
+    },
     "vogelwarte_id": 1360
   },
   {
     "id": 49,
-    "name": "Balbuzard pêcheur",
+    "name": {
+      "fr": "Balbuzard pêcheur",
+      "en": "Osprey"
+    },
     "vogelwarte_id": 1380
   },
   {
     "id": 50,
-    "name": "Faucon pèlerin",
+    "name": {
+      "fr": "Faucon pèlerin",
+      "en": "Peregrine Falcon"
+    },
     "vogelwarte_id": 1420
   },
   {
     "id": 51,
-    "name": "Faucon hobereau",
+    "name": {
+      "fr": "Faucon hobereau",
+      "en": "Eurasian Hobby"
+    },
     "vogelwarte_id": 1430
   },
   {
     "id": 52,
-    "name": "Faucon émerillon",
+    "name": {
+      "fr": "Faucon émerillon",
+      "en": "Merlin"
+    },
     "vogelwarte_id": 1450
   },
   {
     "id": 53,
-    "name": "Faucon crécerelle",
+    "name": {
+      "fr": "Faucon crécerelle",
+      "en": "Eurasian Kestrel"
+    },
     "vogelwarte_id": 1480
   },
   {
     "id": 54,
-    "name": "Grand Tétras",
+    "name": {
+      "fr": "Grand Tétras",
+      "en": "Western Capercaillie"
+    },
     "vogelwarte_id": 1500
   },
   {
     "id": 55,
-    "name": "Tétras lyre",
+    "name": {
+      "fr": "Tétras lyre",
+      "en": "Black Grouse"
+    },
     "vogelwarte_id": 1510
   },
   {
     "id": 56,
-    "name": "Lagopède alpin",
+    "name": {
+      "fr": "Lagopède alpin",
+      "en": "Rock Ptarmigan"
+    },
     "vogelwarte_id": 1540
   },
   {
     "id": 57,
-    "name": "Gélinotte des bois",
+    "name": {
+      "fr": "Gélinotte des bois",
+      "en": "Hazel Grouse"
+    },
     "vogelwarte_id": 1550
   },
   {
     "id": 58,
-    "name": "Perdrix bartavelle",
+    "name": {
+      "fr": "Perdrix bartavelle",
+      "en": "Rock Partridge"
+    },
     "vogelwarte_id": 1560
   },
   {
     "id": 59,
-    "name": "Caille des blés",
+    "name": {
+      "fr": "Caille des blés",
+      "en": "Common Quail"
+    },
     "vogelwarte_id": 1610
   },
   {
     "id": 60,
-    "name": "Faisan de Colchide",
+    "name": {
+      "fr": "Faisan de Colchide",
+      "en": "Common Pheasant"
+    },
     "vogelwarte_id": 1620
   },
   {
     "id": 61,
-    "name": "Râle d'eau",
+    "name": {
+      "fr": "Râle d'eau",
+      "en": "Water Rail"
+    },
     "vogelwarte_id": 1670
   },
   {
     "id": 62,
-    "name": "Marouette ponctuée",
+    "name": {
+      "fr": "Marouette ponctuée",
+      "en": "Spotted Crake"
+    },
     "vogelwarte_id": 1710
   },
   {
     "id": 63,
-    "name": "Gallinule poule-d'eau",
+    "name": {
+      "fr": "Gallinule poule-d'eau",
+      "en": "Common Moorhen"
+    },
     "vogelwarte_id": 1730
   },
   {
     "id": 64,
-    "name": "Foulque macroule",
+    "name": {
+      "fr": "Foulque macroule",
+      "en": "Eurasian Coot"
+    },
     "vogelwarte_id": 1770
   },
   {
     "id": 65,
-    "name": "Vanneau huppé",
+    "name": {
+      "fr": "Vanneau huppé",
+      "en": "Northern Lapwing"
+    },
     "vogelwarte_id": 1850
   },
   {
     "id": 66,
-    "name": "Petit gravelot",
+    "name": {
+      "fr": "Petit gravelot",
+      "en": "Little Ringed Plover"
+    },
     "vogelwarte_id": 1920
   },
   {
     "id": 67,
-    "name": "Courlis corlieu",
+    "name": {
+      "fr": "Courlis corlieu",
+      "en": "Eurasian Whimbrel"
+    },
     "vogelwarte_id": 2000
   },
   {
     "id": 68,
-    "name": "Courlis cendré",
+    "name": {
+      "fr": "Courlis cendré",
+      "en": "Eurasian Curlew"
+    },
     "vogelwarte_id": 2020
   },
   {
     "id": 69,
-    "name": "Barge à queue noire",
+    "name": {
+      "fr": "Barge à queue noire",
+      "en": "Black-Tailed Godwit"
+    },
     "vogelwarte_id": 2030
   },
   {
     "id": 70,
-    "name": "Chevalier arlequin",
+    "name": {
+      "fr": "Chevalier arlequin",
+      "en": "Spotted Redshank"
+    },
     "vogelwarte_id": 2050
   },
   {
     "id": 71,
-    "name": "Chevalier gambette",
+    "name": {
+      "fr": "Chevalier gambette",
+      "en": "Common Redshank"
+    },
     "vogelwarte_id": 2060
   },
   {
     "id": 72,
-    "name": "Chevalier aboyeur",
+    "name": {
+      "fr": "Chevalier aboyeur",
+      "en": "Common Greenshank"
+    },
     "vogelwarte_id": 2090
   },
   {
     "id": 73,
-    "name": "Chevalier culblanc",
+    "name": {
+      "fr": "Chevalier culblanc",
+      "en": "Green Sandpiper"
+    },
     "vogelwarte_id": 2110
   },
   {
     "id": 74,
-    "name": "Chevalier sylvain",
+    "name": {
+      "fr": "Chevalier sylvain",
+      "en": "Wood Sandpiper"
+    },
     "vogelwarte_id": 2130
   },
   {
     "id": 75,
-    "name": "Chevalier guinette",
+    "name": {
+      "fr": "Chevalier guinette",
+      "en": "Common Sandpiper"
+    },
     "vogelwarte_id": 2140
   },
   {
     "id": 76,
-    "name": "Bécassine des marais",
+    "name": {
+      "fr": "Bécassine des marais",
+      "en": "Common Snipe"
+    },
     "vogelwarte_id": 2210
   },
   {
     "id": 77,
-    "name": "Bécasse des bois",
+    "name": {
+      "fr": "Bécasse des bois",
+      "en": "Eurasian Woodcock"
+    },
     "vogelwarte_id": 2230
   },
   {
     "id": 78,
-    "name": "Bécasseau minute",
+    "name": {
+      "fr": "Bécasseau minute",
+      "en": "Little Stint"
+    },
     "vogelwarte_id": 2270
   },
   {
     "id": 79,
-    "name": "Bécasseau variable",
+    "name": {
+      "fr": "Bécasseau variable",
+      "en": "Dunlin"
+    },
     "vogelwarte_id": 2350
   },
   {
     "id": 80,
-    "name": "Bécasseau cocorli",
+    "name": {
+      "fr": "Bécasseau cocorli",
+      "en": "Curlew Sandpiper"
+    },
     "vogelwarte_id": 2360
   },
   {
     "id": 81,
-    "name": "Combattant varié",
+    "name": {
+      "fr": "Combattant varié",
+      "en": "Ruff"
+    },
     "vogelwarte_id": 2390
   },
   {
     "id": 82,
-    "name": "Goéland cendré",
+    "name": {
+      "fr": "Goéland cendré",
+      "en": "Common Gull"
+    },
     "vogelwarte_id": 2550
   },
   {
     "id": 83,
-    "name": "Goéland leucophée",
+    "name": {
+      "fr": "Goéland leucophée",
+      "en": "Yellow-legged Gull"
+    },
     "vogelwarte_id": 2563
   },
   {
     "id": 84,
-    "name": "Goéland pontique",
+    "name": {
+      "fr": "Goéland pontique",
+      "en": "Caspian Gull"
+    },
     "vogelwarte_id": 2564
   },
   {
     "id": 85,
-    "name": "Goéland brun",
+    "name": {
+      "fr": "Goéland brun",
+      "en": "Lesser Black-backed Gull"
+    },
     "vogelwarte_id": 2570
   },
   {
     "id": 86,
-    "name": "Mouette mélanocéphale",
+    "name": {
+      "fr": "Mouette mélanocéphale",
+      "en": "Mediterranean Gull"
+    },
     "vogelwarte_id": 2620
   },
   {
     "id": 87,
-    "name": "Mouette rieuse",
+    "name": {
+      "fr": "Mouette rieuse",
+      "en": "Black-Headed Gull"
+    },
     "vogelwarte_id": 2630
   },
   {
     "id": 88,
-    "name": "Mouette pygmée",
+    "name": {
+      "fr": "Mouette pygmée",
+      "en": "Little Gull"
+    },
     "vogelwarte_id": 2660
   },
   {
     "id": 89,
-    "name": "Guifette noire",
+    "name": {
+      "fr": "Guifette noire",
+      "en": "Black Tern"
+    },
     "vogelwarte_id": 2720
   },
   {
     "id": 90,
-    "name": "Sterne pierregarin",
+    "name": {
+      "fr": "Sterne pierregarin",
+      "en": "Common Tern"
+    },
     "vogelwarte_id": 2750
   },
   {
     "id": 91,
-    "name": "Pigeon biset",
+    "name": {
+      "fr": "Pigeon biset",
+      "en": "Rock Pigeon"
+    },
     "vogelwarte_id": 2971
   },
   {
     "id": 92,
-    "name": "Pigeon colombin",
+    "name": {
+      "fr": "Pigeon colombin",
+      "en": "Stock Dove"
+    },
     "vogelwarte_id": 2980
   },
   {
     "id": 93,
-    "name": "Pigeon ramier",
+    "name": {
+      "fr": "Pigeon ramier",
+      "en": "Common Wood Pigeon"
+    },
     "vogelwarte_id": 2990
   },
   {
     "id": 94,
-    "name": "Tourterelle turque",
+    "name": {
+      "fr": "Tourterelle turque",
+      "en": "Eurasian Collared-Dove"
+    },
     "vogelwarte_id": 3020
   },
   {
     "id": 95,
-    "name": "Coucou gris",
+    "name": {
+      "fr": "Coucou gris",
+      "en": "Common Cuckoo"
+    },
     "vogelwarte_id": 3040
   },
   {
     "id": 96,
-    "name": "Chouette effraie",
+    "name": {
+      "fr": "Chouette effraie",
+      "en": "Barn Owl"
+    },
     "vogelwarte_id": 3070
   },
   {
     "id": 97,
-    "name": "Grand-Duc d'Europe",
+    "name": {
+      "fr": "Grand-Duc d'Europe",
+      "en": "Eurasian Eagle-Owl"
+    },
     "vogelwarte_id": 3090
   },
   {
     "id": 98,
-    "name": "Chevêchette d'Europe",
+    "name": {
+      "fr": "Chevêchette d'Europe",
+      "en": "Eurasian Pygmy Owl"
+    },
     "vogelwarte_id": 3120
   },
   {
     "id": 99,
-    "name": "Chevêche d'Athéna",
+    "name": {
+      "fr": "Chevêche d'Athéna",
+      "en": "Little Owl"
+    },
     "vogelwarte_id": 3130
   },
   {
     "id": 100,
-    "name": "Chouette hulotte",
+    "name": {
+      "fr": "Chouette hulotte",
+      "en": "Tawny Owl"
+    },
     "vogelwarte_id": 3140
   },
   {
     "id": 101,
-    "name": "Hibou moyen-duc",
+    "name": {
+      "fr": "Hibou moyen-duc",
+      "en": "Long-eared Owl"
+    },
     "vogelwarte_id": 3170
   },
   {
     "id": 102,
-    "name": "Chouette de Tengmalm",
+    "name": {
+      "fr": "Chouette de Tengmalm",
+      "en": "Boreal Owl"
+    },
     "vogelwarte_id": 3200
   },
   {
     "id": 103,
-    "name": "Martinet à ventre blanc",
+    "name": {
+      "fr": "Martinet à ventre blanc",
+      "en": "Alpine Swift"
+    },
     "vogelwarte_id": 3260
   },
   {
     "id": 104,
-    "name": "Martinet noir",
+    "name": {
+      "fr": "Martinet noir",
+      "en": "Common Swift"
+    },
     "vogelwarte_id": 3270
   },
   {
     "id": 105,
-    "name": "Martin-pêcheur d'Europe",
+    "name": {
+      "fr": "Martin-pêcheur d'Europe",
+      "en": "Common Kingfisher"
+    },
     "vogelwarte_id": 3320
   },
   {
     "id": 106,
-    "name": "Guêpier d'Europe",
+    "name": {
+      "fr": "Guêpier d'Europe",
+      "en": "European Bee-Eater"
+    },
     "vogelwarte_id": 3330
   },
   {
     "id": 107,
-    "name": "Huppe fasciée",
+    "name": {
+      "fr": "Huppe fasciée",
+      "en": "Eurasian Hoopoe"
+    },
     "vogelwarte_id": 3360
   },
   {
     "id": 108,
-    "name": "Torcol fourmilier",
+    "name": {
+      "fr": "Torcol fourmilier",
+      "en": "Eurasian Wryneck"
+    },
     "vogelwarte_id": 3370
   },
   {
     "id": 109,
-    "name": "Pic vert",
+    "name": {
+      "fr": "Pic vert",
+      "en": "Eurasian Green Woodpecker"
+    },
     "vogelwarte_id": 3380
   },
   {
     "id": 110,
-    "name": "Pic cendré",
+    "name": {
+      "fr": "Pic cendré",
+      "en": "Grey-headed Woodpecker"
+    },
     "vogelwarte_id": 3390
   },
   {
     "id": 111,
-    "name": "Pic noir",
+    "name": {
+      "fr": "Pic noir",
+      "en": "Black Woodpecker"
+    },
     "vogelwarte_id": 3400
   },
   {
     "id": 112,
-    "name": "Pic épeiche",
+    "name": {
+      "fr": "Pic épeiche",
+      "en": "Great Spotted Woodpecker"
+    },
     "vogelwarte_id": 3410
   },
   {
     "id": 113,
-    "name": "Pic mar",
+    "name": {
+      "fr": "Pic mar",
+      "en": "Middle Spotted Woodpecker"
+    },
     "vogelwarte_id": 3430
   },
   {
     "id": 114,
-    "name": "Pic à dos blanc",
+    "name": {
+      "fr": "Pic à dos blanc",
+      "en": "White-Backed Woodpecker"
+    },
     "vogelwarte_id": 3440
   },
   {
     "id": 115,
-    "name": "Pic épeichette",
+    "name": {
+      "fr": "Pic épeichette",
+      "en": "Lesser Spotted Woodpecker"
+    },
     "vogelwarte_id": 3450
   },
   {
     "id": 116,
-    "name": "Pic tridactyle",
+    "name": {
+      "fr": "Pic tridactyle",
+      "en": "Eurasian Three-toed Woodpecker"
+    },
     "vogelwarte_id": 3460
   },
   {
     "id": 117,
-    "name": "Alouette lulu",
+    "name": {
+      "fr": "Alouette lulu",
+      "en": "Woodlark"
+    },
     "vogelwarte_id": 3560
   },
   {
     "id": 118,
-    "name": "Alouette des champs",
+    "name": {
+      "fr": "Alouette des champs",
+      "en": "Eurasian Skylark"
+    },
     "vogelwarte_id": 3570
   },
   {
     "id": 119,
-    "name": "Hirondelle rustique",
+    "name": {
+      "fr": "Hirondelle rustique",
+      "en": "Barn Swallow"
+    },
     "vogelwarte_id": 3610
   },
   {
     "id": 120,
-    "name": "Hirondelle de rochers",
+    "name": {
+      "fr": "Hirondelle de rochers",
+      "en": "Eurasian Crag Martin"
+    },
     "vogelwarte_id": 3630
   },
   {
     "id": 121,
-    "name": "Hirondelle de fenêtre",
+    "name": {
+      "fr": "Hirondelle de fenêtre",
+      "en": "Western House Martin"
+    },
     "vogelwarte_id": 3640
   },
   {
     "id": 122,
-    "name": "Hirondelle de rivage",
+    "name": {
+      "fr": "Hirondelle de rivage",
+      "en": "Sand Martin"
+    },
     "vogelwarte_id": 3650
   },
   {
     "id": 123,
-    "name": "Loriot d'Europe",
+    "name": {
+      "fr": "Loriot d'Europe",
+      "en": "Eurasian Golden Oriole"
+    },
     "vogelwarte_id": 3660
   },
   {
     "id": 124,
-    "name": "Grand corbeau",
+    "name": {
+      "fr": "Grand corbeau",
+      "en": "Common Raven"
+    },
     "vogelwarte_id": 3670
   },
   {
     "id": 125,
-    "name": "Corneille noire",
+    "name": {
+      "fr": "Corneille noire",
+      "en": "Carrion Crow"
+    },
     "vogelwarte_id": 3681
   },
   {
     "id": 126,
-    "name": "Corneille mantelée",
+    "name": {
+      "fr": "Corneille mantelée",
+      "en": "Hooded Crow"
+    },
     "vogelwarte_id": 3683
   },
   {
     "id": 127,
-    "name": "Corbeau freux",
+    "name": {
+      "fr": "Corbeau freux",
+      "en": "Rook"
+    },
     "vogelwarte_id": 3700
   },
   {
     "id": 128,
-    "name": "Choucas des tours",
+    "name": {
+      "fr": "Choucas des tours",
+      "en": "Western Jackdaw"
+    },
     "vogelwarte_id": 3710
   },
   {
     "id": 129,
-    "name": "Pie d'Amérique",
+    "name": {
+      "fr": "Pie d'Amérique",
+      "en": "Black-Billed Magpie"
+    },
     "vogelwarte_id": 3720
   },
   {
     "id": 130,
-    "name": "Cassenoix moucheté",
+    "name": {
+      "fr": "Cassenoix moucheté",
+      "en": "Eurasian Nutcracker"
+    },
     "vogelwarte_id": 3740
   },
   {
     "id": 131,
-    "name": "Geai des chênes",
+    "name": {
+      "fr": "Geai des chênes",
+      "en": "Eurasian Jay"
+    },
     "vogelwarte_id": 3750
   },
   {
     "id": 132,
-    "name": "Crave à bec rouge",
+    "name": {
+      "fr": "Crave à bec rouge",
+      "en": "Red-billed Chough"
+    },
     "vogelwarte_id": 3770
   },
   {
     "id": 133,
-    "name": "Chocard à bec jaune",
+    "name": {
+      "fr": "Chocard à bec jaune",
+      "en": "Alpine Chough"
+    },
     "vogelwarte_id": 3780
   },
   {
     "id": 134,
-    "name": "Mésange charbonnière",
+    "name": {
+      "fr": "Mésange charbonnière",
+      "en": "Great Tit"
+    },
     "vogelwarte_id": 3790
   },
   {
     "id": 135,
-    "name": "Mésange bleue",
+    "name": {
+      "fr": "Mésange bleue",
+      "en": "Eurasian Blue Tit"
+    },
     "vogelwarte_id": 3800
   },
   {
     "id": 136,
-    "name": "Mésange noire",
+    "name": {
+      "fr": "Mésange noire",
+      "en": "Coal Tit"
+    },
     "vogelwarte_id": 3820
   },
   {
     "id": 137,
-    "name": "Mésange huppée",
+    "name": {
+      "fr": "Mésange huppée",
+      "en": "Crested Tit"
+    },
     "vogelwarte_id": 3830
   },
   {
     "id": 138,
-    "name": "Mésange nonnette",
+    "name": {
+      "fr": "Mésange nonnette",
+      "en": "Marsh Tit"
+    },
     "vogelwarte_id": 3860
   },
   {
     "id": 139,
-    "name": "Mésange alpestre",
+    "name": {
+      "fr": "Mésange alpestre",
+      "en": "Alpine Tit"
+    },
     "vogelwarte_id": 3871
   },
   {
     "id": 140,
-    "name": "Mésange boréale",
+    "name": {
+      "fr": "Mésange boréale",
+      "en": "Willow Tit"
+    },
     "vogelwarte_id": 3872
   },
   {
     "id": 141,
-    "name": "Mésange à longue queue",
+    "name": {
+      "fr": "Mésange à longue queue",
+      "en": "Long-Tailed Tit"
+    },
     "vogelwarte_id": 3880
   },
   {
     "id": 142,
-    "name": "Rémiz penduline",
+    "name": {
+      "fr": "Rémiz penduline",
+      "en": "Eurasian Penduline Tit"
+    },
     "vogelwarte_id": 3890
   },
   {
     "id": 143,
-    "name": "Panure à moustaches",
+    "name": {
+      "fr": "Panure à moustaches",
+      "en": "Bearded Reedling"
+    },
     "vogelwarte_id": 3900
   },
   {
     "id": 144,
-    "name": "Sittelle torchepot",
+    "name": {
+      "fr": "Sittelle torchepot",
+      "en": "Eurasian Nuthatch"
+    },
     "vogelwarte_id": 3910
   },
   {
     "id": 145,
-    "name": "Grimpereau des bois",
+    "name": {
+      "fr": "Grimpereau des bois",
+      "en": "Eurasian Treecreeper"
+    },
     "vogelwarte_id": 3940
   },
   {
     "id": 146,
-    "name": "Grimpereau des jardins",
+    "name": {
+      "fr": "Grimpereau des jardins",
+      "en": "Short-Toed Treecreeper"
+    },
     "vogelwarte_id": 3950
   },
   {
     "id": 147,
-    "name": "Tichodrome échelette",
+    "name": {
+      "fr": "Tichodrome échelette",
+      "en": "Wallcreeper"
+    },
     "vogelwarte_id": 3960
   },
   {
     "id": 148,
-    "name": "Cincle plongeur",
+    "name": {
+      "fr": "Cincle plongeur",
+      "en": "White-Throated Dipper"
+    },
     "vogelwarte_id": 3970
   },
   {
     "id": 149,
-    "name": "Troglodyte mignon",
+    "name": {
+      "fr": "Troglodyte mignon",
+      "en": "Eurasian Wren"
+    },
     "vogelwarte_id": 3980
   },
   {
     "id": 150,
-    "name": "Rouge-gorge familier",
+    "name": {
+      "fr": "Rouge-gorge familier",
+      "en": "European Robin"
+    },
     "vogelwarte_id": 4000
   },
   {
     "id": 151,
-    "name": "Rossignol philomèle",
+    "name": {
+      "fr": "Rossignol philomèle",
+      "en": "Common Nightingale"
+    },
     "vogelwarte_id": 4020
   },
   {
     "id": 152,
-    "name": "Gorgebleue à miroir",
+    "name": {
+      "fr": "Gorgebleue à miroir",
+      "en": "Bluethroat"
+    },
     "vogelwarte_id": 4040
   },
   {
     "id": 153,
-    "name": "Rougequeue noir",
+    "name": {
+      "fr": "Rougequeue noir",
+      "en": "Black Redstart"
+    },
     "vogelwarte_id": 4060
   },
   {
     "id": 154,
-    "name": "Rougequeue à front blanc",
+    "name": {
+      "fr": "Rougequeue à front blanc",
+      "en": "Common Redstart"
+    },
     "vogelwarte_id": 4070
   },
   {
     "id": 155,
-    "name": "Tarier des prés",
+    "name": {
+      "fr": "Tarier des prés",
+      "en": "Whinchat"
+    },
     "vogelwarte_id": 4090
   },
   {
     "id": 156,
-    "name": "Tarier pâtre",
+    "name": {
+      "fr": "Tarier pâtre",
+      "en": "European Stonechat"
+    },
     "vogelwarte_id": 4100
   },
   {
     "id": 157,
-    "name": "Traquet motteux",
+    "name": {
+      "fr": "Traquet motteux",
+      "en": "Northern Wheatear"
+    },
     "vogelwarte_id": 4120
   },
   {
     "id": 158,
-    "name": "Monticole de roche",
+    "name": {
+      "fr": "Monticole de roche",
+      "en": "Common Rock Thrush"
+    },
     "vogelwarte_id": 4180
   },
   {
     "id": 159,
-    "name": "Monticole merle-bleu",
+    "name": {
+      "fr": "Monticole merle-bleu",
+      "en": "Blue Rock-Thrush"
+    },
     "vogelwarte_id": 4190
   },
   {
     "id": 160,
-    "name": "Merle à plastron",
+    "name": {
+      "fr": "Merle à plastron",
+      "en": "Ring Ouzel"
+    },
     "vogelwarte_id": 4230
   },
   {
     "id": 161,
-    "name": "Merle noir",
+    "name": {
+      "fr": "Merle noir",
+      "en": "Common Blackbird"
+    },
     "vogelwarte_id": 4240
   },
   {
     "id": 162,
-    "name": "Grive litorne",
+    "name": {
+      "fr": "Grive litorne",
+      "en": "Fieldfare"
+    },
     "vogelwarte_id": 4290
   },
   {
     "id": 163,
-    "name": "Grive mauvis",
+    "name": {
+      "fr": "Grive mauvis",
+      "en": "Redwing"
+    },
     "vogelwarte_id": 4300
   },
   {
     "id": 164,
-    "name": "Grive musicienne",
+    "name": {
+      "fr": "Grive musicienne",
+      "en": "Song Thrush"
+    },
     "vogelwarte_id": 4310
   },
   {
     "id": 165,
-    "name": "Grive draine",
+    "name": {
+      "fr": "Grive draine",
+      "en": "Mistle Thrush"
+    },
     "vogelwarte_id": 4320
   },
   {
     "id": 166,
-    "name": "Locustelle tachetée",
+    "name": {
+      "fr": "Locustelle tachetée",
+      "en": "Common Grasshopper Warbler"
+    },
     "vogelwarte_id": 4390
   },
   {
     "id": 167,
-    "name": "Locustelle luscinioïde",
+    "name": {
+      "fr": "Locustelle luscinioïde",
+      "en": "Savi's Warbler"
+    },
     "vogelwarte_id": 4430
   },
   {
     "id": 168,
-    "name": "Rousserolle turdoïde",
+    "name": {
+      "fr": "Rousserolle turdoïde",
+      "en": "Great Reed Warbler"
+    },
     "vogelwarte_id": 4450
   },
   {
     "id": 169,
-    "name": "Rousserolle effarvatte",
+    "name": {
+      "fr": "Rousserolle effarvatte",
+      "en": "Common Reed Warbler"
+    },
     "vogelwarte_id": 4460
   },
   {
     "id": 170,
-    "name": "Rousserolle verderolle",
+    "name": {
+      "fr": "Rousserolle verderolle",
+      "en": "Marsh Warbler"
+    },
     "vogelwarte_id": 4470
   },
   {
     "id": 171,
-    "name": "Phragmite des joncs",
+    "name": {
+      "fr": "Phragmite des joncs",
+      "en": "Sedge Warbler"
+    },
     "vogelwarte_id": 4500
   },
   {
     "id": 172,
-    "name": "Hypolaïs polyglotte",
+    "name": {
+      "fr": "Hypolaïs polyglotte",
+      "en": "Melodious Warbler"
+    },
     "vogelwarte_id": 4520
   },
   {
     "id": 173,
-    "name": "Fauvette à tête noire",
+    "name": {
+      "fr": "Fauvette à tête noire",
+      "en": "Eurasian Blackcap"
+    },
     "vogelwarte_id": 4570
   },
   {
     "id": 174,
-    "name": "Fauvette des jardins",
+    "name": {
+      "fr": "Fauvette des jardins",
+      "en": "Garden Warbler"
+    },
     "vogelwarte_id": 4600
   },
   {
     "id": 175,
-    "name": "Fauvette grisette",
+    "name": {
+      "fr": "Fauvette grisette",
+      "en": "Common Whitethroat"
+    },
     "vogelwarte_id": 4610
   },
   {
     "id": 176,
-    "name": "Fauvette babillarde",
+    "name": {
+      "fr": "Fauvette babillarde",
+      "en": "Lesser Whitethroat"
+    },
     "vogelwarte_id": 4620
   },
   {
     "id": 177,
-    "name": "Pouillot fitis",
+    "name": {
+      "fr": "Pouillot fitis",
+      "en": "Willow Warbler"
+    },
     "vogelwarte_id": 4720
   },
   {
     "id": 178,
-    "name": "Pouillot véloce",
+    "name": {
+      "fr": "Pouillot véloce",
+      "en": "Common Chiffchaff"
+    },
     "vogelwarte_id": 4730
   },
   {
     "id": 179,
-    "name": "Pouillot de Bonelli",
+    "name": {
+      "fr": "Pouillot de Bonelli",
+      "en": "Western Bonelli's Warbler"
+    },
     "vogelwarte_id": 4740
   },
   {
     "id": 180,
-    "name": "Pouillot siffleur",
+    "name": {
+      "fr": "Pouillot siffleur",
+      "en": "Wood Warbler"
+    },
     "vogelwarte_id": 4750
   },
   {
     "id": 181,
-    "name": "Roitelet Huppé",
+    "name": {
+      "fr": "Roitelet Huppé",
+      "en": "Goldcrest"
+    },
     "vogelwarte_id": 4820
   },
   {
     "id": 182,
-    "name": "Roitelet à triple bandeau",
+    "name": {
+      "fr": "Roitelet à triple bandeau",
+      "en": "Common Firecrest"
+    },
     "vogelwarte_id": 4830
   },
   {
     "id": 183,
-    "name": "Gobemouche gris",
+    "name": {
+      "fr": "Gobemouche gris",
+      "en": "Spotted Flycatcher"
+    },
     "vogelwarte_id": 4840
   },
   {
     "id": 184,
-    "name": "Gobemouche noir",
+    "name": {
+      "fr": "Gobemouche noir",
+      "en": "European Pied Flycatcher"
+    },
     "vogelwarte_id": 4860
   },
   {
     "id": 185,
-    "name": "Accenteur mouchet",
+    "name": {
+      "fr": "Accenteur mouchet",
+      "en": "Dunnock"
+    },
     "vogelwarte_id": 4900
   },
   {
     "id": 186,
-    "name": "Accenteur alpin",
+    "name": {
+      "fr": "Accenteur alpin",
+      "en": "Alpine Accentor"
+    },
     "vogelwarte_id": 4910
   },
   {
     "id": 187,
-    "name": "Pipit farlouse",
+    "name": {
+      "fr": "Pipit farlouse",
+      "en": "Meadow Pipit"
+    },
     "vogelwarte_id": 4930
   },
   {
     "id": 188,
-    "name": "Pipit des arbres",
+    "name": {
+      "fr": "Pipit des arbres",
+      "en": "Tree Pipit"
+    },
     "vogelwarte_id": 4970
   },
   {
     "id": 189,
-    "name": "Pipit spioncelle",
+    "name": {
+      "fr": "Pipit spioncelle",
+      "en": "Water Pipit"
+    },
     "vogelwarte_id": 5000
   },
   {
     "id": 190,
-    "name": "Bergeronnette grise",
+    "name": {
+      "fr": "Bergeronnette grise",
+      "en": "White Wagtail"
+    },
     "vogelwarte_id": 5030
   },
   {
     "id": 191,
-    "name": "Bergeronnette des ruisseaux",
+    "name": {
+      "fr": "Bergeronnette des ruisseaux",
+      "en": "Gray Wagtail"
+    },
     "vogelwarte_id": 5050
   },
   {
     "id": 192,
-    "name": "Bergeronnette printanière",
+    "name": {
+      "fr": "Bergeronnette printanière",
+      "en": "Western Yellow Wagtail"
+    },
     "vogelwarte_id": 5060
   },
   {
     "id": 193,
-    "name": "Pie-grièche grise",
+    "name": {
+      "fr": "Pie-grièche grise",
+      "en": "Great Grey Shrike"
+    },
     "vogelwarte_id": 5120
   },
   {
     "id": 194,
-    "name": "Pie-grièche écorcheur",
+    "name": {
+      "fr": "Pie-grièche écorcheur",
+      "en": "Red-Backed Shrike"
+    },
     "vogelwarte_id": 5160
   },
   {
     "id": 195,
-    "name": "Étourneau sansonnet",
+    "name": {
+      "fr": "Étourneau sansonnet",
+      "en": "Common Starling"
+    },
     "vogelwarte_id": 5180
   },
   {
     "id": 196,
-    "name": "Moineau domestique",
+    "name": {
+      "fr": "Moineau domestique",
+      "en": "House Sparrow"
+    },
     "vogelwarte_id": 5250
   },
   {
     "id": 197,
-    "name": "Moineau cisalpin",
+    "name": {
+      "fr": "Moineau cisalpin",
+      "en": "Italian Sparrow"
+    },
     "vogelwarte_id": 5252
   },
   {
     "id": 198,
-    "name": "Moineau friquet",
+    "name": {
+      "fr": "Moineau friquet",
+      "en": "Eurasian Tree Sparrow"
+    },
     "vogelwarte_id": 5280
   },
   {
     "id": 199,
-    "name": "Niverolle alpine",
+    "name": {
+      "fr": "Niverolle alpine",
+      "en": "White-winged Snowfinch"
+    },
     "vogelwarte_id": 5290
   },
   {
     "id": 200,
-    "name": "Gros-bec casse-noyaux",
+    "name": {
+      "fr": "Gros-bec casse-noyaux",
+      "en": "Hawfinch"
+    },
     "vogelwarte_id": 5320
   },
   {
     "id": 201,
-    "name": "Verdier d'Europe",
+    "name": {
+      "fr": "Verdier d'Europe",
+      "en": "European Greenfinch"
+    },
     "vogelwarte_id": 5330
   },
   {
     "id": 202,
-    "name": "Chardonneret élégant",
+    "name": {
+      "fr": "Chardonneret élégant",
+      "en": "European Goldfinch"
+    },
     "vogelwarte_id": 5350
   },
   {
     "id": 203,
-    "name": "Tarin des aulnes",
+    "name": {
+      "fr": "Tarin des aulnes",
+      "en": "Eurasian Siskin"
+    },
     "vogelwarte_id": 5360
   },
   {
     "id": 204,
-    "name": "Linotte mélodieuse",
+    "name": {
+      "fr": "Linotte mélodieuse",
+      "en": "Common Linnet"
+    },
     "vogelwarte_id": 5370
   },
   {
     "id": 205,
-    "name": "Sizerin cabaret",
+    "name": {
+      "fr": "Sizerin cabaret",
+      "en": "Lesser Redpoll"
+    },
     "vogelwarte_id": 5390
   },
   {
     "id": 206,
-    "name": "Venturon montagnard",
+    "name": {
+      "fr": "Venturon montagnard",
+      "en": "Citril Finch"
+    },
     "vogelwarte_id": 5450
   },
   {
     "id": 207,
-    "name": "Serin cini",
+    "name": {
+      "fr": "Serin cini",
+      "en": "European Serin"
+    },
     "vogelwarte_id": 5460
   },
   {
     "id": 208,
-    "name": "Bouvreuil Pivoine",
+    "name": {
+      "fr": "Bouvreuil Pivoine",
+      "en": "Bullfinch"
+    },
     "vogelwarte_id": 5480
   },
   {
     "id": 209,
-    "name": "Bec-croisé rouge",
+    "name": {
+      "fr": "Bec-croisé rouge",
+      "en": "Red Crossbill"
+    },
     "vogelwarte_id": 5520
   },
   {
     "id": 210,
-    "name": "Pinson des arbres",
+    "name": {
+      "fr": "Pinson des arbres",
+      "en": "Common Chaffinch"
+    },
     "vogelwarte_id": 5550
   },
   {
     "id": 211,
-    "name": "Pinson du nord",
+    "name": {
+      "fr": "Pinson du nord",
+      "en": "Brambling"
+    },
     "vogelwarte_id": 5560
   },
   {
     "id": 212,
-    "name": "Bruant proyer",
+    "name": {
+      "fr": "Bruant proyer",
+      "en": "Corn Bunting"
+    },
     "vogelwarte_id": 5570
   },
   {
     "id": 213,
-    "name": "Bruant jaune",
+    "name": {
+      "fr": "Bruant jaune",
+      "en": "Yellowhammer"
+    },
     "vogelwarte_id": 5580
   },
   {
     "id": 214,
-    "name": "Bruant zizi",
+    "name": {
+      "fr": "Bruant zizi",
+      "en": "Cirl Bunting"
+    },
     "vogelwarte_id": 5640
   },
   {
     "id": 215,
-    "name": "Bruant fou",
+    "name": {
+      "fr": "Bruant fou",
+      "en": "Rock Bunting"
+    },
     "vogelwarte_id": 5690
   },
   {
     "id": 216,
-    "name": "Bruant des roseaux",
+    "name": {
+      "fr": "Bruant des roseaux",
+      "en": "Common Reed Bunting"
+    },
     "vogelwarte_id": 5740
   },
   {
     "id": 217,
-    "name": "Klaxon",
+    "name": {
+      "fr": "Klaxon",
+      "en": "Klaxon"
+    },
     "vogelwarte_id": 10000
   }
 ]

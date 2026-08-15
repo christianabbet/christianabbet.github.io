@@ -1,0 +1,41 @@
+[project]
+name = "christianabbet-github-io"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["Pillow"]
+
+
+# This project is **NOT** a Python package
+[tool.uv]
+package = false
+
+# Defines Python package indexes UV can pull from.
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+
+# ----------------
+# Ruff
+# ----------------
+[tool.ruff]
+line-length = 88  # Max line characters
+
+[tool.ruff.lint]
+ignore = [
+    "D413", # Missing blank line after last section
+    "D203", # Blank line before class (D211)
+    "D213", # First line multiline (D212)
+]
+
+select = [
+    # Doc formatting (e.g. line too long)
+    "E",
+    # pycodestyle (e.g. Missing descriptions)
+    "D",
+    # Pyflakes (e.g. Unused names)
+    "F",
+    # isort (e.g. Import order)
+    "I",
+    # Annotation rules (e.g. Missing type annotation)
+    "ANN"
+]
