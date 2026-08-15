@@ -31,15 +31,52 @@
       #search {
         display: block;
         width: min(400px, 90%);
-        margin: 0 auto 1.5rem;
+        margin: 0 auto 1rem;
         padding: 0.6rem 1rem;
         font-size: 1rem;
         border: 1px solid #ccc;
         border-radius: 8px;
       }
+      #chips {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+      .chip {
+        padding: 0.35rem 0.9rem;
+        border-radius: 999px;
+        border: 2px solid transparent;
+        background: #e0e0e0;
+        color: #333;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .chip.forest {
+        background: #e8f5e9;
+        color: #2e7d32;
+      }
+      .chip.grassland {
+        background: #fff8e1;
+        color: #b8860b;
+      }
+      .chip.wetland {
+        background: #e3f2fd;
+        color: #1976d2;
+      }
+      .chip.forest.active {
+        border-color: #2e7d32;
+      }
+      .chip.grassland.active {
+        border-color: #b8860b;
+      }
+      .chip.wetland.active {
+        border-color: #1976d2;
+      }
       #cards {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
         gap: 1rem;
         padding: 0 1rem 2rem;
         max-width: 1400px;
@@ -50,6 +87,13 @@
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        transition:
+          transform 0.15s ease,
+          box-shadow 0.15s ease;
+      }
+      .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
       }
       .card .thumb {
         background: #ccc;
@@ -98,33 +142,47 @@
       </select>
     </header>
     <input id="search" type="search" placeholder="Search by name..." />
+    <div id="chips">
+      <div class="chip forest" data-habitat="forest">Forest</div>
+      <div class="chip grassland" data-habitat="grassland">Grassland</div>
+      <div class="chip wetland" data-habitat="wetland">Wetland</div>
+    </div>
     <div id="cards"></div>
 
     <script>
       const cardsEl = document.getElementById("cards");
       const searchEl = document.getElementById("search");
       const langEl = document.getElementById("lang");
+      const chipEls = document.querySelectorAll(".chip");
       let birds = [];
+      let translations = {};
       let lang = localStorage.getItem("lang") || "fr";
       langEl.value = lang;
+      const activeHabitats = new Set();
 
-      const HABITAT_COLORS = {
-        forest: "rgba(46, 125, 50, 0.55)",
-        grassland: "rgba(249, 168, 37, 0.55)",
-        wetland: "rgba(25, 118, 210, 0.55)",
-      };
+      function t(key) {
+        return translations[key]?.[lang] ?? key;
+      }
+
+      function updateUiText() {
+        searchEl.placeholder = t("search_placeholder");
+        chipEls.forEach((chip) => {
+          chip.textContent = t(chip.dataset.habitat);
+        });
+      }
 
       function render() {
         const q = searchEl.value.trim().toLowerCase();
         cardsEl.innerHTML = birds
           .filter((b) => b.name[lang].toLowerCase().includes(q))
+          .filter((b) => [...activeHabitats].every((h) => b.location.includes(h)))
           .map(
             (b) => `
           <div class="card">
             <div class="thumb"><img src="assets/images_thumbnails/${b.vogelwarte_id}.jpg" loading="lazy" decoding="async" onerror="this.remove()" /></div>
             <div class="badges">
               <div class="badge id">#${b.id}</div>
-              <div class="badge name" style="background: linear-gradient(135deg, ${b.location.map((loc) => HABITAT_COLORS[loc]).join(", ")})">${b.name[lang]}</div>
+              <div class="badge name">${b.name[lang]}</div>
             </div>
           </div>
         `,
@@ -133,18 +191,34 @@
       }
 
       searchEl.addEventListener("input", render);
+      chipEls.forEach((chip) => {
+        chip.addEventListener("click", () => {
+          const habitat = chip.dataset.habitat;
+          if (activeHabitats.has(habitat)) {
+            activeHabitats.delete(habitat);
+            chip.classList.remove("active");
+          } else {
+            activeHabitats.add(habitat);
+            chip.classList.add("active");
+          }
+          render();
+        });
+      });
       langEl.addEventListener("change", () => {
         lang = langEl.value;
         localStorage.setItem("lang", lang);
+        updateUiText();
         render();
       });
 
-      fetch("assets/birds.json")
-        .then((res) => res.json())
-        .then((data) => {
-          birds = data;
+      Promise.all([fetch("assets/birds.json").then((res) => res.json()), fetch("assets/translations.json").then((res) => res.json())]).then(
+        ([birdsData, translationsData]) => {
+          birds = birdsData;
+          translations = translationsData;
+          updateUiText();
           render();
-        });
+        },
+      );
     </script>
   </body>
 </html>
