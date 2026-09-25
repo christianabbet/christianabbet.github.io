@@ -1,4 +1,4 @@
-"""Resize every image in assets/images into fixed-size thumbnails in assets/images_thumbnails."""
+"""Resize every image in assets/images into fixed-size thumbnails."""
 
 from pathlib import Path
 
