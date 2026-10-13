@@ -18,7 +18,7 @@ Uses [uv](https://docs.astral.sh/uv/) to manage the Python environment.
 
 ```bash
 uv sync
-uv run python scripts/generate_birds.py --output path/to/cards.json --input assets/birds.json
+uv run python scripts/generate_index.py --input path/to/cards.json --output assets/index_birds.json
 uv run python scripts/generate_thumbnails.py
 ```
 

@@ -1,4 +1,4 @@
-"""Generate birds.json from a wingspan-swiss-unofficial cards.json file."""
+"""Generate birds index from a wingspan-swiss-unofficial cards.json file."""
 
 import argparse
 import json
@@ -28,8 +28,18 @@ def to_birds(cards: list) -> list:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", type=Path, required=True, help="path to cards.json")
-    parser.add_argument("--output", type=Path, required=True, help="path to birds.json")
+    parser.add_argument(
+        "--input",
+        type=Path,
+        required=True,
+        help="Path to card reference input (Wingspan Swiss Expansion)",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="Path to bird index json output for website backbone",
+    )
     args = parser.parse_args()
     cards = json.loads(args.input.read_text(encoding="utf-8"))
     birds = to_birds(cards)

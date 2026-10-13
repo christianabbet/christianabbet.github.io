@@ -236,7 +236,7 @@
       }
 
       Promise.all([
-        fetch("assets/birds.json").then((res) => res.json()),
+        fetch("assets/index_birds.json").then((res) => res.json()),
         fetch("assets/translations.json").then((res) => res.json()),
       ]).then(([birdsData, translationsData]) => {
         birds = birdsData;
