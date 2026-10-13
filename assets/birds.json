@@ -693,6 +693,7 @@
     },
     "vogelwarte_id": 1560,
     "location": [
+      "forest",
       "grassland"
     ]
   },
@@ -793,6 +794,7 @@
     },
     "vogelwarte_id": 2000,
     "location": [
+      "grassland",
       "wetland"
     ]
   },
@@ -840,6 +842,7 @@
     },
     "vogelwarte_id": 2060,
     "location": [
+      "grassland",
       "wetland"
     ]
   },
@@ -851,7 +854,8 @@
     },
     "vogelwarte_id": 2090,
     "location": [
-      "grassland"
+      "grassland",
+      "wetland"
     ]
   },
   {
@@ -919,7 +923,8 @@
     },
     "vogelwarte_id": 2270,
     "location": [
-      "grassland"
+      "grassland",
+      "wetland"
     ]
   },
   {
@@ -930,6 +935,7 @@
     },
     "vogelwarte_id": 2350,
     "location": [
+      "grassland",
       "wetland"
     ]
   },
@@ -941,7 +947,7 @@
     },
     "vogelwarte_id": 2360,
     "location": [
-      "grassland"
+      "wetland"
     ]
   },
   {
@@ -990,7 +996,7 @@
     },
     "vogelwarte_id": 2564,
     "location": [
-      "wetland"
+      "grassland"
     ]
   },
   {
@@ -1078,8 +1084,7 @@
     },
     "vogelwarte_id": 2980,
     "location": [
-      "forest",
-      "grassland"
+      "forest"
     ]
   },
   {
@@ -1183,8 +1188,7 @@
     },
     "vogelwarte_id": 3170,
     "location": [
-      "forest",
-      "grassland"
+      "forest"
     ]
   },
   {
@@ -1287,6 +1291,7 @@
     },
     "vogelwarte_id": 3390,
     "location": [
+      "forest",
       "grassland"
     ]
   },
@@ -1365,6 +1370,7 @@
     },
     "vogelwarte_id": 3560,
     "location": [
+      "forest",
       "grassland"
     ]
   },
@@ -1400,8 +1406,7 @@
     },
     "vogelwarte_id": 3630,
     "location": [
-      "forest",
-      "grassland"
+      "forest"
     ]
   },
   {
@@ -1504,7 +1509,7 @@
   {
     "id": 132,
     "name": {
-      "fr": "Pie Bavarde",
+      "fr": "Pie d'Amérique",
       "en": "Black-Billed Magpie"
     },
     "vogelwarte_id": 3720,
@@ -1789,7 +1794,6 @@
     },
     "vogelwarte_id": 4070,
     "location": [
-      "forest",
       "grassland"
     ]
   },
@@ -1883,8 +1887,7 @@
     },
     "vogelwarte_id": 4290,
     "location": [
-      "forest",
-      "grassland"
+      "forest"
     ]
   },
   {
@@ -1932,8 +1935,7 @@
     },
     "vogelwarte_id": 4390,
     "location": [
-      "grassland",
-      "wetland"
+      "grassland"
     ]
   },
   {
@@ -2138,7 +2140,8 @@
     },
     "vogelwarte_id": 4860,
     "location": [
-      "forest"
+      "forest",
+      "grassland"
     ]
   },
   {
@@ -2384,7 +2387,6 @@
     },
     "vogelwarte_id": 5390,
     "location": [
-      "forest",
       "grassland"
     ]
   },
@@ -2464,7 +2466,6 @@
     },
     "vogelwarte_id": 5570,
     "location": [
-      "grassland",
       "wetland"
     ]
   },
@@ -2499,7 +2500,7 @@
     },
     "vogelwarte_id": 5690,
     "location": [
-      "forest"
+      "grassland"
     ]
   },
   {
@@ -2510,8 +2511,7 @@
     },
     "vogelwarte_id": 5740,
     "location": [
-      "grassland",
-      "wetland"
+      "grassland"
     ]
   },
   {

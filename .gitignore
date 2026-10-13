@@ -1,5 +1,7 @@
 .venv/
 assets/images
+.vscode
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,web,linux,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,web,linux,macos
