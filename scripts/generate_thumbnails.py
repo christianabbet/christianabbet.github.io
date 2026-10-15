@@ -1,11 +1,10 @@
 """Resize every image in assets/images into fixed-size thumbnails."""
 
+import argparse
 from pathlib import Path
 
 from PIL import Image, ImageOps
 
-SRC_DIR = Path(__file__).parent.parent / "assets" / "images"
-DST_DIR = Path(__file__).parent.parent / "assets" / "images_thumbnails"
 THUMB_SIZE = (600, 450)  # width, height (4:3)
 IMAGE_EXTS = {".jpg", ".jpeg", ".png"}
 
@@ -22,16 +21,31 @@ def make_thumbnail(img: Image.Image) -> Image.Image:
     return ImageOps.fit(img.convert("RGB"), THUMB_SIZE, Image.LANCZOS)
 
 
-def generate_thumbnails() -> None:
+def generate_thumbnails(src_dir: Path, dst_dir: Path) -> None:
     """Generate a same-size thumbnail in DST_DIR for every image in SRC_DIR."""
-    DST_DIR.mkdir(parents=True, exist_ok=True)
-    for src in sorted(SRC_DIR.iterdir()):
+    dst_dir.mkdir(parents=True, exist_ok=True)
+    for src in sorted(src_dir.iterdir()):
         if src.suffix.lower() not in IMAGE_EXTS:
             continue
         with Image.open(src) as img:
-            make_thumbnail(img).save(DST_DIR / f"{src.stem}.jpg", "JPEG", quality=80)
-    print(f"Wrote thumbnails to {DST_DIR}")
+            make_thumbnail(img).save(dst_dir / f"{src.stem}.jpg", "JPEG", quality=80)
+    print(f"Wrote thumbnails to {dst_dir}")
 
 
 if __name__ == "__main__":
-    generate_thumbnails()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input",
+        type=Path,
+        required=True,
+        help="Path to card reference input (Wingspan Swiss Expansion)",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default="assets/images_thumbnails",
+        help="Path to bird index json output for website backbone",
+    )
+    args = parser.parse_args()
+
+    generate_thumbnails(src_dir=args.input, dst_dir=args.output)

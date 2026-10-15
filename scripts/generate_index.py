@@ -37,7 +37,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output",
         type=Path,
-        required=True,
+        default="assets/index_birds.json",
         help="Path to bird index json output for website backbone",
     )
     args = parser.parse_args()
