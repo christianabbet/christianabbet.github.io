@@ -22,7 +22,7 @@ def make_thumbnail(img: Image.Image) -> Image.Image:
 
 
 def generate_thumbnails(src_dir: Path, dst_dir: Path) -> None:
-    """Generate a same-size thumbnail in DST_DIR for every image in SRC_DIR."""
+    """Generate a same-size thumbnail in dst_dir for every image in src_dir."""
     dst_dir.mkdir(parents=True, exist_ok=True)
     for src in sorted(src_dir.iterdir()):
         if src.suffix.lower() not in IMAGE_EXTS:
@@ -38,13 +38,13 @@ if __name__ == "__main__":
         "--input",
         type=Path,
         required=True,
-        help="Path to card reference input (Wingspan Swiss Expansion)",
+        help="Directory of source bird images",
     )
     parser.add_argument(
         "--output",
         type=Path,
         default="assets/images_thumbnails",
-        help="Path to bird index json output for website backbone",
+        help="Directory to write thumbnails to",
     )
     args = parser.parse_args()
 

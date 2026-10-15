@@ -19,7 +19,7 @@ Uses [uv](https://docs.astral.sh/uv/) to manage the Python environment.
 ```bash
 uv sync
 uv run python scripts/generate_index.py --input path/to/cards.json --output assets/index_birds.json
-uv run python scripts/generate_thumbnails.py
+uv run python scripts/generate_thumbnails.py --input assets/images
 ```
 
 Reads images from `assets/images/` and writes fixed-size thumbnails to `assets/images_thumbnails/`, which is what the site actually displays.
