@@ -136,6 +136,74 @@
       .card .badge.id {
         flex-shrink: 0;
       }
+      .card {
+        cursor: pointer;
+      }
+      #preview {
+        padding: 0;
+        border: none;
+        border-radius: 12px;
+        width: min(900px, calc(100% - 2rem));
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+      }
+      #preview::backdrop {
+        background: rgba(0, 0, 0, 0.6);
+      }
+      #preview .body {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #preview img {
+        flex: 2 1 400px;
+        min-width: 0;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        background: #ccc;
+        display: block;
+      }
+      #preview .info {
+        flex: 1 1 220px;
+        padding: 1.25rem;
+      }
+      #preview h2 {
+        margin: 0 0 0.25rem;
+      }
+      #preview .alt-name {
+        margin: 0 0 1rem;
+        color: #666;
+      }
+      #preview dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.4rem 1rem;
+        margin: 0;
+      }
+      #preview dt {
+        color: #666;
+      }
+      #preview dd {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+      }
+      #preview .chip {
+        cursor: default;
+        padding: 0.15rem 0.6rem;
+      }
+      #preview .close {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -154,6 +222,22 @@
       <div class="chip wetland" data-habitat="wetland">Wetland</div>
     </div>
     <div id="cards"></div>
+    <dialog id="preview">
+      <form method="dialog"><button class="close" aria-label="Close">&times;</button></form>
+      <div class="body">
+        <img alt="" />
+        <div class="info">
+          <h2></h2>
+          <p class="alt-name"></p>
+          <dl>
+            <dt data-t="id">ID</dt>
+            <dd class="id"></dd>
+            <dt data-t="habitat">Habitat</dt>
+            <dd class="habitats"></dd>
+          </dl>
+        </div>
+      </div>
+    </dialog>
 
     <script>
       const cardsEl = document.getElementById("cards");
@@ -186,7 +270,7 @@
           )
           .map(
             (b) => `
-          <div class="card">
+          <div class="card" data-id="${b.id}">
             <div class="thumb"><img src="assets/images_thumbnails/${b.vogelwarte_id}.jpg" loading="lazy" decoding="async" onerror="this.remove()" /></div>
             <div class="badges">
               <div class="badge id">#${b.id}</div>
@@ -197,6 +281,36 @@
           )
           .join("");
       }
+
+      const previewEl = document.getElementById("preview");
+      const EMPTY_IMG =
+        "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+      function openPreview(b) {
+        const otherLang = lang === "fr" ? "en" : "fr";
+        const img = previewEl.querySelector("img");
+        // Missing image: fall back to a transparent pixel so the grey box shows.
+        img.onerror = () => (img.src = EMPTY_IMG);
+        img.src = `assets/images_thumbnails/${b.vogelwarte_id}.jpg`;
+        img.alt = b.name[lang];
+        previewEl.querySelector("h2").textContent = b.name[lang];
+        previewEl.querySelector(".alt-name").textContent = b.name[otherLang];
+        previewEl.querySelector(".id").textContent = `#${b.id}`;
+        previewEl.querySelector(".habitats").innerHTML = b.location
+          .map((h) => `<span class="chip ${h}">${t(h)}</span>`)
+          .join("");
+        previewEl.querySelectorAll("[data-t]").forEach((el) => {
+          el.textContent = t(el.dataset.t);
+        });
+        previewEl.showModal();
+      }
+      cardsEl.addEventListener("click", (e) => {
+        const card = e.target.closest(".card");
+        if (card) openPreview(birds.find((b) => b.id === +card.dataset.id));
+      });
+      // Close when clicking the backdrop (outside the dialog box).
+      previewEl.addEventListener("click", (e) => {
+        if (e.target === previewEl) previewEl.close();
+      });
 
       searchEl.addEventListener("input", render);
       chipEls.forEach((chip) => {
